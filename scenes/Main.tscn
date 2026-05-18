@@ -21,3 +21,15 @@ margin_top = 16
 text = "Day: 1"
 margin_left = 16
 margin_top = 40
+
+[node name="SummaryUI" type="CanvasLayer" parent="."]
+
+[node name="SummaryLabel" type="Label" parent="SummaryUI"]
+visible = false
+text = "Day 1 Summary: Memory +0"
+margin_left = 16
+margin_top = 64
+
+[node name="SummaryTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true

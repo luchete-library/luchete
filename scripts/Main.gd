@@ -9,6 +9,8 @@ const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 @onready var player_start = $PlayerStart
 @onready var memory_label = $MemoryUI/MemoryLabel
 @onready var day_label = $DayUI/DayLabel
+@onready var summary_label = $SummaryUI/SummaryLabel
+@onready var summary_timer = $SummaryTimer
 
 var day_manager = null
 var memory_manager = null
@@ -25,6 +27,7 @@ func _ready() -> void:
     memory_manager = MEMORY_MANAGER.new()
     add_child(memory_manager)
     memory_manager.connect("memory_changed", Callable(self, "_on_memory_changed"))
+    summary_timer.connect("timeout", Callable(self, "_on_summary_timer_timeout"))
 
     day_manager = DAY_MANAGER.new()
     add_child(day_manager)
@@ -50,5 +53,12 @@ func _on_day_changed(current_day: int) -> void:
     day_label.text = "Day: %d" % current_day
 
 func _on_day_ending(current_day: int) -> void:
-    print("Day %d Summary: Memory gained today: %d" % [current_day, memory_manager.get_daily_memory()])
+    var daily_memory = memory_manager.get_daily_memory()
+    print("Day %d Summary: Memory gained today: %d" % [current_day, daily_memory])
+    summary_label.text = "Day %d Summary: Memory +%d" % [current_day, daily_memory]
+    summary_label.visible = true
+    summary_timer.start()
     memory_manager.reset_daily_memory()
+
+func _on_summary_timer_timeout() -> void:
+    summary_label.visible = false
