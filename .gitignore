@@ -1,0 +1,9 @@
+# Godot files to ignore
+.import/
+.export/
+.sync/
+*.import
+*.mono
+*.temp
+*.log
+*.tmp
