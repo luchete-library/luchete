@@ -5,6 +5,9 @@ const ROOM_WIDTH = 14
 const ROOM_HEIGHT = 10
 const ENTRANCE_POSITION = Vector2(CELL_SIZE.x * 1.5, CELL_SIZE.y * 5)
 const EXIT_POSITION = Vector2(-CELL_SIZE.x * 1.5, CELL_SIZE.y * 5)
+const READING_SPOT_MARKER_SIZE = Vector2(20, 20)
+const EMPTY_SPOT_COLOR = Color8(72, 170, 104, 180)
+const OCCUPIED_SPOT_COLOR = Color8(190, 82, 82, 180)
 const READING_SPOTS = {
     "SpotA": Vector2(5, 3) * CELL_SIZE,
     "SpotB": Vector2(9, 3) * CELL_SIZE,
@@ -13,13 +16,14 @@ const READING_SPOTS = {
 }
 
 var reading_spot_state := {}
+var reading_spot_markers := {}
 
 func _ready() -> void:
     var tile_map = _create_floor_map()
     add_child(tile_map)
     _build_walls()
-    _create_reading_spots()
     _initialize_spot_state()
+    _create_reading_spots()
 
 func _initialize_spot_state() -> void:
     for spot_name in READING_SPOTS.keys():
@@ -35,12 +39,14 @@ func claim_reading_spot() -> String:
     for spot_name in READING_SPOTS.keys():
         if not reading_spot_state[spot_name]:
             reading_spot_state[spot_name] = true
+            _update_reading_spot_visual(spot_name)
             return spot_name
     return ""
 
 func release_reading_spot(spot_name: String) -> void:
     if reading_spot_state.has(spot_name):
         reading_spot_state[spot_name] = false
+        _update_reading_spot_visual(spot_name)
 
 func get_reading_spot_position(spot_name: String) -> Vector2:
     if READING_SPOTS.has(spot_name):
@@ -96,3 +102,25 @@ func _create_reading_spots() -> void:
         marker.name = spot_name
         marker.position = READING_SPOTS[spot_name]
         add_child(marker)
+
+        var visual_marker = Polygon2D.new()
+        visual_marker.name = "%sVisual" % spot_name
+        visual_marker.position = READING_SPOTS[spot_name]
+        visual_marker.polygon = PackedVector2Array([
+            Vector2(-READING_SPOT_MARKER_SIZE.x * 0.5, -READING_SPOT_MARKER_SIZE.y * 0.5),
+            Vector2(READING_SPOT_MARKER_SIZE.x * 0.5, -READING_SPOT_MARKER_SIZE.y * 0.5),
+            Vector2(READING_SPOT_MARKER_SIZE.x * 0.5, READING_SPOT_MARKER_SIZE.y * 0.5),
+            Vector2(-READING_SPOT_MARKER_SIZE.x * 0.5, READING_SPOT_MARKER_SIZE.y * 0.5)
+        ])
+        visual_marker.z_index = -1
+        add_child(visual_marker)
+        reading_spot_markers[spot_name] = visual_marker
+        _update_reading_spot_visual(spot_name)
+
+func _update_reading_spot_visual(spot_name: String) -> void:
+    if not reading_spot_markers.has(spot_name):
+        return
+    if reading_spot_state[spot_name]:
+        reading_spot_markers[spot_name].color = OCCUPIED_SPOT_COLOR
+    else:
+        reading_spot_markers[spot_name].color = EMPTY_SPOT_COLOR
