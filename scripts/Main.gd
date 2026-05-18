@@ -11,6 +11,7 @@ const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 @onready var day_label = $DayUI/DayLabel
 
 var day_manager = null
+var memory_manager = null
 var visitor_manager = null
 
 func _ready() -> void:
@@ -21,12 +22,13 @@ func _ready() -> void:
     player.position = player_start.position
     add_child(player)
 
-    var memory_manager = MEMORY_MANAGER.new()
+    memory_manager = MEMORY_MANAGER.new()
     add_child(memory_manager)
     memory_manager.connect("memory_changed", Callable(self, "_on_memory_changed"))
 
     day_manager = DAY_MANAGER.new()
     add_child(day_manager)
+    day_manager.connect("day_ending", Callable(self, "_on_day_ending"))
     day_manager.connect("day_changed", Callable(self, "_on_day_changed"))
     _on_day_changed(day_manager.get_current_day())
 
@@ -46,3 +48,7 @@ func _on_memory_changed(total_memory: int) -> void:
 
 func _on_day_changed(current_day: int) -> void:
     day_label.text = "Day: %d" % current_day
+
+func _on_day_ending(current_day: int) -> void:
+    print("Day %d Summary: Memory gained today: %d" % [current_day, memory_manager.get_daily_memory()])
+    memory_manager.reset_daily_memory()
