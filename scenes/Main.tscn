@@ -14,3 +14,10 @@ position = Vector2(192, 160)
 text = "Memory: 0"
 margin_left = 16
 margin_top = 16
+
+[node name="DayUI" type="CanvasLayer" parent="."]
+
+[node name="DayLabel" type="Label" parent="DayUI"]
+text = "Day: 1"
+margin_left = 16
+margin_top = 40

@@ -12,6 +12,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - Solid perimeter wall collisions using `StaticBody2D` and `CollisionShape2D`
 - Simple Memory UI display showing current Memory amount
 - Simple visitor state labels showing Entering, Reading, or Leaving
+- Basic day counter starting at Day 1 with manual next-day input
 
 ## Controls
 
@@ -19,6 +20,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - `A` = move left
 - `S` = move down
 - `D` = move right
+- `N` = advance to the next day
 
 ## Project structure
 
@@ -36,6 +38,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - `scripts/managers/VisitorManager.gd` - visitor spawning, entrance handling, and spot assignment
 - `scripts/systems/MemoryData.gd` - memory resource definition
 - `scripts/systems/MemoryManager.gd` - simple memory generation and logging
+- `scripts/systems/DayManager.gd` - basic day counter and day change signal
 
 ## Visitor system
 
@@ -53,6 +56,13 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 3. Visitor reads for a short time
 4. Memory resource is generated
 5. Visitor leaves the library
+
+## Day system
+
+- The game starts on `Day: 1`.
+- Pressing `N` advances to the next day.
+- Advancing the day updates the day UI label and prints a debug message.
+- The day system does not change visitor behavior yet.
 
 ## Design notes
 
