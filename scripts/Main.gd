@@ -5,15 +5,18 @@ const PLAYER_SCENE = preload("res://scenes/player/Player.tscn")
 const VISITOR_MANAGER = preload("res://scripts/managers/VisitorManager.gd")
 const MEMORY_MANAGER = preload("res://scripts/systems/MemoryManager.gd")
 const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
+const RECOGNITION_MANAGER = preload("res://scripts/systems/RecognitionManager.gd")
 
 @onready var player_start = $PlayerStart
 @onready var memory_label = $MemoryUI/MemoryLabel
+@onready var recognition_label = $RecognitionUI/RecognitionLabel
 @onready var day_label = $DayUI/DayLabel
 @onready var summary_label = $SummaryUI/SummaryLabel
 @onready var summary_timer = $SummaryTimer
 
 var day_manager = null
 var memory_manager = null
+var recognition_manager = null
 var visitor_manager = null
 
 func _ready() -> void:
@@ -28,6 +31,11 @@ func _ready() -> void:
     add_child(memory_manager)
     memory_manager.connect("memory_changed", Callable(self, "_on_memory_changed"))
     summary_timer.connect("timeout", Callable(self, "_on_summary_timer_timeout"))
+
+    recognition_manager = RECOGNITION_MANAGER.new()
+    add_child(recognition_manager)
+    recognition_manager.connect("recognition_changed", Callable(self, "_on_recognition_changed"))
+    _on_recognition_changed(recognition_manager.get_total_recognition())
 
     day_manager = DAY_MANAGER.new()
     add_child(day_manager)
@@ -49,6 +57,9 @@ func _unhandled_input(event: InputEvent) -> void:
 func _on_memory_changed(total_memory: int) -> void:
     memory_label.text = "Memory: %d" % total_memory
 
+func _on_recognition_changed(total_recognition: int) -> void:
+    recognition_label.text = "Recognition: %d" % total_recognition
+
 func _on_day_changed(current_day: int) -> void:
     day_label.text = "Day: %d" % current_day
 
@@ -58,6 +69,7 @@ func _on_day_ending(current_day: int) -> void:
     summary_label.text = "Day %d Summary: Memory +%d" % [current_day, daily_memory]
     summary_label.visible = true
     summary_timer.start()
+    recognition_manager.apply_daily_memory(daily_memory)
     memory_manager.reset_daily_memory()
 
 func _on_summary_timer_timeout() -> void:
