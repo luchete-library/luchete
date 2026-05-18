@@ -10,7 +10,11 @@ texture = null
 
 [node name="StateLabel" type="Label" parent="."]
 text = "Entering"
-position = Vector2(0, -18)
+position = Vector2(-36, -30)
+size = Vector2(72, 14)
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = RectangleShape2D( size = Vector2(18, 18) )
