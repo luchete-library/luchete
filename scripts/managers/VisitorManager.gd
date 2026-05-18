@@ -3,9 +3,12 @@ class_name VisitorManager
 
 const VISITOR_SCENE = preload("res://scenes/visitors/Visitor.tscn")
 const SPAWN_INTERVAL = 10.0
+const MIN_SPAWN_INTERVAL = 5.0
+const SPAWN_INTERVAL_DAY_STEP = 1.0
 const MAX_VISITORS = 3
 
 var spawn_timer := 0.0
+var current_spawn_interval := SPAWN_INTERVAL
 var library_room = null
 var memory_manager = null
 var active_visitors := []
@@ -20,9 +23,25 @@ func _process(delta: float) -> void:
     if library_room == null or memory_manager == null:
         return
     spawn_timer += delta
-    if spawn_timer >= SPAWN_INTERVAL and active_visitors.size() < MAX_VISITORS:
+    if spawn_timer >= current_spawn_interval and active_visitors.size() < MAX_VISITORS:
         spawn_timer = 0.0
         _try_spawn_visitor()
+
+func update_day(current_day: int) -> void:
+    var next_interval := max(
+        MIN_SPAWN_INTERVAL,
+        SPAWN_INTERVAL - float(current_day - 1) * SPAWN_INTERVAL_DAY_STEP
+    )
+    if is_equal_approx(next_interval, current_spawn_interval):
+        return
+    current_spawn_interval = next_interval
+    print(
+        "[VisitorManager] Spawn interval changed for Day ",
+        current_day,
+        ": ",
+        current_spawn_interval,
+        " seconds"
+    )
 
 func _try_spawn_visitor() -> void:
     var entrance = library_room.get_entrance_position()
