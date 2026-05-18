@@ -14,6 +14,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - Simple visitor state labels showing Entering, Reading, or Leaving
 - Basic day counter starting at Day 1 with manual next-day input
 - Simple day-based visitor spawn scaling with a minimum spawn interval
+- Simple daily Memory summary printed when advancing to the next day
 
 ## Controls
 
@@ -31,15 +32,15 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - `scenes/Main.tscn` - main scene that loads the room and player
 - `scenes/player/Player.tscn` - player scene with movement, collision, and camera
 - `scenes/library/LibraryRoom.tscn` - library room scene with floor tiles and walls
-- `scripts/Main.gd` - scene setup logic
+- `scripts/Main.gd` - scene setup logic and daily summary debug output
 - `scripts/player/Player.gd` - player movement and sprite generation
 - `scripts/library/LibraryRoom.gd` - procedural tilemap and wall collision setup
 - `scenes/visitors/Visitor.tscn` - visitor scene with placeholder visuals, movement, and a small state label
 - `scripts/visitors/Visitor.gd` - visitor state flow, state label updates, and cozy reading behavior
 - `scripts/managers/VisitorManager.gd` - visitor spawning, entrance handling, spot assignment, and day-based spawn interval scaling
 - `scripts/systems/MemoryData.gd` - memory resource definition
-- `scripts/systems/MemoryManager.gd` - simple memory generation and logging
-- `scripts/systems/DayManager.gd` - basic day counter and day change signal
+- `scripts/systems/MemoryManager.gd` - simple memory generation, total Memory, and daily Memory tracking
+- `scripts/systems/DayManager.gd` - basic day counter, day ending signal, and day change signal
 
 ## Visitor system
 
@@ -63,8 +64,10 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 
 - The game starts on `Day: 1`.
 - Pressing `N` advances to the next day.
+- Before the next day starts, the game prints a daily Memory summary.
 - Advancing the day updates the day UI label and prints a debug message.
 - Advancing the day also updates the visitor spawn interval.
+- Daily Memory resets after the summary, while total Memory stays unchanged.
 
 ## Design notes
 
