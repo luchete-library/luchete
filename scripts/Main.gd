@@ -11,6 +11,7 @@ const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 @onready var day_label = $DayUI/DayLabel
 
 var day_manager = null
+var visitor_manager = null
 
 func _ready() -> void:
     var library_room = LIBRARY_SCENE.instantiate()
@@ -29,9 +30,11 @@ func _ready() -> void:
     day_manager.connect("day_changed", Callable(self, "_on_day_changed"))
     _on_day_changed(day_manager.get_current_day())
 
-    var visitor_manager = VISITOR_MANAGER.new()
+    visitor_manager = VISITOR_MANAGER.new()
     add_child(visitor_manager)
     visitor_manager.setup(library_room, memory_manager, self)
+    day_manager.connect("day_changed", Callable(visitor_manager, "update_day"))
+    visitor_manager.update_day(day_manager.get_current_day())
 
 func _unhandled_input(event: InputEvent) -> void:
     if event is InputEventKey and event.pressed and not event.echo:

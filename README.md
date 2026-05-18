@@ -13,6 +13,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - Simple Memory UI display showing current Memory amount
 - Simple visitor state labels showing Entering, Reading, or Leaving
 - Basic day counter starting at Day 1 with manual next-day input
+- Simple day-based visitor spawn scaling with a minimum spawn interval
 
 ## Controls
 
@@ -35,7 +36,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - `scripts/library/LibraryRoom.gd` - procedural tilemap and wall collision setup
 - `scenes/visitors/Visitor.tscn` - visitor scene with placeholder visuals, movement, and a small state label
 - `scripts/visitors/Visitor.gd` - visitor state flow, state label updates, and cozy reading behavior
-- `scripts/managers/VisitorManager.gd` - visitor spawning, entrance handling, and spot assignment
+- `scripts/managers/VisitorManager.gd` - visitor spawning, entrance handling, spot assignment, and day-based spawn interval scaling
 - `scripts/systems/MemoryData.gd` - memory resource definition
 - `scripts/systems/MemoryManager.gd` - simple memory generation and logging
 - `scripts/systems/DayManager.gd` - basic day counter and day change signal
@@ -46,6 +47,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - Visitors claim an open reading spot and move toward it.
 - Each visitor shows a small state label above its placeholder sprite.
 - The label updates between `Entering`, `Reading`, and `Leaving` as the visitor state changes.
+- Visitor spawn timing becomes slightly faster after Day 1, down to a minimum interval.
 - After reading, visitors keep using the existing Memory generation flow.
 - Visitors leave the library after their reading time ends.
 
@@ -62,7 +64,7 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 - The game starts on `Day: 1`.
 - Pressing `N` advances to the next day.
 - Advancing the day updates the day UI label and prints a debug message.
-- The day system does not change visitor behavior yet.
+- Advancing the day also updates the visitor spawn interval.
 
 ## Design notes
 
