@@ -1,76 +1,81 @@
 # Lucete Library Game
 
-A minimal Godot 4 playable prototype with cozy top-down exploration.
+Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 
-## Implemented systems
+## 구현된 시스템
 
-- Top-down 2D movement using `CharacterBody2D`
-- WASD controls
-- Smooth, slightly slow-paced player motion with acceleration and friction
-- Camera follow using `Camera2D`
-- Placeholder library room built with `TileMap`
-- Solid perimeter wall collisions using `StaticBody2D` and `CollisionShape2D`
-- Simple Memory UI display showing current Memory amount
-- Simple visitor state labels showing Entering, Reading, or Leaving
-- Basic day counter starting at Day 1 with manual next-day input
-- Simple day-based visitor spawn scaling with a minimum spawn interval
-- Simple daily Memory summary printed when advancing to the next day
+- `CharacterBody2D` 기반 탑다운 2D 이동
+- `WASD` 이동 조작
+- 가속과 마찰이 있는 느긋한 플레이어 움직임
+- `Camera2D` 플레이어 추적
+- `TileMap` 기반 임시 도서관 방
+- `StaticBody2D`와 `CollisionShape2D`를 사용한 외곽 벽 충돌
+- 현재 총 Memory를 보여주는 간단한 UI
+- 방문자 상태를 보여주는 작은 텍스트 라벨
+- Day 1부터 시작하는 기본 날짜 카운터
+- 날짜가 지날수록 조금 빨라지는 방문자 스폰 간격
+- 다음 날로 넘어갈 때 출력되는 간단한 일일 Memory 요약
 
-## Controls
+## 조작
 
-- `W` = move up
-- `A` = move left
-- `S` = move down
-- `D` = move right
-- `N` = advance to the next day
+- `W` = 위로 이동
+- `A` = 왼쪽으로 이동
+- `S` = 아래로 이동
+- `D` = 오른쪽으로 이동
+- `N` = 다음 날로 진행
 
-## Project structure
+## 프로젝트 구조
 
-- `BRANCH_STRATEGY.md` - Git Flow based branch strategy
-- `COMMIT_CONVENTION.md` - commit message convention guide
-- `project.godot` - Godot project settings and main scene
-- `scenes/Main.tscn` - main scene that loads the room and player
-- `scenes/player/Player.tscn` - player scene with movement, collision, and camera
-- `scenes/library/LibraryRoom.tscn` - library room scene with floor tiles and walls
-- `scripts/Main.gd` - scene setup logic and daily summary debug output
-- `scripts/player/Player.gd` - player movement and sprite generation
-- `scripts/library/LibraryRoom.gd` - procedural tilemap and wall collision setup
-- `scenes/visitors/Visitor.tscn` - visitor scene with placeholder visuals, movement, and a small state label
-- `scripts/visitors/Visitor.gd` - visitor state flow, state label updates, and cozy reading behavior
-- `scripts/managers/VisitorManager.gd` - visitor spawning, entrance handling, spot assignment, and day-based spawn interval scaling
-- `scripts/systems/MemoryData.gd` - memory resource definition
-- `scripts/systems/MemoryManager.gd` - simple memory generation, total Memory, and daily Memory tracking
-- `scripts/systems/DayManager.gd` - basic day counter, day ending signal, and day change signal
+- `BRANCH_STRATEGY.md` - Git Flow 기반 브랜치 전략
+- `COMMIT_CONVENTION.md` - 커밋 메시지 컨벤션
+- `project.godot` - Godot 프로젝트 설정과 메인 씬
+- `scenes/Main.tscn` - 방, 플레이어, UI를 포함하는 메인 씬
+- `scenes/player/Player.tscn` - 플레이어 씬
+- `scenes/library/LibraryRoom.tscn` - 도서관 방 씬
+- `scenes/visitors/Visitor.tscn` - 방문자 씬
+- `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약 출력
+- `scripts/player/Player.gd` - 플레이어 이동과 임시 스프라이트 생성
+- `scripts/library/LibraryRoom.gd` - 도서관 타일맵, 벽 충돌, 독서 자리 관리
+- `scripts/visitors/Visitor.gd` - 방문자 상태 흐름과 상태 라벨 갱신
+- `scripts/managers/VisitorManager.gd` - 방문자 스폰, 독서 자리 배정, 날짜 기반 스폰 간격 조정
+- `scripts/systems/MemoryData.gd` - Memory 데이터 리소스
+- `scripts/systems/MemoryManager.gd` - 총 Memory와 일일 Memory 추적
+- `scripts/systems/DayManager.gd` - 날짜 카운터, 하루 종료 시그널, 날짜 변경 시그널
 
-## Visitor system
+## 방문자 시스템
 
-- Visitors spawn from the library entrance on a timer.
-- Visitors claim an open reading spot and move toward it.
-- Each visitor shows a small state label above its placeholder sprite.
-- The label updates between `Entering`, `Reading`, and `Leaving` as the visitor state changes.
-- Visitor spawn timing becomes slightly faster after Day 1, down to a minimum interval.
-- After reading, visitors keep using the existing Memory generation flow.
-- Visitors leave the library after their reading time ends.
+- 방문자는 도서관 입구에서 일정 시간마다 등장합니다.
+- 방문자는 비어 있는 독서 자리를 배정받고 그 위치로 이동합니다.
+- 각 방문자 위에는 현재 상태를 보여주는 작은 라벨이 표시됩니다.
+- 라벨은 `Entering`, `Reading`, `Leaving` 상태에 맞춰 갱신됩니다.
+- Day 2부터 방문자 스폰 간격이 조금씩 짧아집니다.
+- 스폰 간격은 너무 빨라지지 않도록 최소값을 가집니다.
+- 방문자가 독서를 마치면 기존 Memory 생성 흐름을 그대로 사용합니다.
+- 독서가 끝난 방문자는 도서관을 떠납니다.
 
-## Gameplay loop
+## 날짜 시스템
 
-1. Visitor enters
-2. Visitor moves to an open reading spot
-3. Visitor reads for a short time
-4. Memory resource is generated
-5. Visitor leaves the library
+- 게임은 `Day: 1`에서 시작합니다.
+- `N` 키를 누르면 다음 날로 진행됩니다.
+- 다음 날로 넘어가기 전에 일일 Memory 요약이 디버그 메시지로 출력됩니다.
+- 예: `Day 1 Summary: Memory gained today: 3`
+- 다음 날이 시작되면 날짜 UI가 갱신됩니다.
+- 날짜가 바뀌면 방문자 스폰 간격도 함께 갱신됩니다.
+- 일일 Memory는 요약 출력 후 `0`으로 리셋됩니다.
+- 총 Memory는 리셋되지 않고 유지됩니다.
 
-## Day system
+## 기본 플레이 흐름
 
-- The game starts on `Day: 1`.
-- Pressing `N` advances to the next day.
-- Before the next day starts, the game prints a daily Memory summary.
-- Advancing the day updates the day UI label and prints a debug message.
-- Advancing the day also updates the visitor spawn interval.
-- Daily Memory resets after the summary, while total Memory stays unchanged.
+1. 방문자가 등장합니다.
+2. 방문자가 비어 있는 독서 자리로 이동합니다.
+3. 방문자가 잠시 독서합니다.
+4. 독서가 끝나면 Memory가 생성됩니다.
+5. 방문자가 도서관을 떠납니다.
+6. `N` 키로 다음 날을 시작합니다.
+7. 하루 동안 얻은 Memory 요약을 확인합니다.
 
-## Design notes
+## 설계 메모
 
-- Focused on movement, map structure, collisions, camera, and visitor flow
-- No combat, inventory, dialogue, or UI systems included
-- System is designed to stay simple and scale later with more visitor behavior
+- 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
+- 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
+- 시스템은 작게 유지하고, 이후 도서관 운영 루프로 확장하기 쉽게 구성합니다.
