@@ -15,12 +15,19 @@ text = "Memory: 0"
 margin_left = 16
 margin_top = 16
 
+[node name="RecognitionUI" type="CanvasLayer" parent="."]
+
+[node name="RecognitionLabel" type="Label" parent="RecognitionUI"]
+text = "Recognition: 0"
+margin_left = 16
+margin_top = 40
+
 [node name="DayUI" type="CanvasLayer" parent="."]
 
 [node name="DayLabel" type="Label" parent="DayUI"]
 text = "Day: 1"
 margin_left = 16
-margin_top = 40
+margin_top = 64
 
 [node name="SummaryUI" type="CanvasLayer" parent="."]
 
@@ -28,7 +35,7 @@ margin_top = 40
 visible = false
 text = "Day 1 Summary: Memory +0"
 margin_left = 16
-margin_top = 64
+margin_top = 88
 
 [node name="SummaryTimer" type="Timer" parent="."]
 wait_time = 2.0

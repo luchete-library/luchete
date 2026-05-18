@@ -11,12 +11,14 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `TileMap` 기반 임시 도서관 방
 - `StaticBody2D`와 `CollisionShape2D`를 사용한 외곽 벽 충돌
 - 현재 총 Memory를 보여주는 간단한 UI
+- 현재 Recognition을 보여주는 간단한 UI
 - 방문자 상태를 보여주는 작은 텍스트 라벨
 - 독서 자리의 빈 상태와 점유 상태를 보여주는 단순 색상 마커
 - Day 1부터 시작하는 기본 날짜 카운터
 - 날짜가 지날수록 조금 빨라지는 방문자 스폰 간격
 - 다음 날로 넘어갈 때 출력되는 간단한 일일 Memory 요약
 - 하루 요약을 2초 동안 보여주는 간단한 UI 메시지
+- 일일 Memory가 일정 기준 이상일 때 증가하는 기본 Recognition 자원
 
 ## 조작
 
@@ -31,7 +33,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `BRANCH_STRATEGY.md` - Git Flow 기반 브랜치 전략
 - `COMMIT_CONVENTION.md` - 커밋 메시지 컨벤션
 - `project.godot` - Godot 프로젝트 설정과 메인 씬
-- `scenes/Main.tscn` - 방, 플레이어, 날짜 UI, Memory UI, 요약 메시지 UI를 포함하는 메인 씬
+- `scenes/Main.tscn` - 방, 플레이어, 날짜 UI, Memory UI, Recognition UI, 요약 메시지 UI를 포함하는 메인 씬
 - `scenes/player/Player.tscn` - 플레이어 씬
 - `scenes/library/LibraryRoom.tscn` - 도서관 방 씬
 - `scenes/visitors/Visitor.tscn` - 방문자 씬
@@ -43,6 +45,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `scripts/systems/MemoryData.gd` - Memory 데이터 리소스
 - `scripts/systems/MemoryManager.gd` - 총 Memory와 일일 Memory 추적
 - `scripts/systems/DayManager.gd` - 날짜 카운터, 하루 종료 시그널, 날짜 변경 시그널
+- `scripts/systems/RecognitionManager.gd` - Recognition 자원과 일일 Memory 기준 증가 처리
 
 ## 방문자 시스템
 
@@ -63,7 +66,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 방문자가 독서 자리를 배정받거나 떠날 때 마커 색이 자동으로 갱신됩니다.
 - 가구 그림, 장식 에셋, 상호작용 시스템은 아직 없습니다.
 
-## 날짜 시스템
+## 날짜와 결과 시스템
 
 - 게임은 `Day: 1`에서 시작합니다.
 - `N` 키를 누르면 다음 날로 진행됩니다.
@@ -76,6 +79,9 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 날짜가 바뀌면 방문자 스폰 간격도 함께 갱신됩니다.
 - 일일 Memory는 요약 출력 후 `0`으로 리셋됩니다.
 - 총 Memory는 리셋되지 않고 유지됩니다.
+- Recognition은 `0`에서 시작합니다.
+- 하루 동안 얻은 Memory가 `3` 이상이면 Recognition이 `1` 증가합니다.
+- Recognition이 증가하면 디버그 메시지가 출력되고 UI가 갱신됩니다.
 
 ## 기본 플레이 흐름
 
@@ -88,11 +94,13 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 7. 독서 자리 마커가 빈 색상으로 돌아옵니다.
 8. `N` 키로 다음 날을 시작합니다.
 9. 하루 동안 얻은 Memory 요약을 화면과 디버그 출력으로 확인합니다.
+10. 일일 Memory가 기준 이상이면 Recognition이 증가합니다.
 
 ## 설계 메모
 
 - 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
 - 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
+- Stella, 홍보, 방송, 해금 시스템은 아직 없습니다.
 - 하루 요약은 전체 패널이 아니라 간단한 임시 텍스트 메시지만 사용합니다.
 - 독서 자리는 가구 아트가 아니라 상태 이해를 위한 단순 마커만 사용합니다.
-- 시스템은 작게 유지하고, 이후 도서관 운영 루프로 확장하기 쉽게 구성합니다.
+- 시스템은 작게 유지하고, 이후 도서관 운영 루프와 성장 구조로 확장하기 쉽게 구성합니다.
