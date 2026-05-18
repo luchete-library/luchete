@@ -15,6 +15,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - Day 1부터 시작하는 기본 날짜 카운터
 - 날짜가 지날수록 조금 빨라지는 방문자 스폰 간격
 - 다음 날로 넘어갈 때 출력되는 간단한 일일 Memory 요약
+- 하루 요약을 2초 동안 보여주는 간단한 UI 메시지
 
 ## 조작
 
@@ -29,11 +30,11 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `BRANCH_STRATEGY.md` - Git Flow 기반 브랜치 전략
 - `COMMIT_CONVENTION.md` - 커밋 메시지 컨벤션
 - `project.godot` - Godot 프로젝트 설정과 메인 씬
-- `scenes/Main.tscn` - 방, 플레이어, UI를 포함하는 메인 씬
+- `scenes/Main.tscn` - 방, 플레이어, 날짜 UI, Memory UI, 요약 메시지 UI를 포함하는 메인 씬
 - `scenes/player/Player.tscn` - 플레이어 씬
 - `scenes/library/LibraryRoom.tscn` - 도서관 방 씬
 - `scenes/visitors/Visitor.tscn` - 방문자 씬
-- `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약 출력
+- `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약 출력과 표시
 - `scripts/player/Player.gd` - 플레이어 이동과 임시 스프라이트 생성
 - `scripts/library/LibraryRoom.gd` - 도서관 타일맵, 벽 충돌, 독서 자리 관리
 - `scripts/visitors/Visitor.gd` - 방문자 상태 흐름과 상태 라벨 갱신
@@ -59,6 +60,9 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `N` 키를 누르면 다음 날로 진행됩니다.
 - 다음 날로 넘어가기 전에 일일 Memory 요약이 디버그 메시지로 출력됩니다.
 - 예: `Day 1 Summary: Memory gained today: 3`
+- 같은 시점에 화면에도 작은 요약 메시지가 표시됩니다.
+- 예: `Day 1 Summary: Memory +3`
+- 요약 UI 메시지는 2초 후 자동으로 사라집니다.
 - 다음 날이 시작되면 날짜 UI가 갱신됩니다.
 - 날짜가 바뀌면 방문자 스폰 간격도 함께 갱신됩니다.
 - 일일 Memory는 요약 출력 후 `0`으로 리셋됩니다.
@@ -72,10 +76,11 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 4. 독서가 끝나면 Memory가 생성됩니다.
 5. 방문자가 도서관을 떠납니다.
 6. `N` 키로 다음 날을 시작합니다.
-7. 하루 동안 얻은 Memory 요약을 확인합니다.
+7. 하루 동안 얻은 Memory 요약을 화면과 디버그 출력으로 확인합니다.
 
 ## 설계 메모
 
 - 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
 - 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
+- 하루 요약은 전체 패널이 아니라 간단한 임시 텍스트 메시지만 사용합니다.
 - 시스템은 작게 유지하고, 이후 도서관 운영 루프로 확장하기 쉽게 구성합니다.
