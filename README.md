@@ -22,6 +22,8 @@ A minimal Godot 4 playable prototype with cozy top-down exploration.
 
 ## Project structure
 
+- `BRANCH_STRATEGY.md` - Git Flow based branch strategy
+- `COMMIT_CONVENTION.md` - commit message convention guide
 - `project.godot` - Godot project settings and main scene
 - `scenes/Main.tscn` - main scene that loads the room and player
 - `scenes/player/Player.tscn` - player scene with movement, collision, and camera
