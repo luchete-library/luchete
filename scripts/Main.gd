@@ -6,6 +6,7 @@ const VISITOR_MANAGER = preload("res://scripts/managers/VisitorManager.gd")
 const MEMORY_MANAGER = preload("res://scripts/systems/MemoryManager.gd")
 const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 const RECOGNITION_MANAGER = preload("res://scripts/systems/RecognitionManager.gd")
+const STELLA_MANAGER = preload("res://scripts/systems/StellaManager.gd")
 
 @onready var player_start = $PlayerStart
 @onready var memory_label = $MemoryUI/MemoryLabel
@@ -17,6 +18,7 @@ const RECOGNITION_MANAGER = preload("res://scripts/systems/RecognitionManager.gd
 var day_manager = null
 var memory_manager = null
 var recognition_manager = null
+var stella_manager = null
 var visitor_manager = null
 
 func _ready() -> void:
@@ -35,6 +37,10 @@ func _ready() -> void:
     recognition_manager = RECOGNITION_MANAGER.new()
     add_child(recognition_manager)
     recognition_manager.connect("recognition_changed", Callable(self, "_on_recognition_changed"))
+
+    stella_manager = STELLA_MANAGER.new()
+    add_child(stella_manager)
+    stella_manager.connect("stella_unlocked", Callable(self, "_on_stella_unlocked"))
     _on_recognition_changed(recognition_manager.get_total_recognition())
 
     day_manager = DAY_MANAGER.new()
@@ -59,6 +65,7 @@ func _on_memory_changed(total_memory: int) -> void:
 
 func _on_recognition_changed(total_recognition: int) -> void:
     recognition_label.text = "Recognition: %d" % total_recognition
+    stella_manager.update_recognition(total_recognition)
 
 func _on_day_changed(current_day: int) -> void:
     day_label.text = "Day: %d" % current_day
@@ -74,3 +81,8 @@ func _on_day_ending(current_day: int) -> void:
 
 func _on_summary_timer_timeout() -> void:
     summary_label.visible = false
+
+func _on_stella_unlocked(stella_name: String) -> void:
+    summary_label.text = "%s가 루체테에 도착했습니다" % stella_name
+    summary_label.visible = true
+    summary_timer.start()
