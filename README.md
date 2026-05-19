@@ -19,6 +19,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 다음 날로 넘어갈 때 출력되는 간단한 일일 Memory 요약
 - 하루 요약을 2초 동안 보여주는 간단한 UI 메시지
 - 일일 Memory가 일정 기준 이상일 때 증가하는 기본 Recognition 자원
+- Recognition 조건을 만족하면 야토를 해금하는 첫 Stella 진행 기반
 
 ## 조작
 
@@ -37,7 +38,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `scenes/player/Player.tscn` - 플레이어 씬
 - `scenes/library/LibraryRoom.tscn` - 도서관 방 씬
 - `scenes/visitors/Visitor.tscn` - 방문자 씬
-- `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약 출력과 표시
+- `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약과 Stella 해금 메시지 표시
 - `scripts/player/Player.gd` - 플레이어 이동과 임시 스프라이트 생성
 - `scripts/library/LibraryRoom.gd` - 도서관 타일맵, 벽 충돌, 독서 자리 상태와 시각화 관리
 - `scripts/visitors/Visitor.gd` - 방문자 상태 흐름과 상태 라벨 갱신
@@ -46,6 +47,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `scripts/systems/MemoryManager.gd` - 총 Memory와 일일 Memory 추적
 - `scripts/systems/DayManager.gd` - 날짜 카운터, 하루 종료 시그널, 날짜 변경 시그널
 - `scripts/systems/RecognitionManager.gd` - Recognition 자원과 일일 Memory 기준 증가 처리
+- `scripts/systems/StellaManager.gd` - Stella 잠금 상태와 Recognition 기준 해금 처리
 
 ## 방문자 시스템
 
@@ -83,6 +85,16 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 하루 동안 얻은 Memory가 `3` 이상이면 Recognition이 `1` 증가합니다.
 - Recognition이 증가하면 디버그 메시지가 출력되고 UI가 갱신됩니다.
 
+## Stella 진행 기반
+
+- Stella는 기본적으로 잠긴 상태에서 시작합니다.
+- 현재 등록된 Stella는 `yato` 하나입니다.
+- `yato`의 표시 이름은 `야토`입니다.
+- Recognition이 `5` 이상이 되면 야토가 해금됩니다.
+- 해금 시 `Stella unlocked: 야토` 디버그 메시지가 출력됩니다.
+- 화면에는 `야토가 루체테에 도착했습니다` 임시 메시지가 표시됩니다.
+- 대화, 능력, 홍보, 방송, 해금 트리, 캐릭터 아트는 아직 없습니다.
+
 ## 기본 플레이 흐름
 
 1. 방문자가 등장합니다.
@@ -95,12 +107,14 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 8. `N` 키로 다음 날을 시작합니다.
 9. 하루 동안 얻은 Memory 요약을 화면과 디버그 출력으로 확인합니다.
 10. 일일 Memory가 기준 이상이면 Recognition이 증가합니다.
+11. Recognition이 5 이상이 되면 야토가 해금됩니다.
 
 ## 설계 메모
 
 - 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
 - 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
-- Stella, 홍보, 방송, 해금 시스템은 아직 없습니다.
+- Stella는 아직 해금 상태와 도착 메시지만 가집니다.
+- Stella 능력, 홍보, 방송, 추가 해금 시스템은 아직 없습니다.
 - 하루 요약은 전체 패널이 아니라 간단한 임시 텍스트 메시지만 사용합니다.
 - 독서 자리는 가구 아트가 아니라 상태 이해를 위한 단순 마커만 사용합니다.
 - 시스템은 작게 유지하고, 이후 도서관 운영 루프와 성장 구조로 확장하기 쉽게 구성합니다.
