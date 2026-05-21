@@ -2,6 +2,9 @@
 
 [ext_resource path="res://scripts/visitors/Visitor.gd" type="Script" id=1]
 
+[sub_resource type="RectangleShape2D" id=1]
+size = Vector2(18, 18)
+
 [node name="Visitor" type="CharacterBody2D"]
 script = ExtResource( 1 )
 
@@ -17,4 +20,4 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = RectangleShape2D( size = Vector2(18, 18) )
+shape = SubResource( 1 )

@@ -9,10 +9,10 @@ const MAX_VISITORS = 3
 
 var spawn_timer := 0.0
 var current_spawn_interval := SPAWN_INTERVAL
-var library_room = null
-var memory_manager = null
+var library_room: Node = null
+var memory_manager: Node = null
 var active_visitors := []
-var game_root = null
+var game_root: Node = null
 
 func setup(library_room_node: Node, memory_manager_node: Node, game_root_node: Node) -> void:
     library_room = library_room_node
@@ -28,7 +28,7 @@ func _process(delta: float) -> void:
         _try_spawn_visitor()
 
 func update_day(current_day: int) -> void:
-    var next_interval := max(
+    var next_interval: float = maxf(
         MIN_SPAWN_INTERVAL,
         SPAWN_INTERVAL - float(current_day - 1) * SPAWN_INTERVAL_DAY_STEP
     )
@@ -49,7 +49,7 @@ func _try_spawn_visitor() -> void:
     if spot_name == "":
         return
     var spot_position = library_room.get_reading_spot_position(spot_name)
-    var visitor = VISITOR_SCENE.instantiate() as Visitor
+    var visitor = VISITOR_SCENE.instantiate()
     visitor.setup(entrance, spot_position, spot_name, library_room, memory_manager, self)
     add_child(visitor)
     active_visitors.append(visitor)

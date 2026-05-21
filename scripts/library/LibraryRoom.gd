@@ -54,31 +54,31 @@ func get_reading_spot_position(spot_name: String) -> Vector2:
     return Vector2.ZERO
 
 func _create_floor_map() -> TileMap:
+    var atlas_source = TileSetAtlasSource.new()
+    atlas_source.texture = _build_floor_texture()
+    atlas_source.texture_region_size = Vector2i(16, 16)
+    atlas_source.create_tile(Vector2i.ZERO)
+
     var tile_set = TileSet.new()
-    tile_set.create_tile(0)
-    tile_set.tile_set_texture(0, _build_floor_texture())
-    tile_set.tile_set_region(0, Rect2(Vector2.ZERO, Vector2(16, 16)))
-    tile_set.tile_set_name(0, "Floor")
+    tile_set.tile_size = Vector2i(int(CELL_SIZE.x), int(CELL_SIZE.y))
+    var source_id = tile_set.add_source(atlas_source)
 
     var tile_map = TileMap.new()
     tile_map.tile_set = tile_set
-    tile_map.cell_size = CELL_SIZE
     tile_map.z_index = -1
     for x in ROOM_WIDTH:
         for y in ROOM_HEIGHT:
-            tile_map.set_cell_item(x, y, 0)
+            tile_map.set_cell(0, Vector2i(x, y), source_id, Vector2i.ZERO)
     return tile_map
 
 func _build_floor_texture() -> Texture2D:
     var image = Image.create(16, 16, false, Image.FORMAT_RGBA8)
-    image.lock()
     image.fill(Color8(180, 156, 112, 255))
     for x in 16:
         for y in 16:
             if (x + y) % 3 == 0:
                 image.set_pixel(x, y, Color8(199, 170, 128, 255))
-    image.unlock()
-    return ImageTexture.create_from_image(image, 0)
+    return ImageTexture.create_from_image(image)
 
 func _build_walls() -> void:
     _add_wall(Rect2(Vector2.ZERO, Vector2(ROOM_WIDTH * CELL_SIZE.x, CELL_SIZE.y)))

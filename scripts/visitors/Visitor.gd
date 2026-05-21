@@ -16,12 +16,11 @@ const READING_TIME = 5.0
 
 var state := State.SPAWN
 var target_position := Vector2.ZERO
-var velocity := Vector2.ZERO
 var reading_timer := 0.0
 var spot_name := ""
-var memory_manager := null
-var library_room := null
-var visitor_manager := null
+var memory_manager: Node = null
+var library_room: Node = null
+var visitor_manager: Node = null
 
 @onready var sprite = $Sprite2D
 @onready var state_label = $StateLabel
@@ -67,7 +66,7 @@ func _move_to_target(delta: float) -> void:
         velocity = velocity.move_toward(direction * SPEED, ACCELERATION * delta)
     else:
         velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
-    velocity = move_and_slide(velocity)
+    move_and_slide()
 
 func _leave_library() -> void:
     _set_state(State.LEAVING)
@@ -100,11 +99,9 @@ func _generate_memory() -> void:
 
 func _build_visitor_texture() -> Texture2D:
     var image = Image.create(16, 16, false, Image.FORMAT_RGBA8)
-    image.lock()
     image.fill(Color8(190, 170, 140, 255))
     for x in 16:
         for y in 16:
             if (x + y) % 5 == 0:
                 image.set_pixel(x, y, Color8(210, 190, 160, 255))
-    image.unlock()
-    return ImageTexture.create_from_image(image, 0)
+    return ImageTexture.create_from_image(image)
