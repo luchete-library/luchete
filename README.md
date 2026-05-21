@@ -20,6 +20,8 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 하루 요약을 2초 동안 보여주는 간단한 UI 메시지
 - 일일 Memory가 일정 기준 이상일 때 증가하는 기본 Recognition 자원
 - Recognition 조건을 만족하면 야토를 해금하는 첫 Stella 진행 기반
+- 현재 해금된 Stella를 보여주는 작은 UI 라벨
+- 야토가 해금되면 도서관 안 고정 위치에 나타나는 간단한 Stella 존재감
 
 ## 조작
 
@@ -34,14 +36,16 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `BRANCH_STRATEGY.md` - Git Flow 기반 브랜치 전략
 - `COMMIT_CONVENTION.md` - 커밋 메시지 컨벤션
 - `project.godot` - Godot 프로젝트 설정과 메인 씬
-- `scenes/Main.tscn` - 방, 플레이어, 날짜 UI, Memory UI, Recognition UI, 요약 메시지 UI를 포함하는 메인 씬
+- `scenes/Main.tscn` - 방, 플레이어, 날짜 UI, Memory UI, Recognition UI, Stella UI, 요약 메시지 UI를 포함하는 메인 씬
 - `scenes/player/Player.tscn` - 플레이어 씬
 - `scenes/library/LibraryRoom.tscn` - 도서관 방 씬
 - `scenes/visitors/Visitor.tscn` - 방문자 씬
+- `scenes/stella/Yato.tscn` - 야토 Stella placeholder 씬
 - `scripts/Main.gd` - 전체 씬 구성, UI 연결, 날짜 요약과 Stella 해금 메시지 표시
 - `scripts/player/Player.gd` - 플레이어 이동과 임시 스프라이트 생성
 - `scripts/library/LibraryRoom.gd` - 도서관 타일맵, 벽 충돌, 독서 자리 상태와 시각화 관리
 - `scripts/visitors/Visitor.gd` - 방문자 상태 흐름과 상태 라벨 갱신
+- `scripts/stella/Yato.gd` - 야토 Stella placeholder 시각 요소와 이름 라벨
 - `scripts/managers/VisitorManager.gd` - 방문자 스폰, 독서 자리 배정, 날짜 기반 스폰 간격 조정
 - `scripts/systems/MemoryData.gd` - Memory 데이터 리소스
 - `scripts/systems/MemoryManager.gd` - 총 Memory와 일일 Memory 추적
@@ -93,6 +97,9 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - Recognition이 `5` 이상이 되면 야토가 해금됩니다.
 - 해금 시 `Stella unlocked: 야토` 디버그 메시지가 출력됩니다.
 - 화면에는 `야토가 루체테에 도착했습니다` 임시 메시지가 표시됩니다.
+- 화면의 작은 Stella UI는 기본적으로 `Stella: 없음`을 표시합니다.
+- 야토가 해금되면 Stella UI가 `Stella: 야토`로 갱신됩니다.
+- 야토가 해금되면 도서관 안 고정 위치에 단순 placeholder 몸체와 `야토` 라벨이 표시됩니다.
 - 대화, 능력, 홍보, 방송, 해금 트리, 캐릭터 아트는 아직 없습니다.
 
 ## 기본 플레이 흐름
@@ -113,7 +120,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 
 - 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
 - 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
-- Stella는 아직 해금 상태와 도착 메시지만 가집니다.
+- Stella는 아직 해금 상태, 도착 메시지, 작은 UI 표시, 야토 placeholder 존재감만 가집니다.
 - Stella 능력, 홍보, 방송, 추가 해금 시스템은 아직 없습니다.
 - 하루 요약은 전체 패널이 아니라 간단한 임시 텍스트 메시지만 사용합니다.
 - 독서 자리는 가구 아트가 아니라 상태 이해를 위한 단순 마커만 사용합니다.
