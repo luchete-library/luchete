@@ -1,7 +1,7 @@
 extends Node
 class_name StellaManager
 
-signal stella_unlocked(stella_name: String)
+signal stella_unlocked(stella_id: String, stella_name: String)
 
 const STELLA_YATO = {
     "id": "yato",
@@ -14,6 +14,11 @@ var unlocked_stellas := {}
 func _init() -> void:
     unlocked_stellas[STELLA_YATO["id"]] = false
 
+func get_unlocked_stella_display_name() -> String:
+    if unlocked_stellas.get(STELLA_YATO["id"], false):
+        return STELLA_YATO["name"]
+    return "없음"
+
 func update_recognition(total_recognition: int) -> void:
     if unlocked_stellas.get(STELLA_YATO["id"], false):
         return
@@ -21,4 +26,4 @@ func update_recognition(total_recognition: int) -> void:
         return
     unlocked_stellas[STELLA_YATO["id"]] = true
     print("Stella unlocked: %s" % STELLA_YATO["name"])
-    emit_signal("stella_unlocked", STELLA_YATO["name"])
+    emit_signal("stella_unlocked", STELLA_YATO["id"], STELLA_YATO["name"])

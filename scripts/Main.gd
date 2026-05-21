@@ -7,22 +7,31 @@ const MEMORY_MANAGER = preload("res://scripts/systems/MemoryManager.gd")
 const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 const RECOGNITION_MANAGER = preload("res://scripts/systems/RecognitionManager.gd")
 const STELLA_MANAGER = preload("res://scripts/systems/StellaManager.gd")
+const STELLA_SCENES = {
+    "yato": preload("res://scenes/stella/Yato.tscn")
+}
+const STELLA_SPAWN_POSITIONS = {
+    "yato": Vector2(288, 192)
+}
 
 @onready var player_start = $PlayerStart
 @onready var memory_label = $MemoryUI/MemoryLabel
 @onready var recognition_label = $RecognitionUI/RecognitionLabel
 @onready var day_label = $DayUI/DayLabel
+@onready var stella_label = $StellaUI/StellaLabel
 @onready var summary_label = $SummaryUI/SummaryLabel
 @onready var summary_timer = $SummaryTimer
 
-var day_manager = null
-var memory_manager = null
-var recognition_manager = null
-var stella_manager = null
-var visitor_manager = null
+var day_manager: Node = null
+var memory_manager: Node = null
+var recognition_manager: Node = null
+var stella_manager: Node = null
+var visitor_manager: Node = null
+var library_room: Node = null
+var spawned_stellas := {}
 
 func _ready() -> void:
-    var library_room = LIBRARY_SCENE.instantiate()
+    library_room = LIBRARY_SCENE.instantiate()
     add_child(library_room)
 
     var player = PLAYER_SCENE.instantiate()
@@ -41,6 +50,7 @@ func _ready() -> void:
     stella_manager = STELLA_MANAGER.new()
     add_child(stella_manager)
     stella_manager.connect("stella_unlocked", Callable(self, "_on_stella_unlocked"))
+    _update_stella_label()
     _on_recognition_changed(recognition_manager.get_total_recognition())
 
     day_manager = DAY_MANAGER.new()
@@ -70,6 +80,9 @@ func _on_recognition_changed(total_recognition: int) -> void:
 func _on_day_changed(current_day: int) -> void:
     day_label.text = "Day: %d" % current_day
 
+func _update_stella_label() -> void:
+    stella_label.text = "Stella: %s" % stella_manager.get_unlocked_stella_display_name()
+
 func _on_day_ending(current_day: int) -> void:
     var daily_memory = memory_manager.get_daily_memory()
     print("Day %d Summary: Memory gained today: %d" % [current_day, daily_memory])
@@ -82,7 +95,19 @@ func _on_day_ending(current_day: int) -> void:
 func _on_summary_timer_timeout() -> void:
     summary_label.visible = false
 
-func _on_stella_unlocked(stella_name: String) -> void:
+func _on_stella_unlocked(stella_id: String, stella_name: String) -> void:
+    _spawn_stella(stella_id)
+    _update_stella_label()
     summary_label.text = "%s가 루체테에 도착했습니다" % stella_name
     summary_label.visible = true
     summary_timer.start()
+
+func _spawn_stella(stella_id: String) -> void:
+    if spawned_stellas.has(stella_id):
+        return
+    if not STELLA_SCENES.has(stella_id):
+        return
+    var stella = STELLA_SCENES[stella_id].instantiate()
+    stella.position = STELLA_SPAWN_POSITIONS.get(stella_id, Vector2.ZERO)
+    library_room.add_child(stella)
+    spawned_stellas[stella_id] = stella

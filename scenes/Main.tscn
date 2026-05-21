@@ -29,13 +29,20 @@ text = "Day: 1"
 margin_left = 16
 margin_top = 64
 
+[node name="StellaUI" type="CanvasLayer" parent="."]
+
+[node name="StellaLabel" type="Label" parent="StellaUI"]
+text = "Stella: 없음"
+margin_left = 16
+margin_top = 88
+
 [node name="SummaryUI" type="CanvasLayer" parent="."]
 
 [node name="SummaryLabel" type="Label" parent="SummaryUI"]
 visible = false
 text = "Day 1 Summary: Memory +0"
 margin_left = 16
-margin_top = 88
+margin_top = 112
 
 [node name="SummaryTimer" type="Timer" parent="."]
 wait_time = 2.0
