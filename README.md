@@ -22,6 +22,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - Recognition 조건을 만족하면 야토를 해금하는 첫 Stella 진행 기반
 - 현재 해금된 Stella를 보여주는 작은 UI 라벨
 - 야토가 해금되면 도서관 안 고정 위치에 나타나는 간단한 Stella 존재감
+- Stella 메타데이터를 `StellaManager`에서 관리하는 확장용 구조
 
 ## 조작
 
@@ -51,7 +52,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - `scripts/systems/MemoryManager.gd` - 총 Memory와 일일 Memory 추적
 - `scripts/systems/DayManager.gd` - 날짜 카운터, 하루 종료 시그널, 날짜 변경 시그널
 - `scripts/systems/RecognitionManager.gd` - Recognition 자원과 일일 Memory 기준 증가 처리
-- `scripts/systems/StellaManager.gd` - Stella 잠금 상태와 Recognition 기준 해금 처리
+- `scripts/systems/StellaManager.gd` - Stella 메타데이터, 잠금 상태, Recognition 기준 해금 처리
 
 ## 방문자 시스템
 
@@ -92,6 +93,8 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 ## Stella 진행 기반
 
 - Stella는 기본적으로 잠긴 상태에서 시작합니다.
+- Stella 메타데이터는 id, 표시 이름, 필요 Recognition, 씬 경로, 스폰 위치, 해금 상태를 포함합니다.
+- `StellaManager`가 Stella 메타데이터와 해금 상태를 소유합니다.
 - 현재 등록된 Stella는 `yato` 하나입니다.
 - `yato`의 표시 이름은 `야토`입니다.
 - Recognition이 `5` 이상이 되면 야토가 해금됩니다.
@@ -121,6 +124,7 @@ Godot 4로 만드는 작은 도서관 운영 프로토타입입니다.
 - 현재는 이동, 도서관 공간, 충돌, 카메라, 방문자 흐름, 날짜 흐름에 집중합니다.
 - 전투, 인벤토리, 대화, 저장/불러오기, 복잡한 UI는 아직 없습니다.
 - Stella는 아직 해금 상태, 도착 메시지, 작은 UI 표시, 야토 placeholder 존재감만 가집니다.
+- Stella 구조는 야토 interaction hint, 밤 Phase, 방송 슬롯 순서로 확장할 예정입니다.
 - Stella 능력, 홍보, 방송, 추가 해금 시스템은 아직 없습니다.
 - 하루 요약은 전체 패널이 아니라 간단한 임시 텍스트 메시지만 사용합니다.
 - 독서 자리는 가구 아트가 아니라 상태 이해를 위한 단순 마커만 사용합니다.

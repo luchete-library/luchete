@@ -7,12 +7,6 @@ const MEMORY_MANAGER = preload("res://scripts/systems/MemoryManager.gd")
 const DAY_MANAGER = preload("res://scripts/systems/DayManager.gd")
 const RECOGNITION_MANAGER = preload("res://scripts/systems/RecognitionManager.gd")
 const STELLA_MANAGER = preload("res://scripts/systems/StellaManager.gd")
-const STELLA_SCENES = {
-    "yato": preload("res://scenes/stella/Yato.tscn")
-}
-const STELLA_SPAWN_POSITIONS = {
-    "yato": Vector2(288, 192)
-}
 
 @onready var player_start = $PlayerStart
 @onready var memory_label = $MemoryUI/MemoryLabel
@@ -105,9 +99,13 @@ func _on_stella_unlocked(stella_id: String, stella_name: String) -> void:
 func _spawn_stella(stella_id: String) -> void:
     if spawned_stellas.has(stella_id):
         return
-    if not STELLA_SCENES.has(stella_id):
+    var stella_data = stella_manager.get_stella_data(stella_id)
+    if stella_data.is_empty():
         return
-    var stella = STELLA_SCENES[stella_id].instantiate()
-    stella.position = STELLA_SPAWN_POSITIONS.get(stella_id, Vector2.ZERO)
+    var stella_scene = load(stella_data["scene_path"])
+    if stella_scene == null:
+        return
+    var stella = stella_scene.instantiate()
+    stella.position = stella_data["spawn_position"]
     library_room.add_child(stella)
     spawned_stellas[stella_id] = stella
