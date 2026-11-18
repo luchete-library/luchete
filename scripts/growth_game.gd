@@ -139,7 +139,7 @@ func _ready() -> void:
 	observed_gold=growth.gold
 	observed_light=growth.memory_light
 	_setup_map()
-	get_window().min_size=Vector2i(960,600)
+	get_window().min_size=Vector2i.ZERO if OS.has_feature("web") else Vector2i(960,600)
 	get_window().title="루체테 · 재건과 사계절"+(" 플레이 시안" if preview_mode else "")
 	get_tree().auto_accept_quit=false
 	if preview_mode: _notify("여섯 스텔라가 모였어요. 에테의 운영 수첩에서 첫 재건을 시작해요.")

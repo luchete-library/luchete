@@ -208,7 +208,7 @@ func _ready() -> void:
 	add_child(chime)
 	save_available = FileAccess.file_exists(State.SAVE_PATH) or FileAccess.file_exists(State.SAVE_PATH + ".bak")
 	_setup_map()
-	get_window().min_size = Vector2i(960,600)
+	get_window().min_size = Vector2i.ZERO if OS.has_feature("web") else Vector2i(960,600)
 	get_tree().auto_accept_quit = false
 
 func _notification(what: int) -> void:

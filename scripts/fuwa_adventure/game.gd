@@ -65,7 +65,7 @@ func _ready() -> void:
 	texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	font.font_names=PackedStringArray(["Malgun Gothic","맑은 고딕"])
 	get_window().title="루체테 · 후와 직접 조작 시안 · 눈산에서 도서관까지"
-	get_window().min_size=Vector2i(960,600)
+	get_window().min_size=Vector2i.ZERO if OS.has_feature("web") else Vector2i(960,600)
 	walk_texture=CanvasTexture.new();walk_texture.diffuse_texture=Yard.SHEETS.walk
 	walk_texture.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
 	reset()
