@@ -1,0 +1,643 @@
+{
+  "member": "kubby",
+  "name": "햄쿠비",
+  "costume": "kubby_origin",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "startled",
+      "label": "깜짝 놀랐다 안심",
+      "description": "Ready, small shoulder lift and hands near chest, wide startled eyes with tiny round mouth then soften, relax with small reassuring smile. Feet stay planted.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          30,
+          27,
+          69,
+          104
+        ],
+        [
+          29,
+          27,
+          69,
+          104
+        ],
+        [
+          28,
+          27,
+          66,
+          104
+        ],
+        [
+          29,
+          29,
+          65,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          46.5,
+          45.0,
+          0.0
+        ],
+        [
+          46.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          47.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.09,
+        0.12,
+        0.44,
+        0.77,
+        0.51
+      ],
+      "travel_seconds": [
+        0.09,
+        0.12,
+        0.18,
+        0.5,
+        0.47
+      ]
+    },
+    {
+      "id": "relief",
+      "label": "휴 하고 안도",
+      "description": "Ready attentive eyes, hand over chest, exhale with relaxed closed eyes and small smile, lower hand.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          29,
+          28,
+          65,
+          104
+        ],
+        [
+          29,
+          28,
+          65,
+          104
+        ],
+        [
+          29,
+          29,
+          65,
+          104
+        ],
+        [
+          29,
+          28,
+          65,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          47.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.28,
+        0.37,
+        0.94,
+        0.56,
+        0.46
+      ],
+      "travel_seconds": [
+        0.22,
+        0.29,
+        0.33,
+        0.41,
+        0.41
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "한 발짝 궁금해",
+      "description": "Ready, lean upper body slightly forward with connected neck and hip, tilt head to inspect visitor with bright curious green eyes, straighten. Feet stay planted.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          30,
+          28,
+          69,
+          104
+        ],
+        [
+          30,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          46.5,
+          46.0,
+          0.0
+        ],
+        [
+          46.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.26,
+        0.33,
+        0.89,
+        0.48,
+        0.38
+      ],
+      "travel_seconds": [
+        0.2,
+        0.26,
+        0.29,
+        0.36,
+        0.34
+      ]
+    },
+    {
+      "id": "rhythm",
+      "label": "신나는 박자",
+      "description": "Ready hands low, bring palms near chest, tiny cheerful rhythmic clap with small closed smile and head nod, release hands. No music-note effects.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          31,
+          28,
+          72,
+          104
+        ],
+        [
+          30,
+          28,
+          75,
+          104
+        ],
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          73,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.14,
+        0.16,
+        0.51,
+        0.35,
+        0.32
+      ],
+      "travel_seconds": [
+        0.12,
+        0.14,
+        0.17,
+        0.26,
+        0.28
+      ]
+    },
+    {
+      "id": "read",
+      "label": "깜짝 문장 다시 읽기",
+      "description": "Hold open book; sit on invisible chair; eyes briefly widen over a page then curious smile while pointing to it; close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          29,
+          32,
+          68,
+          104
+        ],
+        [
+          29,
+          31,
+          68,
+          104
+        ],
+        [
+          29,
+          32,
+          68,
+          104
+        ],
+        [
+          29,
+          32,
+          68,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          50.0,
+          0.0
+        ],
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          50.0,
+          0.0
+        ],
+        [
+          47.5,
+          49.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "조심조심 차 한 잔",
+      "description": "Hold cup with both hands; sit on invisible chair; carefully bring cup near lips and take small sip with relaxed eyes; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          29,
+          31,
+          69,
+          104
+        ],
+        [
+          29,
+          31,
+          68,
+          104
+        ],
+        [
+          29,
+          31,
+          66,
+          104
+        ],
+        [
+          29,
+          31,
+          69,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "긴장 풀고 호흡",
+      "description": "Stand ready shoulders a little high; bend knees with palms together; sit cross-legged and lower shoulders with closed peaceful eyes; begin to stand.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          31,
+          35,
+          68,
+          104
+        ],
+        [
+          31,
+          34,
+          67,
+          104
+        ],
+        [
+          31,
+          36,
+          65,
+          104
+        ],
+        [
+          31,
+          35,
+          68,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          53.0,
+          0.0
+        ],
+        [
+          47.5,
+          52.0,
+          0.0
+        ],
+        [
+          47.5,
+          53.84375,
+          0.0
+        ],
+        [
+          47.5,
+          52.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "햄님과 박자 맞추기",
+      "description": "Stand ready; lift hands gently; smile warmly with tiny rhythmic hand clap and whole-head nod toward camera; hands return to sides.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          31,
+          28,
+          72,
+          104
+        ],
+        [
+          30,
+          28,
+          75,
+          104
+        ],
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          73,
+          104
+        ],
+        [
+          29,
+          28,
+          69,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "햄스터에게 오히려 놀란 얼음 도깨비이며 여러 감정을 알고 싶어 한다는 공식 배경을 참고한다.",
+  "source": "https://listella.tv/stella/hamkubby",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 26,
+    "eye_to_chin": 6,
+    "crown_to_eye": 13,
+    "standing_chin": 52
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

@@ -1,24 +1,22 @@
-; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
-
+; Library Valley — local Godot prototype
 config_version=5
 
 [application]
+config/name="도서관 밸리 · 루체테의 첫 페이지"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/description="리스텔라 비공식 팬게임. 에테의 의뢰로 여섯 스텔라와 귀환하고, 함께 재건한 도서관을 골드와 기억의 빛으로 키워요."
 
-config/name="Lucete Library Game"
-config/description="A basic Godot 4 project."
-config/version="0.1"
-run/main_scene="res://scenes/Main.tscn"
-config/features=PackedStringArray("4.6")
-config/icon="res://icon.svg"
-config/author=""
-config/main_scene="res://scenes/Main.tscn"
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
 
 [rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.055, 0.075, 0.09, 1)
 
-quality/driver=0

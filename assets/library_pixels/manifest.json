@@ -1,0 +1,1214 @@
+{
+  "revision": 5,
+  "pixel_scale": 2,
+  "background_origin": [
+    32,
+    140
+  ],
+  "sunlight_origin": [
+    426,
+    238
+  ],
+  "sprites": {
+    "floor_plank_0": {
+      "size": [
+        64,
+        16
+      ],
+      "native_size": [
+        128,
+        32
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "floor_plank_1": {
+      "size": [
+        64,
+        16
+      ],
+      "native_size": [
+        128,
+        32
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "floor_plank_2": {
+      "size": [
+        64,
+        16
+      ],
+      "native_size": [
+        128,
+        32
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "floor_plank_3": {
+      "size": [
+        64,
+        16
+      ],
+      "native_size": [
+        128,
+        32
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_0": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_0": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_1": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_1": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_2": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_2": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_3": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_3": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_4": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_4": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_5": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_5": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_west_6": {
+      "size": [
+        108,
+        50
+      ],
+      "native_size": [
+        216,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "shelf_story_6": {
+      "size": [
+        159,
+        50
+      ],
+      "native_size": [
+        318,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "rug_main": {
+      "size": [
+        144,
+        112
+      ],
+      "native_size": [
+        288,
+        224
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "rug_read": {
+      "size": [
+        64,
+        68
+      ],
+      "native_size": [
+        128,
+        136
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "rug_tea": {
+      "size": [
+        64,
+        62
+      ],
+      "native_size": [
+        128,
+        124
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "rug_exercise": {
+      "size": [
+        100,
+        64
+      ],
+      "native_size": [
+        200,
+        128
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "rug_stream": {
+      "size": [
+        70,
+        50
+      ],
+      "native_size": [
+        140,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "window_clear": {
+      "size": [
+        48,
+        48
+      ],
+      "native_size": [
+        96,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "window_boarded": {
+      "size": [
+        48,
+        48
+      ],
+      "native_size": [
+        96,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "lamp_off": {
+      "size": [
+        16,
+        32
+      ],
+      "native_size": [
+        32,
+        64
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "lamp_on": {
+      "size": [
+        16,
+        32
+      ],
+      "native_size": [
+        32,
+        64
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "plant_small": {
+      "size": [
+        28,
+        40
+      ],
+      "native_size": [
+        56,
+        80
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "plant_lush": {
+      "size": [
+        28,
+        40
+      ],
+      "native_size": [
+        56,
+        80
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "work_table": {
+      "size": [
+        98,
+        48
+      ],
+      "native_size": [
+        196,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "lending_desk": {
+      "size": [
+        64,
+        48
+      ],
+      "native_size": [
+        128,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "notice_board": {
+      "size": [
+        34,
+        26
+      ],
+      "native_size": [
+        68,
+        52
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "garden_door": {
+      "size": [
+        44,
+        50
+      ],
+      "native_size": [
+        88,
+        100
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "chair_back": {
+      "size": [
+        48,
+        42
+      ],
+      "native_size": [
+        96,
+        84
+      ],
+      "density": 2,
+      "anchor": [
+        24,
+        32
+      ],
+      "category": "furniture"
+    },
+    "chair_front": {
+      "size": [
+        48,
+        42
+      ],
+      "native_size": [
+        96,
+        84
+      ],
+      "density": 2,
+      "anchor": [
+        24,
+        32
+      ],
+      "category": "furniture"
+    },
+    "tea_back": {
+      "size": [
+        48,
+        42
+      ],
+      "native_size": [
+        96,
+        84
+      ],
+      "density": 2,
+      "anchor": [
+        24,
+        32
+      ],
+      "category": "furniture"
+    },
+    "tea_front": {
+      "size": [
+        48,
+        42
+      ],
+      "native_size": [
+        96,
+        84
+      ],
+      "density": 2,
+      "anchor": [
+        24,
+        32
+      ],
+      "category": "furniture"
+    },
+    "mat_back": {
+      "size": [
+        44,
+        18
+      ],
+      "native_size": [
+        88,
+        36
+      ],
+      "density": 2,
+      "anchor": [
+        22,
+        9
+      ],
+      "category": "furniture"
+    },
+    "camera_back": {
+      "size": [
+        48,
+        34
+      ],
+      "native_size": [
+        96,
+        68
+      ],
+      "density": 2,
+      "anchor": [
+        24,
+        27
+      ],
+      "category": "furniture"
+    },
+    "rest_chair": {
+      "size": [
+        44,
+        42
+      ],
+      "native_size": [
+        88,
+        84
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "environment"
+    },
+    "ui_panel": {
+      "size": [
+        32,
+        32
+      ],
+      "native_size": [
+        32,
+        32
+      ],
+      "density": 1,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "ui_accent": {
+      "size": [
+        32,
+        32
+      ],
+      "native_size": [
+        32,
+        32
+      ],
+      "density": 1,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "ui_slot": {
+      "size": [
+        32,
+        32
+      ],
+      "native_size": [
+        32,
+        32
+      ],
+      "density": 1,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_bag": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_journal": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_table": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_requests": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_paper": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_portal": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_loans": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_sleep": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_bookmark": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_ink": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_star": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_sun": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "icon_leaf": {
+      "size": [
+        20,
+        20
+      ],
+      "native_size": [
+        40,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "book_closed_base": {
+      "size": [
+        17,
+        25
+      ],
+      "native_size": [
+        34,
+        50
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "book_closed_detail": {
+      "size": [
+        17,
+        25
+      ],
+      "native_size": [
+        34,
+        50
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "book_open_base": {
+      "size": [
+        28,
+        20
+      ],
+      "native_size": [
+        56,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "book_open_detail": {
+      "size": [
+        28,
+        20
+      ],
+      "native_size": [
+        56,
+        40
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "ui"
+    },
+    "gym_rack": {
+      "size": [
+        25,
+        19
+      ],
+      "native_size": [
+        50,
+        38
+      ],
+      "density": 2,
+      "anchor": [
+        1,
+        16
+      ],
+      "category": "furniture"
+    },
+    "keepsake_yato": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "keepsake_danming": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "keepsake_kubby": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "keepsake_yune": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "keepsake_dori": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "keepsake_fuwa": {
+      "size": [
+        42,
+        48
+      ],
+      "native_size": [
+        84,
+        96
+      ],
+      "density": 2,
+      "anchor": [
+        21,
+        44
+      ],
+      "category": "keepsake"
+    },
+    "library_stage_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_4": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_5": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "library_stage_6": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "background"
+    },
+    "window_light": {
+      "size": [
+        195,
+        135
+      ],
+      "native_size": [
+        390,
+        270
+      ],
+      "density": 2,
+      "anchor": [
+        0,
+        0
+      ],
+      "category": "lighting"
+    }
+  }
+}

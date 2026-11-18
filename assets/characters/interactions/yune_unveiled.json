@@ -1,0 +1,643 @@
+{
+  "member": "yune",
+  "name": "아미하 유네",
+  "costume": "yune_unveiled",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "welcome",
+      "label": "조용한 손인사",
+      "description": "Ready open gentle eyes; raise hand near shoulder; slow small wave with gentle closed-mouth smile; lower hand.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.28,
+        0.37,
+        0.94,
+        0.56,
+        0.46
+      ],
+      "travel_seconds": [
+        0.22,
+        0.29,
+        0.33,
+        0.41,
+        0.41
+      ]
+    },
+    {
+      "id": "listen",
+      "label": "고개 기울여 듣기",
+      "description": "Notice visitor, incline whole head a little, hand lightly at chest with attentive warm eyes, straighten softly.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.3,
+        0.4,
+        1.0,
+        0.4,
+        0.3
+      ],
+      "travel_seconds": [
+        0.249,
+        0.332,
+        0.38,
+        0.332,
+        0.249
+      ]
+    },
+    {
+      "id": "dreamy",
+      "label": "꿈결 같은 눈깜박임",
+      "description": "Ready, eyelids grow half closed and hand lightly covers mouth, brief sleepy blink with head dipping but no wide mouth, reopen eyes and straighten.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.28,
+        0.34,
+        0.3,
+        0.5,
+        0.42
+      ],
+      "travel_seconds": [
+        0.23,
+        0.28,
+        0.15,
+        0.29,
+        0.37
+      ]
+    },
+    {
+      "id": "reassure",
+      "label": "안심시키는 손짓",
+      "description": "Ready, lift open palm low at chest, offer gentle palm-out reassuring gesture with small smile and relaxed shoulders, lower hand.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.28,
+        0.37,
+        0.94,
+        0.56,
+        0.46
+      ],
+      "travel_seconds": [
+        0.22,
+        0.29,
+        0.33,
+        0.41,
+        0.41
+      ]
+    },
+    {
+      "id": "read",
+      "label": "꿈의 문장 따라 읽기",
+      "description": "Hold open book; bend into invisible chair with gown draping naturally; read quietly with gentle downward gaze and finger at page; close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          25,
+          20,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          20,
+          70,
+          104
+        ],
+        [
+          25,
+          20,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          47.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          47.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "두 손으로 따뜻한 잔",
+      "description": "Hold cup with both hands; sit on invisible chair with gown draped; savor small sip with eyelids softly closed; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "눈 감고 고른 호흡",
+      "description": "Stand ready; gather hands at chest and lower body; sit cross-legged under naturally pooled gown with closed peaceful eyes and shoulders relaxed; begin to stand.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          25,
+          26,
+          70,
+          104
+        ],
+        [
+          25,
+          25,
+          70,
+          104
+        ],
+        [
+          25,
+          27,
+          70,
+          104
+        ],
+        [
+          25,
+          26,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          53.0,
+          0.0
+        ],
+        [
+          47.5,
+          52.0,
+          0.0
+        ],
+        [
+          47.5,
+          53.84375,
+          0.0
+        ],
+        [
+          47.5,
+          52.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "몽치에게 다정한 인사",
+      "description": "Ready gentle eyes, bring hand close to heart, small slow wave toward camera and warm head tilt, lower hand. Preserve halo and veil.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ],
+        [
+          25,
+          19,
+          70,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "드림캐처에서 태어나 악몽을 없애고 좋은 꿈을 지키는 정령이라는 배경을 참고한다. 느린 동작은 꿈 모티프의 팬게임 해석이다.",
+  "source": "https://listella.tv/stella/yune",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 26,
+    "eye_to_chin": 6,
+    "crown_to_eye": 13,
+    "standing_chin": 52
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

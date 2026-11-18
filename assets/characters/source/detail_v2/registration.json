@@ -1,0 +1,122 @@
+{
+  "yato_hood": {
+    "pins": [
+      225,
+      106,
+      198,
+      29,
+      227,
+      57,
+      255,
+      76,
+      345,
+      490,
+      534
+    ],
+    "scale": 0.16548463356973994,
+    "dx": -5.734042553191486,
+    "dy": 1.4586288416075774,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  },
+  "danming_origin": {
+    "pins": [
+      648,
+      100,
+      176,
+      27,
+      211,
+      56,
+      247,
+      91,
+      344,
+      477,
+      534
+    ],
+    "scale": 0.16279069767441862,
+    "dx": -73.98837209302326,
+    "dy": 2.720930232558132,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  },
+  "kubby_origin": {
+    "pins": [
+      1073,
+      87,
+      169,
+      28,
+      206,
+      59,
+      249,
+      87,
+      345,
+      472,
+      534
+    ],
+    "scale": 0.15695067264573992,
+    "dx": -136.90807174887894,
+    "dy": 5.345291479820617,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  },
+  "amiha_yune_idle": {
+    "pins": [
+      235,
+      720,
+      804,
+      29,
+      835,
+      48,
+      879,
+      72,
+      973,
+      1115,
+      1150
+    ],
+    "scale": 0.16470588235294117,
+    "dx": -7.205882352941174,
+    "dy": -99.58823529411765,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  },
+  "shokoko_dori_idle": {
+    "pins": [
+      650,
+      729,
+      803,
+      29,
+      836,
+      48,
+      884,
+      91,
+      971,
+      1119,
+      1150
+    ],
+    "scale": 0.16666666666666666,
+    "dx": -76.83333333333333,
+    "dy": -101.83333333333331,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  },
+  "hakuten_fuwa_idle": {
+    "pins": [
+      1072,
+      724,
+      802,
+      29,
+      836,
+      54,
+      881,
+      86,
+      973,
+      1110,
+      1150
+    ],
+    "scale": 0.166270783847981,
+    "dx": -146.74228028503563,
+    "dy": -101.38004750593825,
+    "palette_colors": 40,
+    "source": "tools/character_detail/fronts_v2.png"
+  }
+}

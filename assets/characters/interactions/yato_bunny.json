@@ -1,0 +1,643 @@
+{
+  "member": "yato",
+  "name": "야토",
+  "costume": "yato_bunny",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "welcome",
+      "label": "반갑게 손인사",
+      "description": "Ready attentive eyes, raise right hand, broad friendly WAVE with small closed smile and body leaning a little forward, gently lower hand.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.23,
+        0.67,
+        0.38,
+        0.36
+      ],
+      "travel_seconds": [
+        0.15,
+        0.19,
+        0.22,
+        0.3,
+        0.32
+      ]
+    },
+    {
+      "id": "curious",
+      "label": "궁금한 눈빛",
+      "description": "Notice the visitor, bring a hand lightly near chin, tilt entire head with curious bright eyes while shoulders follow, straighten softly.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          32,
+          28,
+          69,
+          104
+        ],
+        [
+          32,
+          28,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          48.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.26,
+        0.33,
+        0.89,
+        0.48,
+        0.38
+      ],
+      "travel_seconds": [
+        0.2,
+        0.26,
+        0.29,
+        0.36,
+        0.34
+      ]
+    },
+    {
+      "id": "cheer",
+      "label": "작은 응원",
+      "description": "Ready hands by waist, draw both small fists towards chest, determined warm smile with a little forward weight shift, relax hands.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.27,
+        0.76,
+        0.42,
+        0.35
+      ],
+      "travel_seconds": [
+        0.14,
+        0.19,
+        0.21,
+        0.33,
+        0.3
+      ]
+    },
+    {
+      "id": "bashful",
+      "label": "수줍은 미소",
+      "description": "Notice compliment, touch one hair lock at chest level, look slightly aside with subtle cheek blush and tiny closed smile, lower hand.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.3,
+        0.36,
+        0.74,
+        0.57,
+        0.43
+      ],
+      "travel_seconds": [
+        0.15,
+        0.24,
+        0.26,
+        0.4,
+        0.39
+      ]
+    },
+    {
+      "id": "read",
+      "label": "고개를 기울여 독서",
+      "description": "Hold a small open book; bend knees to sit on an invisible chair; read with curious head tilt and one finger tracing a line; close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          31,
+          32,
+          68,
+          104
+        ],
+        [
+          31,
+          31,
+          68,
+          104
+        ],
+        [
+          32,
+          32,
+          69,
+          104
+        ],
+        [
+          31,
+          32,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          50.0,
+          0.0
+        ],
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          50.0,
+          0.0
+        ],
+        [
+          47.5,
+          49.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "한 모금 뒤 미소",
+      "description": "Hold one small cup low; settle into an invisible chair; carefully sip with eyelids softly closed then a tiny satisfied smile; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          31,
+          31,
+          68,
+          104
+        ],
+        [
+          32,
+          31,
+          69,
+          104
+        ],
+        [
+          32,
+          31,
+          69,
+          104
+        ],
+        [
+          32,
+          31,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "차분하게 중심 잡기",
+      "description": "Stand ready; gently bend knees with hands at chest; sit cross-legged with shoulders relaxed and eyes closed; uncross legs and begin standing.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          31,
+          35,
+          68,
+          104
+        ],
+        [
+          31,
+          34,
+          68,
+          104
+        ],
+        [
+          31,
+          36,
+          68,
+          104
+        ],
+        [
+          31,
+          35,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          53.0,
+          0.0
+        ],
+        [
+          47.5,
+          52.0,
+          0.0
+        ],
+        [
+          47.5,
+          53.84375,
+          0.0
+        ],
+        [
+          47.5,
+          52.5,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "마토에게 손인사",
+      "description": "Stand attentive; lift one hand towards off-screen camera; lively friendly wave with slight head tilt and tiny closed smile; lower hand and nod.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          69,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ],
+        [
+          31,
+          28,
+          68,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "토끼에게 길러진 인간으로 자신의 정체성을 찾아 나선 배경, 자기 이야기를 노래로 전하는 모습. 아래 반응은 팬게임 연출이다.",
+  "source": "https://listella.tv/stella/yato",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 26,
+    "eye_to_chin": 7,
+    "crown_to_eye": 13,
+    "standing_chin": 53
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

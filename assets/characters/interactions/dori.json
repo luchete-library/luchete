@@ -1,0 +1,643 @@
+{
+  "member": "dori",
+  "name": "쇼코코 도리",
+  "costume": "shokoko_dori_idle",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "salute",
+      "label": "탐정 모자 인사",
+      "description": "Ready, raise fingers to cap brim, confident little salute with small closed smile and head tilt, lower hand. Keep hat attached.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.23,
+        0.67,
+        0.38,
+        0.36
+      ],
+      "travel_seconds": [
+        0.15,
+        0.19,
+        0.22,
+        0.3,
+        0.32
+      ]
+    },
+    {
+      "id": "inspect",
+      "label": "잠깐 관찰",
+      "description": "Ready, bring small magnifying glass from waist to chest, inspect through it held BELOW eyes with curious focused expression, lower it. No giant distorted eye.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          28,
+          16,
+          71,
+          104
+        ],
+        [
+          28,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          48.5,
+          44.0,
+          0.0
+        ],
+        [
+          48.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.26,
+        0.33,
+        0.89,
+        0.48,
+        0.38
+      ],
+      "travel_seconds": [
+        0.2,
+        0.26,
+        0.29,
+        0.36,
+        0.34
+      ]
+    },
+    {
+      "id": "idea",
+      "label": "단서가 떠올랐어",
+      "description": "Ready thoughtful eyes, lift one index finger near shoulder, small pleased nod as if an idea appeared, lower hand. No lightbulb effects.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.14,
+        0.16,
+        0.51,
+        0.35,
+        0.32
+      ],
+      "travel_seconds": [
+        0.12,
+        0.14,
+        0.17,
+        0.26,
+        0.28
+      ]
+    },
+    {
+      "id": "bashful",
+      "label": "쑥스러운 탐정님",
+      "description": "Ready, touch cheek with one finger, glance aside with tiny blush and shy closed smile, lower hand and straighten.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.3,
+        0.36,
+        0.74,
+        0.57,
+        0.43
+      ],
+      "travel_seconds": [
+        0.15,
+        0.24,
+        0.26,
+        0.4,
+        0.39
+      ]
+    },
+    {
+      "id": "read",
+      "label": "돋보기로 문장 살피기",
+      "description": "Hold open notebook; sit on invisible chair; use small magnifier over the page below face with curious eyes; put it away and close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          27,
+          20,
+          71,
+          104
+        ],
+        [
+          27,
+          19,
+          71,
+          104
+        ],
+        [
+          28,
+          20,
+          71,
+          104
+        ],
+        [
+          27,
+          20,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          48.0,
+          0.0
+        ],
+        [
+          47.5,
+          47.0,
+          0.0
+        ],
+        [
+          48.5,
+          48.0,
+          0.0
+        ],
+        [
+          47.5,
+          47.5,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "생각하며 차 한 모금",
+      "description": "Hold small cup; sit on invisible chair; thoughtful head tilt then tiny sip with relaxed eyes; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          27,
+          19,
+          71,
+          104
+        ],
+        [
+          28,
+          19,
+          71,
+          104
+        ],
+        [
+          28,
+          19,
+          71,
+          104
+        ],
+        [
+          28,
+          19,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          47.0,
+          0.0
+        ],
+        [
+          48.5,
+          47.0,
+          0.0
+        ],
+        [
+          48.5,
+          47.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          47.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "모자 고쳐 쓰고 호흡",
+      "description": "Stand ready adjusting cap brim; bend knees and lower hands; sit cross-legged hands on knees with closed relaxed eyes; begin to stand without losing hat.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          27,
+          23,
+          71,
+          104
+        ],
+        [
+          27,
+          22,
+          71,
+          104
+        ],
+        [
+          27,
+          24,
+          71,
+          104
+        ],
+        [
+          27,
+          23,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          51.0,
+          0.0
+        ],
+        [
+          47.5,
+          50.0,
+          0.0
+        ],
+        [
+          47.5,
+          51.84375,
+          0.0
+        ],
+        [
+          47.5,
+          50.5,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "돌돌이에게 탐정 인사",
+      "description": "Stand ready, touch cap brim, tiny confident salute then small wave with closed smile at camera, lower hand.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ],
+        [
+          27,
+          16,
+          71,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ],
+        [
+          47.5,
+          44.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "너구리 탐정 지망생이며 처음 탐정으로 인정받는 데뷔 배경을 참고한다. 돋보기와 추리 손짓은 팬게임 일상 소품 연출이다.",
+  "source": "https://listella.tv/stella/dori",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 26,
+    "eye_to_chin": 6,
+    "crown_to_eye": 11,
+    "standing_chin": 50
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

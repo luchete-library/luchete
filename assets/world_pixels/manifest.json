@@ -1,0 +1,1895 @@
+{
+  "revision": 1,
+  "sprites": {
+    "tree": {
+      "size": [
+        60,
+        72
+      ],
+      "native_size": [
+        120,
+        144
+      ],
+      "anchor": [
+        30,
+        67
+      ],
+      "density": 2
+    },
+    "snow_tree": {
+      "size": [
+        60,
+        72
+      ],
+      "native_size": [
+        120,
+        144
+      ],
+      "anchor": [
+        30,
+        67
+      ],
+      "density": 2
+    },
+    "cottage": {
+      "size": [
+        70,
+        59
+      ],
+      "native_size": [
+        140,
+        118
+      ],
+      "anchor": [
+        35,
+        58
+      ],
+      "density": 2
+    },
+    "bench": {
+      "size": [
+        65,
+        35
+      ],
+      "native_size": [
+        130,
+        70
+      ],
+      "anchor": [
+        32,
+        32
+      ],
+      "density": 2
+    },
+    "garden": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yato_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yato_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yato_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yato_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_danming_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_danming_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_danming_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_danming_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_kubby_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_kubby_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_kubby_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_kubby_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yune_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yune_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yune_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_yune_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_dori_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_dori_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_dori_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_dori_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_fuwa_0": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_fuwa_1": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_fuwa_2": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "story_fuwa_3": {
+      "size": [
+        452,
+        289
+      ],
+      "native_size": [
+        904,
+        578
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "density": 2
+    },
+    "fan_yato": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "fan_danming": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "fan_kubby": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "fan_yune": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "fan_dori": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "fan_fuwa": {
+      "size": [
+        64,
+        64
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        58
+      ],
+      "density": 1
+    },
+    "prop_notice": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_card": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_charm": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_stone": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_sack": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_satchel": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_library_door": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_shutter": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_ring": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_chime": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_lens": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_gate": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_bell": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_lantern": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_ember": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_glow": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_rift": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_nightmare": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_arrows": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_quill": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_boot": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_hamster": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "prop_paw": {
+      "size": [
+        40,
+        48
+      ],
+      "native_size": [
+        80,
+        96
+      ],
+      "anchor": [
+        20,
+        34
+      ],
+      "density": 2
+    },
+    "role_yato_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_yato_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_yato_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_danming_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_danming_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_danming_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_kubby_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_kubby_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_kubby_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_yune_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_yune_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_yune_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_dori_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_dori_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_dori_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_fuwa_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_fuwa_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "role_fuwa_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_0": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_1": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_2": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_00": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_01": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_02": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_03": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_04": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_05": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_06": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_07": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_08": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_09": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_10": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_11": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_12": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_13": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_14": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_15": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_16": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_17": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_18": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_19": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_20": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_21": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_22": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "traveler_walk_23": {
+      "size": [
+        42,
+        56
+      ],
+      "native_size": [
+        84,
+        112
+      ],
+      "anchor": [
+        21,
+        53
+      ],
+      "density": 2
+    },
+    "dream_pool": {
+      "size": [
+        104,
+        48
+      ],
+      "native_size": [
+        208,
+        96
+      ],
+      "anchor": [
+        52,
+        24
+      ],
+      "density": 2
+    },
+    "dream_bed": {
+      "size": [
+        66,
+        34
+      ],
+      "native_size": [
+        132,
+        68
+      ],
+      "anchor": [
+        33,
+        28
+      ],
+      "density": 2
+    },
+    "bush": {
+      "size": [
+        36,
+        24
+      ],
+      "native_size": [
+        72,
+        48
+      ],
+      "anchor": [
+        18,
+        23
+      ],
+      "density": 2
+    },
+    "burrow": {
+      "size": [
+        48,
+        32
+      ],
+      "native_size": [
+        96,
+        64
+      ],
+      "anchor": [
+        24,
+        30
+      ],
+      "density": 2
+    },
+    "rabbit": {
+      "size": [
+        22,
+        26
+      ],
+      "native_size": [
+        44,
+        52
+      ],
+      "anchor": [
+        11,
+        23
+      ],
+      "density": 2
+    },
+    "decor_supplies": {
+      "size": [
+        52,
+        44
+      ],
+      "native_size": [
+        104,
+        88
+      ],
+      "anchor": [
+        26,
+        39
+      ],
+      "density": 2
+    },
+    "decor_flowers": {
+      "size": [
+        58,
+        38
+      ],
+      "native_size": [
+        116,
+        76
+      ],
+      "anchor": [
+        29,
+        34
+      ],
+      "density": 2
+    },
+    "decor_logs": {
+      "size": [
+        56,
+        39
+      ],
+      "native_size": [
+        112,
+        78
+      ],
+      "anchor": [
+        28,
+        35
+      ],
+      "density": 2
+    },
+    "decor_well": {
+      "size": [
+        50,
+        55
+      ],
+      "native_size": [
+        100,
+        110
+      ],
+      "anchor": [
+        25,
+        50
+      ],
+      "density": 2
+    },
+    "decor_market": {
+      "size": [
+        68,
+        59
+      ],
+      "native_size": [
+        136,
+        118
+      ],
+      "anchor": [
+        34,
+        55
+      ],
+      "density": 2
+    },
+    "decor_laundry": {
+      "size": [
+        70,
+        42
+      ],
+      "native_size": [
+        140,
+        84
+      ],
+      "anchor": [
+        35,
+        38
+      ],
+      "density": 2
+    },
+    "decor_lantern": {
+      "size": [
+        34,
+        56
+      ],
+      "native_size": [
+        68,
+        112
+      ],
+      "anchor": [
+        14,
+        52
+      ],
+      "density": 2
+    },
+    "decor_rack": {
+      "size": [
+        61,
+        56
+      ],
+      "native_size": [
+        122,
+        112
+      ],
+      "anchor": [
+        30,
+        51
+      ],
+      "density": 2
+    },
+    "decor_arrow_bin": {
+      "size": [
+        40,
+        51
+      ],
+      "native_size": [
+        80,
+        102
+      ],
+      "anchor": [
+        20,
+        47
+      ],
+      "density": 2
+    },
+    "decor_spools": {
+      "size": [
+        44,
+        48
+      ],
+      "native_size": [
+        88,
+        96
+      ],
+      "anchor": [
+        22,
+        44
+      ],
+      "density": 2
+    },
+    "decor_dream_arch": {
+      "size": [
+        70,
+        73
+      ],
+      "native_size": [
+        140,
+        146
+      ],
+      "anchor": [
+        35,
+        69
+      ],
+      "density": 2
+    },
+    "decor_dream_island": {
+      "size": [
+        57,
+        39
+      ],
+      "native_size": [
+        114,
+        78
+      ],
+      "anchor": [
+        28,
+        34
+      ],
+      "density": 2
+    },
+    "decor_dream_curtain": {
+      "size": [
+        55,
+        51
+      ],
+      "native_size": [
+        110,
+        102
+      ],
+      "anchor": [
+        27,
+        47
+      ],
+      "density": 2
+    },
+    "decor_snowbank": {
+      "size": [
+        74,
+        41
+      ],
+      "native_size": [
+        148,
+        82
+      ],
+      "anchor": [
+        37,
+        36
+      ],
+      "density": 2
+    },
+    "decor_ice_rock": {
+      "size": [
+        52,
+        48
+      ],
+      "native_size": [
+        104,
+        96
+      ],
+      "anchor": [
+        26,
+        44
+      ],
+      "density": 2
+    },
+    "decor_stone_lamp": {
+      "size": [
+        38,
+        44
+      ],
+      "native_size": [
+        76,
+        88
+      ],
+      "anchor": [
+        19,
+        40
+      ],
+      "density": 2
+    },
+    "decor_sign": {
+      "size": [
+        39,
+        43
+      ],
+      "native_size": [
+        78,
+        86
+      ],
+      "anchor": [
+        18,
+        39
+      ],
+      "density": 2
+    },
+    "decor_fence": {
+      "size": [
+        67,
+        32
+      ],
+      "native_size": [
+        134,
+        64
+      ],
+      "anchor": [
+        33,
+        28
+      ],
+      "density": 2
+    }
+  }
+}

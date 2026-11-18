@@ -1,0 +1,17 @@
+{
+  "odanming_idle": {
+    "label": "단밍 · 서큐버스 의상", "member": "danming", "verified": true, "additional": true,
+    "price": 180, "rank": 1, "source": "https://www.youtube.com/watch?v=S23dgOEiSbs",
+    "released": "2026-02-22", "verification": "Member archive title and official video thumbnail; visible headwear, collar and bodice matched. Full VOD not watched.", "balance": "provisional"
+  },
+  "danming_racing": {
+    "label": "단밍 · 레이싱 의상", "member": "danming", "verified": true, "additional": true,
+    "price": 240, "rank": 2, "source": "https://www.youtube.com/watch?v=r0oktscqoos",
+    "released": "2026-10-17", "verification": "Member archive title and official video thumbnail; white/black/red racing jacket matched. Full VOD not watched.", "balance": "provisional"
+  },
+  "hamkubby_idle": {
+    "label": "쿠비 · 베레모 교복", "member": "kubby", "verified": true, "additional": true,
+    "price": 180, "rank": 1, "source": "https://www.youtube.com/watch?v=WIhKjXGmlGA",
+    "released": "2026-04-25", "verification": "Member archive title and official video thumbnail; beret, horns and collar matched. Full VOD not watched.", "balance": "provisional"
+  }
+}

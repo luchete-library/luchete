@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1d2530">
+  <link rel="icon" href="data:,">
+  <meta name="description" content="리스텔라 비공식 팬게임. 여섯 스텔라의 이야기를 만나고 루체테 도서관을 함께 재건하세요.">
+  <title>루체테 · 도서관 밸리</title>
+  <style>
+    [hidden]{display:none!important}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#141c26;color:#f4e3c3;font-family:system-ui,sans-serif}
+    #canvas{display:block;width:100%;height:100%;outline:none;image-rendering:pixelated}
+    #loading{position:fixed;inset:0;display:grid;place-items:center;background:radial-gradient(ellipse at top,#344355,#131b25 72%);padding:24px}
+    article{width:min(560px,100%);border:2px solid #b18c55;padding:36px;background:#212b38;box-shadow:0 0 0 6px #151d28,0 16px 70px #0008;text-align:center}
+    .book{display:inline-block;width:62px;height:78px;background:#a67e4e;border:5px solid #e5c28a;border-left:11px solid #806039;box-shadow:5px 5px #0e1522;margin:8px 0 20px;position:relative}
+    .book:after{content:'✦';position:absolute;inset:12px 0;font-size:30px;color:#ffe4a9}
+    h1{margin:0 0 7px;font-size:34px;letter-spacing:4px}p{line-height:1.7}small{display:block;color:#c8bfae;font-size:13px;line-height:1.8}
+    button{font:inherit;cursor:pointer;padding:13px 30px;border:2px solid #f0cf98;background:#c79c60;color:#201c21;font-weight:700;margin:22px 0 15px}button:focus-visible{outline:3px solid white;outline-offset:4px}
+    button:disabled{opacity:.5;cursor:wait}progress{display:block;width:100%;height:14px;accent-color:#d7af74;margin:24px 0 12px}
+    #status{min-height:28px;color:#f1d5a8}#error{color:#ffd3b8;white-space:pre-wrap}noscript{position:absolute;inset:20%;background:#202938;padding:30px}
+  </style>
+  $GODOT_HEAD_INCLUDE
+</head>
+<body>
+  <canvas id="canvas" tabindex="0" aria-label="루체테 게임 화면">WebGL 2.0을 지원하는 브라우저가 필요해요.</canvas>
+  <div id="loading"><article>
+    <span class="book" aria-hidden="true"></span>
+    <h1>루체테</h1><p>여섯 스텔라와 함께 다시 여는 도서관</p>
+    <small>리스텔라 비공식 팬게임 · PC 키보드와 마우스 권장</small>
+    <button id="start" type="button">도서관으로 들어가기</button>
+    <progress id="progress" hidden></progress><div id="status" role="status" aria-live="polite">처음 접속할 때 게임 자료를 내려받아요.</div>
+    <small>진행 상황은 이 기기의 현재 브라우저에 저장돼요.<br>브라우저 데이터를 지우거나 다른 기기를 쓰면 이어지지 않아요.</small>
+    <p id="error" role="alert" hidden></p>
+  </article></div>
+  <noscript>이 게임을 실행하려면 브라우저의 JavaScript가 필요해요.</noscript>
+  <script src="$GODOT_URL"></script>
+  <script>
+    const config = $GODOT_CONFIG;
+    const engine = new Engine(config);
+    const start = document.getElementById('start');
+    const status = document.getElementById('status');
+    const progress = document.getElementById('progress');
+    const canvas = document.getElementById('canvas');
+    canvas.addEventListener('contextmenu', event => event.preventDefault());
+    window.addEventListener('keydown', event => {
+      if (document.activeElement === canvas && ['F5','ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(event.key)) event.preventDefault();
+    }, {capture:true});
+    start.addEventListener('click', async () => {
+      start.disabled = true;
+      try {
+        const missing = Engine.getMissingFeatures({threads:$GODOT_THREADS_ENABLED});
+        if (missing.length) throw new Error('이 브라우저에서 실행할 수 없어요. 최신 Chrome 또는 Edge로 열어 주세요.\n' + missing.join(', '));
+        progress.hidden = false;
+        status.textContent = '도서관을 준비하고 있어요…';
+        await engine.startGame({
+          canvas,
+          onProgress(current,total) {
+            if (total > 0) {
+              progress.max = total; progress.value = current;
+              status.textContent = current < total ? `게임 자료 준비 중 · ${Math.floor(current/total*100)}%` : '책과 캐릭터를 배치하고 있어요…';
+            }
+          }
+        });
+        document.getElementById('loading').remove();
+        canvas.focus();
+      } catch(error) {
+        console.error(error);
+        const notice = document.getElementById('error');
+        notice.hidden = false;
+        notice.textContent = '게임을 시작하지 못했어요. 페이지를 새로고침한 뒤 다시 시도해 주세요.\n' + String(error.message || error);
+        status.textContent = '실행 준비에 실패했어요.';
+      }
+    });
+  </script>
+</body>
+</html>

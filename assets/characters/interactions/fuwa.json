@@ -1,0 +1,643 @@
+{
+  "member": "fuwa",
+  "name": "하쿠텐 후와",
+  "costume": "hakuten_fuwa_idle",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "welcome",
+      "label": "힘찬 손인사",
+      "description": "Ready, raise one sleeve-covered hand, energetic small wave with bright eyes and closed friendly smile, lower arm.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          26,
+          18,
+          69,
+          104
+        ],
+        [
+          26,
+          18,
+          73,
+          104
+        ],
+        [
+          26,
+          18,
+          68,
+          104
+        ],
+        [
+          26,
+          18,
+          72,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          48.5,
+          45.0,
+          0.0
+        ],
+        [
+          48.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.14,
+        0.16,
+        0.51,
+        0.35,
+        0.32
+      ],
+      "travel_seconds": [
+        0.12,
+        0.14,
+        0.17,
+        0.26,
+        0.28
+      ]
+    },
+    {
+      "id": "resolve",
+      "label": "한 번 더 응원",
+      "description": "Ready, form a small fist at chest, determined warm smile and gentle whole-body forward weight shift, relax fist.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.27,
+        0.76,
+        0.42,
+        0.35
+      ],
+      "travel_seconds": [
+        0.14,
+        0.19,
+        0.21,
+        0.33,
+        0.3
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "차분히 집중",
+      "description": "Ready, bring both hands together near chest as if concentrating, steady gaze with small determined nod, release hands. No spell effects or weapons.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          19,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.26,
+        0.33,
+        0.89,
+        0.48,
+        0.38
+      ],
+      "travel_seconds": [
+        0.2,
+        0.26,
+        0.29,
+        0.36,
+        0.34
+      ]
+    },
+    {
+      "id": "relief",
+      "label": "텐비를 보고 안심",
+      "description": "Ready attentive gaze, hand over chest, soften shoulders and close eyes in a small relieved smile, lower hand.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          19,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.28,
+        0.37,
+        0.94,
+        0.56,
+        0.46
+      ],
+      "travel_seconds": [
+        0.22,
+        0.29,
+        0.33,
+        0.41,
+        0.41
+      ]
+    },
+    {
+      "id": "read",
+      "label": "차근차근 문장 짚기",
+      "description": "Hold open book; sit on invisible chair with kimono draping naturally; trace one line with finger while nodding with focused eyes; close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          26,
+          22,
+          67,
+          104
+        ],
+        [
+          26,
+          21,
+          67,
+          104
+        ],
+        [
+          26,
+          22,
+          67,
+          104
+        ],
+        [
+          26,
+          22,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          48.5,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "후 하고 차 식히기",
+      "description": "Hold cup low; sit on invisible chair; raise cup below lips and gently blow with tiny pursed mouth then sip, no steam graphics; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          26,
+          21,
+          67,
+          104
+        ],
+        [
+          26,
+          21,
+          67,
+          104
+        ],
+        [
+          26,
+          21,
+          67,
+          104
+        ],
+        [
+          26,
+          21,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          48.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          48.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "자세를 가다듬고 호흡",
+      "description": "Stand ready; bring palms together and bend knees; sit cross-legged with straight relaxed back and calm closed eyes; begin to stand, halo remains intact.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          26,
+          25,
+          67,
+          104
+        ],
+        [
+          26,
+          24,
+          67,
+          104
+        ],
+        [
+          26,
+          26,
+          67,
+          104
+        ],
+        [
+          26,
+          25,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          52.0,
+          0.0
+        ],
+        [
+          47.5,
+          51.0,
+          0.0
+        ],
+        [
+          47.5,
+          52.84375,
+          0.0
+        ],
+        [
+          47.5,
+          51.5,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "텐비에게 힘내는 인사",
+      "description": "Ready, lift one hand, warm energetic wave then small encouraging fist with determined gentle smile, lower arm.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ],
+        [
+          26,
+          18,
+          67,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "신사에서 술식을 익히고 텐비를 찾으러 눈산으로 들어간 음양사라는 배경을 참고한다. 집중과 응원 동작은 팬게임 해석이다.",
+  "source": "https://listella.tv/stella/fuwa",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 26,
+    "eye_to_chin": 7,
+    "crown_to_eye": 12,
+    "standing_chin": 52
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "virtual_size": [
+    1280,
+    800
+  ],
+  "private_offset": [
+    1280,
+    0
+  ],
+  "approval": "User approved the library concept and individual living spaces and requested reconstruction-stage integration on 2026-11-18.",
+  "assets": {
+    "library_finished": {
+      "file": "library_finished.png",
+      "source": "artifacts/library_lived_in_proposal_20261118/library_concept.png"
+    },
+    "library_abandoned": {
+      "file": "library_abandoned.png",
+      "generated_source": "exec-7cd2032e-cc9e-43da-8d74-ba03b4282f69.png",
+      "purpose": "Aligned unreconstructed variant of the approved library."
+    },
+    "personal_spaces": {
+      "file": "personal_spaces.png",
+      "generated_source": "exec-acad9a18-5cf3-443a-b3a1-3d108a97875d.png",
+      "reference": "artifacts/library_lived_in_proposal_20261118/personal_spaces_concept.png",
+      "edit_prompt": "Edit this approved pixel-art game interior into a production-walkable map. Preserve the entire image composition, perspective, rich tiny pixel detail, warm lighting, and all SIX highly individualized rooms, their original color palettes, beds, sofas, streaming desks and accessories. No people, no text, no UI. Maintain landscape 16:10. The ONLY required architectural change is to connect the three lower rooms to the central horizontal landing with two narrow realistic wooden corridors between the lower rooms. Describe positions using a virtual 1280x800 canvas: left vertical corridor x398..440 from y376 down to y734, right vertical corridor x842..903 from y405 down to y739. Each must look like an intentional built interior passage with clean plank floor, carved low timber trim, shadow, NO tall wall blocking walking. Lower left room has open doorway in its right wall around x379..440,y632..685; lower middle has open doorway in its right wall x817..903,y636..691; lower right has open doorway in its left wall x895..946,y650..709. Keep all other furniture fixed as much as possible. Remove only the thin wall portions these narrow passages and doorways need, retaining convincing corner posts and cutaway wall ends. Do NOT extend a passage across the bottom of the picture. Do NOT repeat decorative rug patterns into the corridors. Preserve every upper room and the central landing. This is a polished native pixel-art background for a working top-down life-simulation game, not a diagram."
+    }
+  },
+  "notes": [
+    "Environment concept art generated with imagegen; architectural passages adjusted for walking.",
+    "Existing authored character sprites are rendered separately without regeneration.",
+    "Bedroom furnishings and artisan are fan-game interior/supporting-NPC designs, not verified official character lore."
+  ]
+}

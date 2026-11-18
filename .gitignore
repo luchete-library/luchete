@@ -1,9 +1,15 @@
-# Godot files to ignore
-.import/
-.export/
-.sync/
-*.import
-*.mono
-*.temp
+.godot/
+artifacts/
+.cache/
+build/
+.codex-remote-attachments/
+.codex/
+.agents/
+.env
+.env.*
 *.log
 *.tmp
+__pycache__/
+*.pyc
+.DS_Store
+

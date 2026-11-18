@@ -1,0 +1,112 @@
+{
+  "yato": {
+    "name":"야토", "costume":"yato_idle", "idle_row":0,
+    "identity":"Yato is HUMAN, no animal ears, no halo, no tail. Long honey-gold hair, dark brown inner curls, two black hair bows, ruby amber eyes, white gold-trim mantle, white shorts and white high boots, black belt. Preserve this EXACT outfit and chibi proportions.",
+    "basis":"토끼에게 길러진 인간으로 자신의 정체성을 찾아 나선 배경, 자기 이야기를 노래로 전하는 모습. 아래 반응은 팬게임 연출이다.",
+    "source":"https://listella.tv/stella/yato",
+    "social":[
+      ["welcome","반갑게 손인사","Ready attentive eyes, raise right hand, broad friendly WAVE with small closed smile and body leaning a little forward, gently lower hand."],
+      ["curious","궁금한 눈빛","Notice the visitor, bring a hand lightly near chin, tilt entire head with curious bright eyes while shoulders follow, straighten softly."],
+      ["cheer","작은 응원","Ready hands by waist, draw both small fists towards chest, determined warm smile with a little forward weight shift, relax hands."],
+      ["bashful","수줍은 미소","Notice compliment, touch one hair lock at chest level, look slightly aside with subtle cheek blush and tiny closed smile, lower hand."]
+    ],
+    "furniture":[
+      ["read","고개를 기울여 독서","Hold a small open book; bend knees to sit on an invisible chair; read with curious head tilt and one finger tracing a line; close book while rising."],
+      ["tea","한 모금 뒤 미소","Hold one small cup low; settle into an invisible chair; carefully sip with eyelids softly closed then a tiny satisfied smile; lower cup while rising."],
+      ["yoga","차분하게 중심 잡기","Stand ready; gently bend knees with hands at chest; sit cross-legged with shoulders relaxed and eyes closed; uncross legs and begin standing."],
+      ["stream","마토에게 손인사","Stand attentive; lift one hand towards off-screen camera; lively friendly wave with slight head tilt and tiny closed smile; lower hand and nod."]
+    ]
+  },
+  "danming": {
+    "name":"오단밍", "costume":"odanming_idle", "idle_row":6,
+    "social_source":"danming_interactions_social_v2.png",
+    "identity":"Odanming: pale buttery blond short bob with strawberry-pink tips and side braid; tiny black bat hair ornaments; ruby eyes; tiny red cheek heart; two dark bat wings clearly separate behind burgundy tiered dress; black boots. Preserve all wings and clothes, no halo.",
+    "basis":"사람들과 소통에 재능이 있는 사랑의 요정이라는 데뷔 배경을 참고한다. 현재 서큐버스 의상과 데뷔 당시 요정 외형을 혼합하지 않는다.",
+    "source":"https://listella.tv/stella/odanming",
+    "social":[
+      ["welcome","장난스러운 인사","Notice visitor, raise hand near cheek, little playful wave with a single-eye wink and tiny closed smile, lower hand."],
+      ["heart","작은 하트","Prepare hands at chest, bring thumb and index finger together, show a small finger-heart gesture with warm smile, relax hands. No floating heart effects."],
+      ["ponder","골똘히 생각","Notice question, one hand under chin, tilt head a little and focus eyes thoughtfully, nod then release hand."],
+      ["proud","뿌듯한 끄덕임","Relaxed ready stance, place one hand on hip, small confident nod with closed-mouth pleased smile, release hand."]
+    ],
+    "furniture":[
+      ["read","문장을 짚으며 읽기","Ready holding open book; bend knees into invisible chair; follow a line with fingertip and attentive pleased eyes; close book while rising."],
+      ["tea","살짝 잔을 들어 인사","Ready holding cup; sit on invisible chair; lift cup a little in friendly greeting then sip without covering eyes; lower cup while rising."],
+      ["yoga","호흡에 맞춰 손 모으기","Stand ready; bring palms together at chest and bend knees; sit cross-legged with palms together and relaxed closed eyes; uncross legs to stand."],
+      ["stream","버리에게 하트 인사","Stand ready; raise hand toward camera; playful small finger-heart with wink while wings remain attached behind shoulders; lower hand."]
+    ]
+  },
+  "kubby": {
+    "name":"햄쿠비", "costume":"hamkubby_idle", "idle_row":9,
+    "furniture_source":"kubby_interactions_furniture_v2.png",
+    "identity":"Hamkubby: short warm taupe brown bob with bold mint green forelock, two short oni horns, green eyes, dark beret, cream oversized sweater, black crossbody satchel, charcoal pleated skirt and dark footwear. An ICE ONI, not a hamster; no animal ears or halo. Preserve green strand and both horns.",
+    "basis":"햄스터에게 오히려 놀란 얼음 도깨비이며 여러 감정을 알고 싶어 한다는 공식 배경을 참고한다.",
+    "source":"https://listella.tv/stella/hamkubby",
+    "social":[
+      ["startled","깜짝 놀랐다 안심","Ready, small shoulder lift and hands near chest, wide startled eyes with tiny round mouth then soften, relax with small reassuring smile. Feet stay planted."],
+      ["relief","휴 하고 안도","Ready attentive eyes, hand over chest, exhale with relaxed closed eyes and small smile, lower hand."],
+      ["curious","한 발짝 궁금해","Ready, lean upper body slightly forward with connected neck and hip, tilt head to inspect visitor with bright curious green eyes, straighten. Feet stay planted."],
+      ["rhythm","신나는 박자","Ready hands low, bring palms near chest, tiny cheerful rhythmic clap with small closed smile and head nod, release hands. No music-note effects."]
+    ],
+    "furniture":[
+      ["read","깜짝 문장 다시 읽기","Hold open book; sit on invisible chair; eyes briefly widen over a page then curious smile while pointing to it; close book while rising."],
+      ["tea","조심조심 차 한 잔","Hold cup with both hands; sit on invisible chair; carefully bring cup near lips and take small sip with relaxed eyes; lower cup while rising."],
+      ["yoga","긴장 풀고 호흡","Stand ready shoulders a little high; bend knees with palms together; sit cross-legged and lower shoulders with closed peaceful eyes; begin to stand."],
+      ["stream","햄님과 박자 맞추기","Stand ready; lift hands gently; smile warmly with tiny rhythmic hand clap and whole-head nod toward camera; hands return to sides."]
+    ]
+  },
+  "yune": {
+    "name":"아미하 유네", "costume":"amiha_yune_idle", "idle_row":11,
+    "identity":"Amiha Yune: dark plum hair, saturated violet eyes, pale ivory gauze hooded veil, tilted golden dreamcatcher halo and single dangling charm, long ivory gown with dark violet central panel. Preserve veil/hair boundaries and halo shape in EVERY pose. Not Ete: no monocle, no blue cloak.",
+    "basis":"드림캐처에서 태어나 악몽을 없애고 좋은 꿈을 지키는 정령이라는 배경을 참고한다. 느린 동작은 꿈 모티프의 팬게임 해석이다.",
+    "source":"https://listella.tv/stella/yune",
+    "social":[
+      ["welcome","조용한 손인사","Ready open gentle eyes; raise hand near shoulder; slow small wave with gentle closed-mouth smile; lower hand."],
+      ["listen","고개 기울여 듣기","Notice visitor, incline whole head a little, hand lightly at chest with attentive warm eyes, straighten softly."],
+      ["dreamy","꿈결 같은 눈깜박임","Ready, eyelids grow half closed and hand lightly covers mouth, brief sleepy blink with head dipping but no wide mouth, reopen eyes and straighten."],
+      ["reassure","안심시키는 손짓","Ready, lift open palm low at chest, offer gentle palm-out reassuring gesture with small smile and relaxed shoulders, lower hand."]
+    ],
+    "furniture":[
+      ["read","꿈의 문장 따라 읽기","Hold open book; bend into invisible chair with gown draping naturally; read quietly with gentle downward gaze and finger at page; close book while rising."],
+      ["tea","두 손으로 따뜻한 잔","Hold cup with both hands; sit on invisible chair with gown draped; savor small sip with eyelids softly closed; lower cup while rising."],
+      ["yoga","눈 감고 고른 호흡","Stand ready; gather hands at chest and lower body; sit cross-legged under naturally pooled gown with closed peaceful eyes and shoulders relaxed; begin to stand."],
+      ["stream","몽치에게 다정한 인사","Ready gentle eyes, bring hand close to heart, small slow wave toward camera and warm head tilt, lower hand. Preserve halo and veil."]
+    ]
+  },
+  "dori": {
+    "name":"쇼코코 도리", "costume":"shokoko_dori_idle", "idle_row":13,
+    "identity":"Shokoko Dori: ash gray and pink inner hair in two OPEN LOOP pigtails with visible transparent holes, black frilled detective cap with tanuki ears and pink band, pink eyes, small charcoal cape, bold pink chest bow, dark skirt and boots. Preserve pale-pink floating ornament from reference, no new halo.",
+    "basis":"너구리 탐정 지망생이며 처음 탐정으로 인정받는 데뷔 배경을 참고한다. 돋보기와 추리 손짓은 팬게임 일상 소품 연출이다.",
+    "source":"https://listella.tv/stella/dori",
+    "social":[
+      ["salute","탐정 모자 인사","Ready, raise fingers to cap brim, confident little salute with small closed smile and head tilt, lower hand. Keep hat attached."],
+      ["inspect","잠깐 관찰","Ready, bring small magnifying glass from waist to chest, inspect through it held BELOW eyes with curious focused expression, lower it. No giant distorted eye."],
+      ["idea","단서가 떠올랐어","Ready thoughtful eyes, lift one index finger near shoulder, small pleased nod as if an idea appeared, lower hand. No lightbulb effects."],
+      ["bashful","쑥스러운 탐정님","Ready, touch cheek with one finger, glance aside with tiny blush and shy closed smile, lower hand and straighten."]
+    ],
+    "furniture":[
+      ["read","돋보기로 문장 살피기","Hold open notebook; sit on invisible chair; use small magnifier over the page below face with curious eyes; put it away and close book while rising."],
+      ["tea","생각하며 차 한 모금","Hold small cup; sit on invisible chair; thoughtful head tilt then tiny sip with relaxed eyes; lower cup while rising."],
+      ["yoga","모자 고쳐 쓰고 호흡","Stand ready adjusting cap brim; bend knees and lower hands; sit cross-legged hands on knees with closed relaxed eyes; begin to stand without losing hat."],
+      ["stream","돌돌이에게 탐정 인사","Stand ready, touch cap brim, tiny confident salute then small wave with closed smile at camera, lower hand."]
+    ]
+  },
+  "fuwa": {
+    "name":"하쿠텐 후와", "costume":"hakuten_fuwa_idle", "idle_row":14,
+    "identity":"Hakuten Fuwa: paper-white blunt bob, pale blue streak, cyan eyes, white ruffled hair band and side buns, small white animal-face clip on viewer LEFT, large blue ice flower and long dark blue tassel on viewer RIGHT, ice-blue halo, blue-white kimono sleeves and blue waist bow. Preserve exact asymmetry and halo in every frame.",
+    "basis":"신사에서 술식을 익히고 텐비를 찾으러 눈산으로 들어간 음양사라는 배경을 참고한다. 집중과 응원 동작은 팬게임 해석이다.",
+    "source":"https://listella.tv/stella/fuwa",
+    "social":[
+      ["welcome","힘찬 손인사","Ready, raise one sleeve-covered hand, energetic small wave with bright eyes and closed friendly smile, lower arm."],
+      ["resolve","한 번 더 응원","Ready, form a small fist at chest, determined warm smile and gentle whole-body forward weight shift, relax fist."],
+      ["focus","차분히 집중","Ready, bring both hands together near chest as if concentrating, steady gaze with small determined nod, release hands. No spell effects or weapons."],
+      ["relief","텐비를 보고 안심","Ready attentive gaze, hand over chest, soften shoulders and close eyes in a small relieved smile, lower hand."]
+    ],
+    "furniture":[
+      ["read","차근차근 문장 짚기","Hold open book; sit on invisible chair with kimono draping naturally; trace one line with finger while nodding with focused eyes; close book while rising."],
+      ["tea","후 하고 차 식히기","Hold cup low; sit on invisible chair; raise cup below lips and gently blow with tiny pursed mouth then sip, no steam graphics; lower cup while rising."],
+      ["yoga","자세를 가다듬고 호흡","Stand ready; bring palms together and bend knees; sit cross-legged with straight relaxed back and calm closed eyes; begin to stand, halo remains intact."],
+      ["stream","텐비에게 힘내는 인사","Ready, lift one hand, warm energetic wave then small encouraging fist with determined gentle smile, lower arm."]
+    ]
+  }
+}

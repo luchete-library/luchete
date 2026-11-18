@@ -1,0 +1,3321 @@
+{
+  "checked_on": "2026-11-15",
+  "audit_scope": "public_listing_and_selected_metadata",
+  "public_video_links": 3772,
+  "recorded_entries": 100,
+  "announcement_entries": 1,
+  "volumes": [
+    {
+      "id": "yato",
+      "title": "야토",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "a46632",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "yato_H5TE0hFUlLM",
+          "title": "야토의 데뷔 방송",
+          "date": "2023.06.03",
+          "sort_date": "2023-06-03",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "야토가 처음 인사한 데뷔 방송이에요. 이후의 주년 기록을 읽기 전에 출발점부터 만나볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=H5TE0hFUlLM",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "리스텔라 야토 데뷔하러 등장! [230603]"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/H5TE0hFUlLM.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_sTk8yUao-gw",
+          "title": "팬네임을 정하던 날",
+          "date": "2023.06.04",
+          "sort_date": "2023-06-04",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "데뷔 다음 날, 팬네임을 정하는 시간을 담은 방송이에요. 제목에 함께 적힌 ‘안팔아요’ 코너도 같은 다시보기에 남아 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=sTk8yUao-gw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "팬네임 정하기 + 안팔아요 [230604]"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/sTk8yUao-gw.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_FO3Ot3LRojQ",
+          "title": "야탄일 · 생일 방송",
+          "date": "2024.01.18",
+          "sort_date": "2024-01-18",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "‘야탄일’이라는 제목으로 남은 생일 방송이에요. 야토가 팬들과 생일을 맞이한 기록을 꺼내볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=FO3Ot3LRojQ",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "^생일^ 야탄일 [240118]"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/FO3Ot3LRojQ.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_AQDL_yrEkWA",
+          "title": "2024년 3D 데뷔",
+          "date": "2024.03.04",
+          "sort_date": "2024-03-04",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "2024년 3월에 남겨진 3D 데뷔 방송이에요. 2026년의 3D 리뉴얼 공개와는 다른 시기의 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=AQDL_yrEkWA",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "🐇야토 3D 데뷔🥕 [240304]"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/AQDL_yrEkWA.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_nfymca0B20I",
+          "title": "어린이날 · 새로운 모습",
+          "date": "2024.05.05",
+          "sort_date": "2024-05-05",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "어린이날에 ‘메스카키 버튜버 데뷔’라는 제목으로 진행한 특별 방송이에요. 야토의 첫 데뷔 방송과 구분해 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=nfymca0B20I",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "메스카키 버튜버 데뷔✌️ [어린이 날] 24.05.05"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/nfymca0B20I.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_qC8rhRWMtw8",
+          "title": "첫 번째 주년",
+          "date": "2024.06.03",
+          "sort_date": "2024-06-03",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "오리지널 곡 공개, 데뷔 방송 다시보기, 돌잡이와 축전, 시청자 이벤트와 질문 시간이 담긴 첫 주년 방송이에요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=qC8rhRWMtw8",
+              "kind": "member_vod"
+            },
+            {
+              "label": "돌잡이 · 2:41:18",
+              "url": "https://www.youtube.com/watch?v=qC8rhRWMtw8&t=9678s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "야토 데뷔 1주년 🐰🥕 [오리지널 곡 공개 + 데뷔 방송 다시보기 + 축전 보기 + 돌잡이 + 시청자 이벤트 + 1주년 기념 Q&A] 24.06.03"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/qC8rhRWMtw8.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_rcYgpdoRcBE",
+          "title": "3D 1.5 공개",
+          "date": "2024.07.19",
+          "sort_date": "2024-07-19",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "3D 1.5와 풀 트래킹을 공개한 방송이에요. 원본 설명에는 방 소개와 춤, 카페 읽기로 이어지는 시간표도 남아 있어요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=rcYgpdoRcBE",
+              "kind": "member_vod"
+            },
+            {
+              "label": "방 소개 · 21:38",
+              "url": "https://www.youtube.com/watch?v=rcYgpdoRcBE&t=1298s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "🐰야토 3D 1.5 공개🥕[풀 트래킹 + 카페 읽기] 24.07.19"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/rcYgpdoRcBE.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_iTt_ju65sNE",
+          "title": "새 의상을 공개한 날",
+          "date": "2024.07.26",
+          "sort_date": "2024-07-26",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "야토가 새 의상을 공개한 날의 방송이에요. 공개 당시의 모습은 아래 원본 다시보기에서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=iTt_ju65sNE",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "🐰야토 신의상 공개🧑‍🚀24.07.26"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/iTt_ju65sNE.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_0GvMWMQBE1w",
+          "title": "데뷔 500일",
+          "date": "2024.10.14",
+          "sort_date": "2024-10-14",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "데뷔 500일을 축하한 방송이에요. 기념 파티와 뒤이어 진행한 포켓몬 오토체스가 한 다시보기에 담겨 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=0GvMWMQBE1w",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "야토 데뷔 500일🥕[500일 축하파티 + 포켓몬 오토체스] 24.10.14"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/0GvMWMQBE1w.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_C3rXt0aBepI",
+          "title": "2024년을 보내며",
+          "date": "2024.12.31",
+          "sort_date": "2024-12-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "2024 YATY와 새해 기념 이야기, 신년 계획을 다룬 연말 방송이에요. 한 해를 보내던 시간을 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=C3rXt0aBepI",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "잘가라 2024🫂[2024 YATY + 새해 기념 잔소리 + 신년 계획] 24.12.31"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/C3rXt0aBepI.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_hNzZzTyANRY",
+          "title": "두 번째 주년",
+          "date": "2025.06.03",
+          "sort_date": "2025-06-03",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "데뷔 2주년을 기념한 방송이에요. ‘그동안 고마웠어요’라는 원본 제목으로 두 번째 주년이 남아 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=hNzZzTyANRY",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "그동안 고마웠어요❣️[데뷔 2주년] 25.06.03"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/hNzZzTyANRY.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_VGy1Md2LNSk",
+          "title": "리스텔라 신년 타로",
+          "date": "2025.12.14",
+          "sort_date": "2025-12-14",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "초롱과 함께한 리스텔라 신년 타로 방송이에요. 야토 시점의 긴 다시보기로 이어져요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=VGy1Md2LNSk",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "평생 방송할 사람📺[리스텔라 신년타로 w.초롱] 25.12.14"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/VGy1Md2LNSk.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_MPU9S-njCFk",
+          "title": "2026년 생일 방송",
+          "date": "2026.01.18",
+          "sort_date": "2026-01-18",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "‘외로운 유학생의 생일’이라는 제목으로 남은 2026년 생일 방송이에요. 생일 당일의 다시보기를 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=MPU9S-njCFk",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "외로운 유학생의 생일🎂[생일방송] 26.01.18"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/MPU9S-njCFk.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_3AIMkjjUkFk",
+          "title": "만우절 · 몸이 바뀐다면",
+          "date": "2026.04.01",
+          "sort_date": "2026-04-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "쿠비·단밍과 함께한 만우절 방송이에요. 같은 날의 다른 멤버 기록과 함께 각자의 시점으로 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=3AIMkjjUkFk",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "이 안...야토 있음...🐇[만우절 W.쿠비,단밍] 26.04.01"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/3AIMkjjUkFk.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_oWPa0JYo9DY",
+          "title": "야리 탄신 2주년",
+          "date": "2026.05.05",
+          "sort_date": "2026-05-05",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "어린이날에 ‘야리 탄신 2주년’이라는 제목으로 진행한 방송이에요. 야토 본인의 데뷔 주년과 구분해 기록했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=oWPa0JYo9DY",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "야리 탄신 2주년👶[어린이 날] 26.05.05"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/oWPa0JYo9DY.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_Al2ogQY4F_c",
+          "title": "세 번째 주년",
+          "date": "2026.06.03",
+          "sort_date": "2026-06-03",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "마토와 보낸 3년을 기념한 데뷔 3주년 방송이에요. 나뉘어 올라온 두 영상을 한 페이지에 묶었어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기 1부",
+              "url": "https://www.youtube.com/watch?v=Al2ogQY4F_c",
+              "kind": "member_vod"
+            },
+            {
+              "label": "다시보기 2부",
+              "url": "https://www.youtube.com/watch?v=MnVDcZoMieg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "마토랑 벌써 3년차⌛[3주년 -1-] 26.06.03",
+            "마토랑 벌써 3년차⌛[3주년 -2-] 26.06.03"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Al2ogQY4F_c.json",
+              "details/MnVDcZoMieg.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_69gwK2UEKyI",
+          "title": "팬미팅 후기",
+          "date": "2026.06.21",
+          "sort_date": "2026-06-21",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "팬미팅을 마친 뒤 이야기를 나눈 후기 방송이에요. 적힌 날짜는 팬미팅 개최일이 아니라 후기 방송 날짜예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=69gwK2UEKyI",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "팬미팅 후기 방송🤫[토크] 26.06.21"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/69gwK2UEKyI.json"
+            ]
+          }
+        },
+        {
+          "id": "yato_16061701",
+          "title": "3D 리뉴얼 공개",
+          "date": "2026.11.07",
+          "sort_date": "2026-11-07",
+          "date_kind": "broadcast",
+          "date_note": "치지직 다시보기의 방송 시작일 기준",
+          "status": "recorded",
+          "members": [
+            "yato"
+          ],
+          "body": "2026년 11월에 진행한 야토의 3D 리뉴얼 공개예요. 당일 치지직 다시보기와 개인 채널의 공개 영상을 함께 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "치지직 다시보기",
+              "url": "https://chzzk.naver.com/video/16061701",
+              "kind": "member_vod"
+            },
+            {
+              "label": "공개 영상",
+              "url": "https://www.youtube.com/watch?v=eRxPwMe2Qvw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[3D Debut] 야토 초특급 3D 리뉴얼 ※데뷔 지금 바로 시청 ☜",
+            "[3D Debut] 야토 초특급 3D 리뉴얼 ※데뷔 지금 바로 시청 ☜"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/16061701.json",
+              "details/eRxPwMe2Qvw.json"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "danming",
+      "title": "오단밍",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "b3617f",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "danming_eHZJ-elBDXI",
+          "title": "단밍의 데뷔 방송",
+          "date": "2024.09.15",
+          "sort_date": "2024-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "‘데뷔방송에 광고끼워넣는 신인’이라는 제목으로 남은 단밍의 데뷔 방송이에요. 달빛요정의 첫 방송 기록을 꺼내볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=eHZJ-elBDXI",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "240915 데뷔방송에 광고끼워넣는 신인"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/eHZJ-elBDXI.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_V2ay38gIJTM",
+          "title": "팬네임 맞추기 이벤트",
+          "date": "2024.09.16",
+          "sort_date": "2024-09-16",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "팬네임 맞추기 이벤트와 대화를 진행한 데뷔 다음 날 방송이에요. 버리라는 이름이 등장하는 시기의 원본 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=V2ay38gIJTM",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "240916 팬네임맞추기이벤트 + 무한동력저챗"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/V2ay38gIJTM.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_zThNkKqyXtM",
+          "title": "클리프 릴레이 노래방",
+          "date": "2024.09.18",
+          "sort_date": "2024-09-18",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "클리프 릴레이 노래방에서 K-POP을 맡은 단밍의 방송이에요. 공식 기록집의 단체 싱크룸과는 별도의 개인 순서예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=zThNkKqyXtM",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "240918 클리프 릴레이 노래방 K-POP"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/zThNkKqyXtM.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_zYcaQ6rQBrw",
+          "title": "2024년 연말결산",
+          "date": "2024.12.31",
+          "sort_date": "2024-12-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "2024년을 돌아보고 새해를 기다린 연말 방송이에요. 단밍의 첫해 끝자락을 다시 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=zYcaQ6rQBrw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "241231 2024 연말결산 & 새해대기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/zYcaQ6rQBrw.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_cYpAJR4XCxg",
+          "title": "양갈래 머리와 커버곡",
+          "date": "2025.03.14",
+          "sort_date": "2025-03-14",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "양갈래 신헤어와 커버곡을 함께 공개한 방송이에요. 공개 항목은 원본 다시보기 제목에서 확인했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=cYpAJR4XCxg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "250314 양갈래 신헤어 & 커버곡 공개!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/cYpAJR4XCxg.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_m2bWetJBqfQ",
+          "title": "만우절 · 흑단밍 데뷔",
+          "date": "2025.04.01",
+          "sort_date": "2025-04-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "만우절에 ‘흑단밍 데뷔’라는 이름으로 진행한 특별 방송이에요. 2024년의 실제 첫 데뷔와는 별개의 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=m2bWetJBqfQ",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "250401 흑단밍 데뷔"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/m2bWetJBqfQ.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_-n4kFm5wkYs",
+          "title": "첫 번째 생일 방송",
+          "date": "2025.06.01",
+          "sort_date": "2025-06-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "첫 생일 방송에서 커버곡과 굿즈를 공개한 기록이에요. 다른 날에 생일 방송을 다시 본 영상과 구분했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=-n4kFm5wkYs",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "250601 첫 생일 방송 (커버곡 굿즈 공개)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/-n4kFm5wkYs.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_p0y1Kr795lg",
+          "title": "1주년 · 예열과 후열",
+          "date": "2025.09.15",
+          "sort_date": "2025-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "1주년 예열에서는 크로마 공개와 카카오 테마 배포를, 후열에서는 데뷔 방송 다시보기와 편지 읽기를 다뤘어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "예열 방송",
+              "url": "https://www.youtube.com/watch?v=p0y1Kr795lg",
+              "kind": "member_vod"
+            },
+            {
+              "label": "후열 방송",
+              "url": "https://www.youtube.com/watch?v=sDAgxio7xeo",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "250915 1주년 예열 / 단밍 크로마 공개 / 카카오테마 배포",
+            "250915 1주년 후열 / 데뷔방송 다시보기 / 편지읽기 / 술방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/p0y1Kr795lg.json",
+              "details/sDAgxio7xeo.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_YOXTshrr7qg",
+          "title": "크리스마스 트리 읽기",
+          "date": "2025.12.25",
+          "sort_date": "2025-12-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "크리스마스 트리를 읽은 방송이에요. 연말결산과는 별도의 크리스마스 기록으로 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=YOXTshrr7qg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "251225 크리스마스 트리 읽기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/YOXTshrr7qg.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_HW5zsvjWJ6s",
+          "title": "2025년 연말정산",
+          "date": "2025.12.31",
+          "sort_date": "2025-12-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "2025년을 돌아보는 연말정산과 술방송이에요. 한 해의 마지막 날에 남겨진 다시보기예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=HW5zsvjWJ6s",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "251231 25년 연말정산 / 연말 술방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/HW5zsvjWJ6s.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_S23dgOEiSbs",
+          "title": "서큐버스 신의상 공개",
+          "date": "2026.02.22",
+          "sort_date": "2026-02-22",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "서큐버스 신의상과 달라진 얼굴을 공개한 방송이에요. 공개 당시의 모습을 원본에서 확인할 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=S23dgOEiSbs",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260222 신의상 서큐버스 + 성형 얼굴 공개!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/S23dgOEiSbs.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_SDiW4m8hofw",
+          "title": "만우절 · 몸 바꾸기",
+          "date": "2026.04.01",
+          "sort_date": "2026-04-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "흑단밍과 리스텔라 몸 바꾸기를 다룬 만우절 방송이에요. 2025년 흑단밍 방송과 날짜를 나누어 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=SDiW4m8hofw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260401 만우절 흑단밍 / 리스텔라 몸바꾸기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/SDiW4m8hofw.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_E1GsBFeZUUw",
+          "title": "두 번째 생일 방송",
+          "date": "2026.06.01",
+          "sort_date": "2026-06-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "단밍의 두 번째 생일 방송이에요. 첫 생일 기록 다음 해에 이어지는 기념일이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=E1GsBFeZUUw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260601 두번째 생일방송 술뱅송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/E1GsBFeZUUw.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_Fej3AQ7jUzU",
+          "title": "메챠 카멜레온 합방",
+          "date": "2026.06.25",
+          "sort_date": "2026-06-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "리스텔라가 함께한 메챠 카멜레온 합방의 단밍 시점이에요. 같은 날의 쿠비·도리·후와 시점도 각자의 책에 담았어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=Fej3AQ7jUzU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260625 멧차카멜레온 리스텔라 합방"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Fej3AQ7jUzU.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_4GaKNnbCtk8",
+          "title": "두 번째 팬미팅 후기",
+          "date": "2026.06.28",
+          "sort_date": "2026-06-28",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "두 번째 팬미팅을 돌아본 후기 방송이에요. 날짜는 팬미팅 당일로 바꿔 적지 않고 후기 방송 기준으로 남겼어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=4GaKNnbCtk8",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260628 두번째 팬미팅 후기방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/4GaKNnbCtk8.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_3wTQ9REYoos",
+          "title": "2주년 후열 방송",
+          "date": "2026.09.15",
+          "sort_date": "2026-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "2주년 본방송 뒤에 이어진 단밍의 후열 방송이에요. 단밍·쿠비의 공동 기념 방송은 공식 기록집에서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=3wTQ9REYoos",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "260915 2주년 후열 방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/3wTQ9REYoos.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_r0oktscqoos",
+          "title": "레이싱 신의상 공개",
+          "date": "2026.10.17",
+          "sort_date": "2026-10-17",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "레이싱 신의상을 공개한 방송이에요. 이전 서큐버스 의상 공개와 따로 묶인 새 의상 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=r0oktscqoos",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "261017 레이싱 신의상 공개"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/r0oktscqoos.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_U6dyZAT_KyU",
+          "title": "에테 데뷔 · 공지 같이보기",
+          "date": "2026.10.19",
+          "sort_date": "2026-10-19",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "danming"
+          ],
+          "body": "에테의 데뷔와 공지 방송을 함께 본 단밍의 방송이에요. 게임 속 에테의 역할과는 별개인 실제 방송 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=U6dyZAT_KyU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "261019 에테님 데뷔 + 공지방송 같이보기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/U6dyZAT_KyU.json"
+            ]
+          }
+        },
+        {
+          "id": "danming_3d_notice",
+          "title": "오단밍 3D 데뷔 예고",
+          "date": "2026.11.21 · 예정",
+          "date_note": "2026.11.15 확인 당시 · 본인 방송 제목의 일정 안내",
+          "status": "announced",
+          "members": [
+            "danming"
+          ],
+          "body": "오단밍이 치지직의 본인 방송 제목으로 11월 21일 3D 데뷔를 안내했어요.\n자료를 확인한 11월 15일에는 아직 열리기 전인 행사예요. 완료된 무대 기록과 구분해 공지만 끼워 두었어요.",
+          "note": "2026.11.15에 확인한 예고를 보관한 페이지예요. 이후 개최 여부나 일정 변경은 본인 채널에서 확인해요.",
+          "sources": [
+            {
+              "label": "본인 방송 채널",
+              "url": "https://chzzk.naver.com/f3b204dd3fd6925835ca1848cd4b6d3c",
+              "kind": "channel"
+            }
+          ],
+          "evidence": [
+            "https://chzzk.naver.com/?tracking_code=naver_search_site"
+          ],
+          "sort_date": "2026-11-21",
+          "date_kind": "announced",
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "channel_schedule_title",
+            "full_video_watched": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "kubby",
+      "title": "햄쿠비",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "5f885b",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "kubby_gj_0ibrZmds",
+          "title": "쿠비의 데뷔 방송",
+          "date": "2024.09.15",
+          "sort_date": "2024-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "쿠비의 데뷔 방송이에요. 원본 설명에 오리지널 곡, 스토리, 데뷔 소개와 마무리 랩의 시간표가 남아 있어요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=gj_0ibrZmds",
+              "kind": "member_vod"
+            },
+            {
+              "label": "스토리 · 05:44",
+              "url": "https://www.youtube.com/watch?v=gj_0ibrZmds&t=344s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "[24.09.15] 멋지게 노래하고 신인행동 해버린 데뷔방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/gj_0ibrZmds.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_bxxxJpwpUCA",
+          "title": "클리프 릴레이 노래방",
+          "date": "2024.09.18",
+          "sort_date": "2024-09-18",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "클리프 릴레이 노래방에서 J-POP을 맡은 쿠비의 방송이에요. 곡별 시간표는 원본 설명에서도 확인할 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=bxxxJpwpUCA",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[24.09.18] 클리프 릴레이 노래방 JPOP"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/bxxxJpwpUCA.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_2p_wERFMpSU",
+          "title": "팬네임을 정하던 날",
+          "date": "2024.09.22",
+          "sort_date": "2024-09-22",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "팬네임을 정하고 맞춤법 용사를 진행한 방송이에요. 원본 설명의 시간표를 따라 팬네임 정하기 코너로 바로 갈 수 있어요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=2p_wERFMpSU",
+              "kind": "member_vod"
+            },
+            {
+              "label": "팬네임 정하기 · 1:22:42",
+              "url": "https://www.youtube.com/watch?v=2p_wERFMpSU&t=4962s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "[24.09.22] 팬네임 정하기 + 맞춤법 용사"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/2p_wERFMpSU.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_UGE9CwaKV2c",
+          "title": "데뷔 100일 방송",
+          "date": "2024.12.23",
+          "sort_date": "2024-12-23",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "데뷔 100일을 맞은 쿠비의 개인 방송이에요. 같은 날의 클리프 공동 합방은 공식 기록집에 따로 담았어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=UGE9CwaKV2c",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[24.12.23] 데뷔 100일 방송 !"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/UGE9CwaKV2c.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_MBF1_0Eju8A",
+          "title": "2024 HAMTY와 새해맞이",
+          "date": "2024.12.31",
+          "sort_date": "2024-12-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "2024 HAMTY와 연말 합방, 새해 일출을 기다린 방송이에요. 한 해의 마지막 날부터 새해로 이어지는 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=MBF1_0Eju8A",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[24.12.31] 2024 HAMTY + 연말 칠쌍파 합방 +  2025 새해 일출 같이보기 !"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/MBF1_0Eju8A.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_V8Mo6j1EwBM",
+          "title": "새해 햄님 설문조사",
+          "date": "2025.01.01",
+          "sort_date": "2025-01-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "새해를 맞아 햄님 설문조사를 진행한 방송이에요. 원본 설명에 설문조사를 시작하는 시간이 적혀 있어요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=V8Mo6j1EwBM",
+              "kind": "member_vod"
+            },
+            {
+              "label": "햄님 설문 · 1:04:31",
+              "url": "https://www.youtube.com/watch?v=V8Mo6j1EwBM&t=3871s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "[25.01.01] 신년 맞이 햄님 설문조사"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/V8Mo6j1EwBM.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_4SApKr3uFQc",
+          "title": "만우절 · 텐시비 강림",
+          "date": "2025.04.01",
+          "sort_date": "2025-04-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "‘텐시비 강림’이라는 제목의 만우절 특별 방송이에요. 평소 방송과 다른 날의 기획으로 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=4SApKr3uFQc",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[25.04.01] 만우절 텐시비 강림"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/4SApKr3uFQc.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_LGecQPBS1WU",
+          "title": "첫 번째 생일 파티",
+          "date": "2025.04.12",
+          "sort_date": "2025-04-12",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "쿠비의 첫 생일 파티예요. 첫 생일을 함께한 팬들과의 방송이 다시보기로 남아 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=LGecQPBS1WU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[25.04.12] 첫 생일 파티"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/LGecQPBS1WU.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_f9vhhvz2000",
+          "title": "햄님과 1주년 파티",
+          "date": "2025.09.15",
+          "sort_date": "2025-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "햄님과 함께한 1주년 기념 파티예요. 공식 채널의 단밍·쿠비 공동 방송과는 별도의 개인 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=f9vhhvz2000",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[25.09.15] 햄님과 1주년 기념 파티"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/f9vhhvz2000.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_CWKoXxh6ItE",
+          "title": "할로윈 · 시청자 담력시험",
+          "date": "2025.10.31",
+          "sort_date": "2025-10-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "할로윈에 시청자 담력시험을 진행한 방송이에요. 게임 체험과 후열 괴담 읽기도 원본 시간표에 구분되어 있어요.",
+          "note": "바로가기는 원본 영상 설명의 시간표를 기준으로 연결했어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=CWKoXxh6ItE",
+              "kind": "member_vod"
+            },
+            {
+              "label": "담력시험 · 1:06:24",
+              "url": "https://www.youtube.com/watch?v=CWKoXxh6ItE&t=3984s",
+              "kind": "channel_timestamp"
+            }
+          ],
+          "original_titles": [
+            "[25.10.31] 할로윈 시청자 담력시험 + 리애니멀/헬마트 demo"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/CWKoXxh6ItE.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_wibUJfNgEgE",
+          "title": "2025 HAMTY와 해돋이",
+          "date": "2025.12.31",
+          "sort_date": "2025-12-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "2025 HAMTY를 선정하고 새해 해돋이를 본 연말 방송이에요. 전년도 HAMTY와 구분해 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=wibUJfNgEgE",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[25.12.31] 새해 해돋이 보기 + 2025 HAMTY 선정하기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/wibUJfNgEgE.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_dhBUnLiUUWg",
+          "title": "만우절 · 영혼 바꾸기",
+          "date": "2026.04.01",
+          "sort_date": "2026-04-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "햄대리와 영혼 바꾸기를 다룬 만우절 방송이에요. 같은 날 단밍·야토 시점도 각자의 책에서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=dhBUnLiUUWg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.04.01] 만우절 햄대리 + 영혼 바꾸기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/dhBUnLiUUWg.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_SrEwDsxoi9U",
+          "title": "두 번째 생일 파티",
+          "date": "2026.04.12",
+          "sort_date": "2026-04-12",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "쿠비의 두 번째 생일 파티예요. 나뉘어 올라온 1부와 2부를 한 기록에 묶었어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기 1부",
+              "url": "https://www.youtube.com/watch?v=SrEwDsxoi9U",
+              "kind": "member_vod"
+            },
+            {
+              "label": "다시보기 2부",
+              "url": "https://www.youtube.com/watch?v=yW5j92uGWp0",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.04.12] 두번째 생일파티 1부",
+            "[26.04.12] 두번째 생일파티 2부 술 마시기 !"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/SrEwDsxoi9U.json",
+              "details/yW5j92uGWp0.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_WIhKjXGmlGA",
+          "title": "첫 신의상과 커버곡",
+          "date": "2026.04.25",
+          "sort_date": "2026-04-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "첫 신의상과 커버곡을 공개한 방송이에요. 공개한 날의 다시보기로 연결돼요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=WIhKjXGmlGA",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.04.25] 첫 신의상 공개 + 커버곡"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/WIhKjXGmlGA.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_MuxKkSGmR4A",
+          "title": "메챠 카멜레온 합방",
+          "date": "2026.06.25",
+          "sort_date": "2026-06-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "리스텔라 메챠 카멜레온 합방의 쿠비 시점이에요. 같은 합방을 담은 다른 멤버 영상과 구분해 표시했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=MuxKkSGmR4A",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.06.25] 1부 메챠 카멜레온 합방 (w.리스텔라)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/MuxKkSGmR4A.json"
+            ]
+          }
+        },
+        {
+          "id": "kubby_16173929",
+          "title": "2026년 3D 데뷔",
+          "date": "2026.11.14",
+          "sort_date": "2026-11-14",
+          "date_kind": "broadcast",
+          "date_note": "치지직 다시보기의 방송 시작일 기준",
+          "status": "recorded",
+          "members": [
+            "kubby"
+          ],
+          "body": "2026년 11월 14일에 진행한 쿠비의 3D 데뷔 방송이에요. 예고나 후기가 아닌 당일 치지직 다시보기를 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://chzzk.naver.com/video/16173929",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[3D데뷔] 리버스 빈유 버튜버 3D 데뷔 🐹⭐"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/16173929.json"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "yune",
+      "title": "아미하 유네",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "8b729f",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "yune__Tsj7FsImlE",
+          "title": "유네의 데뷔 방송",
+          "date": "2026.05.25",
+          "sort_date": "2026-05-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "유네가 처음 인사한 데뷔 방송이에요. 이후 몽치와 함께 쌓아가는 방송 기록의 출발점이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=_Tsj7FsImlE",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.05.25] 유 네 데 뷔 !!!!!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/_Tsj7FsImlE.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_3_jvAGsD-Kk",
+          "title": "데뷔 다음 날의 이야기",
+          "date": "2026.05.26",
+          "sort_date": "2026-05-26",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "데뷔를 마친 다음 날의 후기 방송이에요. 첫 방송과 그 뒤의 이야기를 차례로 꺼내볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=3_jvAGsD-Kk",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.05.26] 데뷔후기뱅"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/3_jvAGsD-Kk.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_kUwV07ysdvg",
+          "title": "구독 오픈과 노래 극복기",
+          "date": "2026.05.29",
+          "sort_date": "2026-05-29",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "구독 오픈과 ‘노래 극복기’라는 주제로 남겨진 방송이에요. 데뷔 직후의 첫 기록들 가운데 하나예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=kUwV07ysdvg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.05.29] 구독 오픈 + 노래 극복기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/kUwV07ysdvg.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_vN7qV6vmQk0",
+          "title": "100일 후열 방송",
+          "date": "2026.09.01",
+          "sort_date": "2026-09-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "100일 기념 방송 뒤에 이어진 유네의 후열 방송이에요. 세 사람의 공동 기념 방송은 공식 기록집에 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=vN7qV6vmQk0",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.09.01] 100일 후열방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/vN7qV6vmQk0.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_sB2ganASzNc",
+          "title": "앵스텔라 합방",
+          "date": "2026.09.07",
+          "sort_date": "2026-09-07",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "‘앵스텔라 합방’이라는 이름으로 남은 유네 시점의 방송이에요. 두 부분으로 올라온 다시보기를 함께 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기 1부",
+              "url": "https://www.youtube.com/watch?v=sB2ganASzNc",
+              "kind": "member_vod"
+            },
+            {
+              "label": "다시보기 2부",
+              "url": "https://www.youtube.com/watch?v=nVHW6j3qjCU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.09.07] 앵스텔라 합방 1부",
+            "[26.09.07] 앵스텔라 합방 2부"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/sB2ganASzNc.json",
+              "details/nVHW6j3qjCU.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_VgQJv0PpABU",
+          "title": "동기들과 봄바나나",
+          "date": "2026.10.21",
+          "sort_date": "2026-10-21",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "도리·후와와 함께한 봄바나나 합방이에요. 동기들과 함께한 방송을 유네 시점으로 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=VgQJv0PpABU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.10.21] 봄바나나 합방 (W.쇼코코 도리, 하쿠텐 후와)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/VgQJv0PpABU.json"
+            ]
+          }
+        },
+        {
+          "id": "yune_Ly0E-lg_bRc",
+          "title": "유네와 첫 할로윈",
+          "date": "2026.10.31",
+          "sort_date": "2026-10-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "yune"
+          ],
+          "body": "‘유네랑 함께하는 첫 할로윈’이라는 제목으로 남겨진 방송이에요. 데뷔 후 첫 할로윈의 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=Ly0E-lg_bRc",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.10.31] 유네랑 함께하는 첫 할로윈"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Ly0E-lg_bRc.json"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dori",
+      "title": "쇼코코 도리",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "c27d69",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "dori_0m9bYVeaKj0",
+          "title": "도리의 데뷔 방송",
+          "date": "2026.05.25",
+          "sort_date": "2026-05-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "너구리 명탐정 지망생 도리의 데뷔 방송이에요. 돌돌이와 이어지는 방송 기록의 첫 페이지예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=0m9bYVeaKj0",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.05.25] 너구리명탐정(지망생..)여고생이데뷔한다고"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/0m9bYVeaKj0.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_jmJr-TtiNlM",
+          "title": "유네와 게릴라 합방",
+          "date": "2026.06.20",
+          "sort_date": "2026-06-20",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "러브 샘 뒤 유네와 패들패들 패들 게릴라 합방을 진행한 기록이에요. 날짜와 두 활동이 원본 제목에 함께 남아 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=jmJr-TtiNlM",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.06.20] 러브 샘+ 유네랑 패들패들 패들 게릴라 합방"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/jmJr-TtiNlM.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_1oJJWLXMTx8",
+          "title": "메챠 카멜레온 합방",
+          "date": "2026.06.25",
+          "sort_date": "2026-06-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "메챠 카멜레온 합방과 체인드 투게더를 진행한 도리 시점의 방송이에요. 다른 멤버의 같은 날 기록과 함께 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=1oJJWLXMTx8",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.06.25] 멧챠 카멜레온 합방+체인드 투게더"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/1oJJWLXMTx8.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_fSBoqOuOPuU",
+          "title": "첫 번째 생일 파티",
+          "date": "2026.08.28",
+          "sort_date": "2026-08-28",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "‘너구리로 변해버렸다’라는 제목의 첫 생일 파티예요. 생일 본방송과 뒤이은 후열 대화를 함께 묶었어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "생일 본방송",
+              "url": "https://www.youtube.com/watch?v=fSBoqOuOPuU",
+              "kind": "member_vod"
+            },
+            {
+              "label": "후열 대화",
+              "url": "https://www.youtube.com/watch?v=i38XRuT6Hc0",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.08.28] 첫번째 생일파티인데 너구리로 변해버렸다 . . . !!!!",
+            "[26.08.28] 축! 도리의 첫생일을 축하합니다 후열 저챗!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/fSBoqOuOPuU.json",
+              "details/i38XRuT6Hc0.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_OvNyIVUYKNg",
+          "title": "100일 후열 · 뉴텔라",
+          "date": "2026.09.01",
+          "sort_date": "2026-09-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "데뷔 100일 기념 후열로 진행한 뉴텔라 합방이에요. 공식 채널의 공동 기념 방송과 구분해 담았어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=OvNyIVUYKNg",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.09.01] 데뷔 100일 기념 후열 뉴텔라 합방!!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/OvNyIVUYKNg.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_repvLE78oWw",
+          "title": "리스텔라 싱크룸 노래방",
+          "date": "2026.09.17",
+          "sort_date": "2026-09-17",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "단밍·야토·쿠비와 함께한 리스텔라 싱크룸 노래방이에요. 도리 시점의 다시보기를 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=repvLE78oWw",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.09.17] 리스텔라 싱크룸 노래방 합방!! w.오단밍, 야토, 햄쿠비 (떤배님들 히히)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/repvLE78oWw.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_yn0mQfhQJQ8",
+          "title": "동기들과 봄바나나",
+          "date": "2026.10.21",
+          "sort_date": "2026-10-21",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "뉴텔라가 함께한 봄바나나 합방이에요. 같은 날 유네·후와의 기록과 나란히 찾아볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=yn0mQfhQJQ8",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.10.21] 봄바나나 뉴텔라 우당탕탕 합방"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/yn0mQfhQJQ8.json"
+            ]
+          }
+        },
+        {
+          "id": "dori_WPITUa28Nps",
+          "title": "할로윈 · 다른 옷으로",
+          "date": "2026.10.31",
+          "sort_date": "2026-10-31",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "dori"
+          ],
+          "body": "다른 옷을 입고 진행한 할로윈 방송이에요. 전국민 결혼 대작전, 카페 탐방과 노래방이 원본 제목에 함께 적혀 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=WPITUa28Nps",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[26.10.31] 트릭 오어 트릿! 할로윈 기념 다른 옷입고 결혼 주선해주다 : 전국민 결혼 대작전 + 카페탐방/ 노래방"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/WPITUa28Nps.json"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuwa",
+      "title": "하쿠텐 후와",
+      "subtitle": "방송에서 함께한 날들",
+      "color": "4f8a9f",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "fuwa_JvqjP_BAX6U",
+          "title": "후와의 데뷔 방송",
+          "date": "2026.05.25",
+          "sort_date": "2026-05-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "후와가 처음 인사한 데뷔 방송이에요. 텐비와 함께 쌓는 방송 기록의 첫 페이지예요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=JvqjP_BAX6U",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.05.25] 후 와 데 뷔 !!!!!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/JvqjP_BAX6U.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_YzWr_LxNy8Q",
+          "title": "데뷔 방송 후기",
+          "date": "2026.05.26",
+          "sort_date": "2026-05-26",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "후와의 데뷔 방송 후기예요. 첫 방송 다음 날에 남겨진 이야기를 다시 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=YzWr_LxNy8Q",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.05.26] 데뷔 방송 후기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/YzWr_LxNy8Q.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_FiOyC_RyKxU",
+          "title": "후와의 첫 노래방",
+          "date": "2026.05.28",
+          "sort_date": "2026-05-28",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "‘첫 노래방’이라는 제목으로 남은 후와의 방송이에요. 데뷔 직후 처음 진행한 노래방 기록을 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=FiOyC_RyKxU",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.05.28] 첫 노래방🎤"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/FiOyC_RyKxU.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_3Mu16r5BrlI",
+          "title": "메챠 카멜레온 합방",
+          "date": "2026.06.25",
+          "sort_date": "2026-06-25",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "메챠 카멜레온과 체인드 투게더 합방의 후와 시점이에요. 같은 날 다른 멤버들의 시점도 각자의 책에 담았어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=3Mu16r5BrlI",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.06.25] 합방(메챠 카멜레온 + 체인드트게더)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/3Mu16r5BrlI.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_XMgAxshaaYA",
+          "title": "100일 후열 방송",
+          "date": "2026.09.01",
+          "sort_date": "2026-09-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "100일 방송을 마친 뒤 이어진 후와의 후열 방송이에요. 공동 기념 방송은 공식 기록집에서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=XMgAxshaaYA",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.09.01] 100일 방송 후열"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/XMgAxshaaYA.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_15799452",
+          "title": "동기들과 봄바나나",
+          "date": "2026.10.21",
+          "sort_date": "2026-10-21",
+          "date_kind": "broadcast",
+          "date_note": "치지직 다시보기의 방송 시작일 기준",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "유네·도리와 함께한 봄바나나 합방이에요. 후와 채널에 공개된 치지직 다시보기를 연결했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://chzzk.naver.com/video/15799452",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "20시 봄바나나 합방 w.동기들(유네,도리) "
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/15799452.json"
+            ]
+          }
+        },
+        {
+          "id": "fuwa_aSiDR3Ayhuo",
+          "title": "라면집 합방",
+          "date": "2026.11.04",
+          "sort_date": "2026-11-04",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [
+            "fuwa"
+          ],
+          "body": "라면집 합방과 카페 탐방을 진행한 방송이에요. 11월에 남겨진 합방 기록을 꺼내볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "다시보기",
+              "url": "https://www.youtube.com/watch?v=aSiDR3Ayhuo",
+              "kind": "member_vod"
+            }
+          ],
+          "original_titles": [
+            "[2026.11.04] 라면집 합방 + 카페탐방"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/aSiDR3Ayhuo.json"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "official",
+      "title": "리스텔라 공식",
+      "subtitle": "공식 합방과 기획",
+      "color": "405878",
+      "intro": "기념일·공개 방송·특별 기획을 날짜순으로 모았어요.",
+      "entries": [
+        {
+          "id": "official_BUP01PtwsiY",
+          "title": "클리프 데뷔 후열 합방",
+          "date": "2024.09.15",
+          "sort_date": "2024-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "클리프 데뷔 뒤 진행한 공식 후열 합방이에요. 질문 시간과 ‘모르는 물건 팔기’가 원본 제목에 담겨 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=BUP01PtwsiY",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[240915] 리스텔라 클리프 데뷔 후열 합방 : qna, 모르는 물건 팔기"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/BUP01PtwsiY.json"
+            ]
+          }
+        },
+        {
+          "id": "official_8DNraivZD3U",
+          "title": "추석 · 송편 대작전",
+          "date": "2024.09.17",
+          "sort_date": "2024-09-17",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "추석에 진행한 ‘송편 대작전’ 합방이에요. 명절을 주제로 한 리스텔라 공식 방송 기록이에요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=8DNraivZD3U",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[240917] 리스텔라 추석 합방 : 송편 대작전"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/8DNraivZD3U.json"
+            ]
+          }
+        },
+        {
+          "id": "official_DLVMl9XQ2Io",
+          "title": "클리프 단체 싱크룸",
+          "date": "2024.09.18",
+          "sort_date": "2024-09-18",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "클리프 릴레이 노래방의 단체 싱크룸이에요. 개인 순서 뒤 함께한 공식 노래방 기록을 볼 수 있어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=DLVMl9XQ2Io",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[240918] 리스텔라 클리프 릴레이 노래방 : 단체 싱크룸"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/DLVMl9XQ2Io.json"
+            ]
+          }
+        },
+        {
+          "id": "official_R0KcgJS2KwY",
+          "title": "다 함께 피코파크 2",
+          "date": "2024.09.29",
+          "sort_date": "2024-09-29",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "리스텔라의 피코파크 2 게임 합방이에요. 공식 다시보기 채널에 남겨진 공동 게임 방송이에요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=R0KcgJS2KwY",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[240929] 리스텔라 게임 합방 : 피코파크2"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/R0KcgJS2KwY.json"
+            ]
+          }
+        },
+        {
+          "id": "official_S8WTwvJ1ghQ",
+          "title": "괴식탐구회",
+          "date": "2024.10.01",
+          "sort_date": "2024-10-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "‘괴식탐구회’라는 제목으로 진행한 리스텔라 합방이에요. 어떤 음식과 반응이 나왔는지는 원본에서 만나볼 수 있어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=S8WTwvJ1ghQ",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[241001] 리스텔라 합방 : 괴식탐구회"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/S8WTwvJ1ghQ.json"
+            ]
+          }
+        },
+        {
+          "id": "official__VThNqjyYVo",
+          "title": "클리프 100일 · 이상한 초대",
+          "date": "2024.12.23",
+          "sort_date": "2024-12-23",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "클리프 100일을 기념한 ‘이상한 초대’ 합방이에요. 개인 100일 방송과 별도로 남겨진 공식 기록이에요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=_VThNqjyYVo",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[241223] 리스텔라 클리프 100일 합방 : 이상한 초대"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/_VThNqjyYVo.json"
+            ]
+          }
+        },
+        {
+          "id": "official_sp4gU0LnG5o",
+          "title": "신년 듀엣 가요제",
+          "date": "2025.01.24",
+          "sort_date": "2025-01-24",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "새해를 맞아 진행한 리스텔라 듀엣 가요제예요. 함께 노래한 공식 기획 방송을 다시 볼 수 있어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=sp4gU0LnG5o",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[250124] 리스텔라 신년 듀엣 가요제"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/sp4gU0LnG5o.json"
+            ]
+          }
+        },
+        {
+          "id": "official_RWXOVHS-JpQ",
+          "title": "월간 2월 · 집 정리",
+          "date": "2025.02.07",
+          "sort_date": "2025-02-07",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "‘가장 집 정리를 안 할 것 같은 스텔라’를 주제로 한 월간 리스텔라 2월호예요. 결과는 원본 방송에서 확인할 수 있어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=RWXOVHS-JpQ",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[250207] 월간 리스텔라 2월호 : 가장 집정리를 안 할 것 같은 스텔라는?"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/RWXOVHS-JpQ.json"
+            ]
+          }
+        },
+        {
+          "id": "official_Mk45wdTss4w",
+          "title": "월간 3월 · 벚꽃놀이",
+          "date": "2025.03.06",
+          "sort_date": "2025-03-06",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "‘벚꽃놀이를 같이 가고 싶은 스텔라’를 주제로 한 월간 리스텔라 3월호예요. 봄을 맞은 공식 기획 기록이에요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=Mk45wdTss4w",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[250306] 월간 리스텔라 3월호 : 벚꽃놀이를 같이 가고 싶은 스텔라는?"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Mk45wdTss4w.json"
+            ]
+          }
+        },
+        {
+          "id": "official_R_eKP34HWJQ",
+          "title": "월간 4월 · 만우절 장난",
+          "date": "2025.04.05",
+          "sort_date": "2025-04-05",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "‘만우절 장난을 가장 잘 칠 것 같은 스텔라’를 다룬 월간 4월호예요. 멤버별 만우절 방송과는 별개의 공식 기획이에요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=R_eKP34HWJQ",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[250405] 월간 리스텔라 4월호 : 만우절 장난을 가장 잘 칠 것 같은 스텔라는?"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/R_eKP34HWJQ.json"
+            ]
+          }
+        },
+        {
+          "id": "official_aon-V07e0OI",
+          "title": "리스텔라 유치원",
+          "date": "2025.05.04 · 게시",
+          "sort_date": "2025-05-04",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "‘리스텔라 유치원 학부모 참관수업’이라는 제목의 공식 방송이에요. 당시 출연 구성을 그대로 담은 영상으로 이어져요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=aon-V07e0OI",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "리스텔라 유치원 학부모 참관수업"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/aon-V07e0OI.json"
+            ]
+          }
+        },
+        {
+          "id": "official_m_nSA76fd3g",
+          "title": "패션왕 · 단밍과 쿠비",
+          "date": "2025.08.31 · 게시",
+          "sort_date": "2025-08-31",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "단밍과 쿠비의 일주일 패션 대결을 다룬 공식 기획이에요. 대결 결과와 의상은 원본에서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=m_nSA76fd3g",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간리스텔라 : 패션왕] 단밍 vs 쿠비의 일주일 패션 대결!"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/m_nSA76fd3g.json"
+            ]
+          }
+        },
+        {
+          "id": "official_BQpc5CHIjR4",
+          "title": "단밍·쿠비 1주년",
+          "date": "2025.09.15 · 게시",
+          "sort_date": "2025-09-15",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "단밍과 쿠비가 함께한 1주년 기념 방송이에요. 각자의 후열 방송과 구분해 공동 방송을 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=BQpc5CHIjR4",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "단밍 & 쿠비 1주년 기념 방송"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/BQpc5CHIjR4.json"
+            ]
+          }
+        },
+        {
+          "id": "official_g9hq8iHtHF4",
+          "title": "루체테 문화센터",
+          "date": "2025.09.29 · 게시",
+          "sort_date": "2025-09-29",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "‘루체테 문화센터’라는 이름으로 진행한 월간 리스텔라예요. 공식 채널에 남은 기획 방송으로 이어져요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=g9hq8iHtHF4",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "월간 리스텔라 : 루체테 문화센터"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/g9hq8iHtHF4.json"
+            ]
+          }
+        },
+        {
+          "id": "official_lTRZxyn12FI",
+          "title": "2025년 공지 방송",
+          "date": "2025.09.30",
+          "sort_date": "2025-09-30",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "2025년 9월 30일의 리스텔라 공지 방송이에요. 당시 발표 내용은 날짜가 다른 최신 공지와 구분해서 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=lTRZxyn12FI",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "리스텔라 공지 방송 [25.09.30]"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/lTRZxyn12FI.json"
+            ]
+          }
+        },
+        {
+          "id": "official_VKrYwlN09n4",
+          "title": "패션왕 두 번째 시간",
+          "date": "2026.01.17 · 게시",
+          "sort_date": "2026-01-17",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "야토와 샤메이의 일주일 패션 대결이에요. 원본 제목에는 단밍·쿠비·네무·만디·샤메이와 함께한 방송으로 안내돼 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=VKrYwlN09n4",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간리스텔라 : 패션왕 2] 야토 vs 샤메이의 일주일 패션 대결! (w. 오단밍, 햄쿠비, 네무, 만디, 샤메이)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/VKrYwlN09n4.json"
+            ]
+          }
+        },
+        {
+          "id": "official_YfuY45kWNV8",
+          "title": "한국·말레이시아 과자 리뷰",
+          "date": "2026.01.26 · 게시",
+          "sort_date": "2026-01-26",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "VOGI와 함께 한국·말레이시아 과자를 리뷰한 방송이에요. 공식 채널에 한국어·영어 표기로 보관되어 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=YfuY45kWNV8",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[KR/EN] 한국 & 말레이시아 과자 리뷰! (with VOGI)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/YfuY45kWNV8.json"
+            ]
+          }
+        },
+        {
+          "id": "official_Sk9JactTkVw",
+          "title": "설 특집 · 훈민정음 윷놀이",
+          "date": "2026.02.18 · 게시",
+          "sort_date": "2026-02-18",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "설을 맞아 커버곡과 굿즈 공개, 훈민정음 윷놀이를 진행한 공식 특집이에요. 명절의 공동 방송을 꺼내볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=Sk9JactTkVw",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간 리스텔라 : 설 특집] - 커버곡 & 굿즈 공개, 훈민정음 윷놀이"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Sk9JactTkVw.json"
+            ]
+          }
+        },
+        {
+          "id": "official_l8MqWJ8kTuc",
+          "title": "월간 리스텔라 퀴즈왕",
+          "date": "2026.03.30 · 게시",
+          "sort_date": "2026-03-30",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "리스텔라 퀴즈왕을 다룬 월간 공식 방송이에요. 누가 어떤 문제를 맞혔는지는 원본에서 확인할 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=l8MqWJ8kTuc",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간 리스텔라 : 퀴즈왕] -  리스텔라 공식 천재와 둔재(?)는 과연?"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/l8MqWJ8kTuc.json"
+            ]
+          }
+        },
+        {
+          "id": "official_Qvp5rP24HN4",
+          "title": "3등분의 단밍과 쿠비",
+          "date": "2026.05.11 · 게시",
+          "sort_date": "2026-05-11",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "‘진짜를 찾아라! 3등분의 단밍 & 쿠비’라는 공식 기획이에요. 단밍과 쿠비를 주제로 한 다시보기를 연결했어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=Qvp5rP24HN4",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "진짜를 찾아라! 3등분의 단밍 & 쿠비"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/Qvp5rP24HN4.json"
+            ]
+          }
+        },
+        {
+          "id": "official_5hMTmRiDI-w",
+          "title": "신입생 오리엔테이션",
+          "date": "2026.06.20",
+          "sort_date": "2026-06-20",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "신입생 오리엔테이션을 주제로 한 월간 리스텔라예요. 영상 속 당시의 출연 구성과 방송을 그대로 볼 수 있어요.",
+          "note": "당시 출연진이 담긴 기록이에요. 현재 멤버 구성으로 바꾸어 소개하지 않았어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=5hMTmRiDI-w",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간 리스텔라 : 신입생 오리엔테이션] (26.06.20)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/5hMTmRiDI-w.json"
+            ]
+          }
+        },
+        {
+          "id": "official_hhk0DDqlxG8",
+          "title": "그로서리 서울 라이브 방송",
+          "date": "2026.07.28 · 게시",
+          "sort_date": "2026-07-28",
+          "date_kind": "published",
+          "date_note": "영상 게시일(한국 시간) · 정확한 방송일 미확인",
+          "status": "recorded",
+          "members": [],
+          "body": "리스텔라와 그로서리 서울의 라이브 커머스 방송 기록이에요. 당시 판매 방송을 다시 보는 페이지이며 현재 판매 여부를 뜻하지 않아요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=hhk0DDqlxG8",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[리스텔라 x 그로서리 서울] 라이브 커머스 한정 판매 🥪"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/hhk0DDqlxG8.json"
+            ]
+          }
+        },
+        {
+          "id": "official_9TnZPG06Nj4",
+          "title": "서새봄의 스텔라 상담소",
+          "date": "2026.08.23",
+          "sort_date": "2026-08-23",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "서새봄의 스텔라 상담소를 주제로 진행한 월간 리스텔라예요. 구체적인 상담 내용은 원본 방송에 남아 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=9TnZPG06Nj4",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "[월간 리스텔라 : 서새봄의 스텔라 상담소] (26.08.23)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/9TnZPG06Nj4.json"
+            ]
+          }
+        },
+        {
+          "id": "official_mSvIP6EjvSc",
+          "title": "유네·도리·후와 100일",
+          "date": "2026.09.01",
+          "sort_date": "2026-09-01",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "유네·도리·후와가 함께한 100일 기념 방송이에요. 각자 채널의 후열 기록과 함께 볼 수 있어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=mSvIP6EjvSc",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "유네, 도리, 후와 100일 기념 방송 (26.09.01)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/mSvIP6EjvSc.json"
+            ]
+          }
+        },
+        {
+          "id": "official_cEeVNDSjL9c",
+          "title": "단밍·쿠비 2주년",
+          "date": "2026.09.15",
+          "sort_date": "2026-09-15",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "단밍과 쿠비가 함께한 두 번째 주년 기념 방송이에요. 전년도 공동 1주년 다음에 이어지는 기록이에요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=cEeVNDSjL9c",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "단밍/쿠비 2주년 기념 방송 (26.09.15)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/cEeVNDSjL9c.json"
+            ]
+          }
+        },
+        {
+          "id": "official_3hIAel12pbw",
+          "title": "2026년 하반기 공지",
+          "date": "2026.10.19",
+          "sort_date": "2026-10-19",
+          "date_kind": "broadcast",
+          "date_note": "원본 다시보기 제목에 적힌 방송 날짜",
+          "status": "recorded",
+          "members": [],
+          "body": "2026년 하반기 리스텔라 공지 방송이에요. 당시의 발표와 이후 실제 공개 방송을 날짜별로 구분해 보관했어요.",
+          "note": "방송 제목·설명으로 확인한 기록이에요. 자세한 내용은 원본에서 볼 수 있어요.",
+          "sources": [
+            {
+              "label": "공식 다시보기",
+              "url": "https://www.youtube.com/watch?v=3hIAel12pbw",
+              "kind": "official_vod"
+            }
+          ],
+          "original_titles": [
+            "2026 리스텔라 하반기 공지 방송 (26.10.19)"
+          ],
+          "verification": {
+            "checked_on": "2026-11-15",
+            "level": "title_description",
+            "full_video_watched": false,
+            "detail_files": [
+              "details/3hIAel12pbw.json"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Build and publish Luchete
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: luchete-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Godot 4.6.2 and web templates
+        run: |
+          mkdir -p .cache/godot build/web artifacts/web_build
+          curl --fail --location --retry 3 -o .cache/godot/editor.zip https://github.com/godotengine/godot/releases/download/4.6.2-stable/Godot_v4.6.2-stable_linux.x86_64.zip
+          unzip -q .cache/godot/editor.zip -d .cache/godot
+          chmod +x .cache/godot/Godot_v4.6.2-stable_linux.x86_64
+          echo "$PWD/.cache/godot" >> "$GITHUB_PATH"
+          python tools/web/download_dependencies.py
+      - name: Import and export browser release
+        run: |
+          Godot_v4.6.2-stable_linux.x86_64 --headless --path . --log-file artifacts/web_build/import.log --editor --import
+          Godot_v4.6.2-stable_linux.x86_64 --headless --path . --log-file artifacts/web_build/export.log --export-release Web build/web/index.html
+          cp assets/fonts/OFL.txt build/web/FONT-LICENSE.txt
+          cp assets/fonts/OFL-Symbols.txt build/web/SYMBOLS-FONT-LICENSE.txt
+          touch build/web/.nojekyll
+          python tools/web/check_build.py
+      - name: Store downloadable web build
+        uses: actions/upload-artifact@v4
+        with:
+          name: luchete-web
+          path: build/web
+          retention-days: 7
+      - name: Prepare Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check Pages configuration
+        uses: actions/configure-pages@v5
+      - name: Publish game
+        id: deployment
+        uses: actions/deploy-pages@v4

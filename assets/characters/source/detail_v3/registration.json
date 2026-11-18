@@ -1,0 +1,475 @@
+{
+  "yato_hood": {
+    "pins": [
+      232,
+      96,
+      153,
+      22,
+      184,
+      39,
+      210,
+      66,
+      298,
+      416,
+      463
+    ],
+    "scale": 0.1912568306010929,
+    "dx": -12.87158469945355,
+    "dy": 0.6393442622950829,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 5.93,
+    "eye_spacing_px": 8.42,
+    "bbox": [
+      10,
+      4,
+      54,
+      90
+    ],
+    "box": [
+      0,
+      0,
+      384,
+      512
+    ]
+  },
+  "danming_origin": {
+    "pins": [
+      593,
+      81,
+      149,
+      21,
+      180,
+      38,
+      207,
+      75,
+      303,
+      403,
+      462
+    ],
+    "scale": 0.1837270341207349,
+    "dx": -77.4501312335958,
+    "dy": 4.118110236220474,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 5.7,
+    "eye_spacing_px": 7.72,
+    "bbox": [
+      7,
+      8,
+      57,
+      90
+    ],
+    "box": [
+      384,
+      0,
+      768,
+      512
+    ]
+  },
+  "kubby_origin": {
+    "pins": [
+      950,
+      76,
+      150,
+      23,
+      183,
+      41,
+      207,
+      78,
+      300,
+      407,
+      462
+    ],
+    "scale": 0.18134715025906736,
+    "dx": -140.779792746114,
+    "dy": 5.2176165803108745,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 5.98,
+    "eye_spacing_px": 8.34,
+    "bbox": [
+      13,
+      14,
+      53,
+      90
+    ],
+    "box": [
+      768,
+      0,
+      1152,
+      512
+    ]
+  },
+  "amiha_yune_idle": {
+    "pins": [
+      1304,
+      96,
+      162,
+      24,
+      196,
+      40,
+      222,
+      57,
+      302,
+      424,
+      462
+    ],
+    "scale": 0.1912568306010929,
+    "dx": -217.89890710382514,
+    "dy": 0.6393442622950829,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 6.5,
+    "eye_spacing_px": 9.18,
+    "bbox": [
+      9,
+      5,
+      54,
+      90
+    ],
+    "box": [
+      1152,
+      0,
+      1536,
+      512
+    ]
+  },
+  "shokoko_dori_idle": {
+    "pins": [
+      232,
+      609,
+      666,
+      24,
+      700,
+      40,
+      730,
+      76,
+      812,
+      943,
+      979
+    ],
+    "scale": 0.18867924528301888,
+    "dx": -12.273584905660378,
+    "dy": -95.90566037735852,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 6.42,
+    "eye_spacing_px": 9.06,
+    "bbox": [
+      11,
+      2,
+      55,
+      90
+    ],
+    "box": [
+      0,
+      512,
+      384,
+      1024
+    ]
+  },
+  "hakuten_fuwa_idle": {
+    "pins": [
+      592,
+      597,
+      664,
+      24,
+      699,
+      42,
+      727,
+      79,
+      813,
+      942,
+      979
+    ],
+    "scale": 0.18276762402088773,
+    "dx": -76.69843342036553,
+    "dy": -90.11227154046998,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 6.4,
+    "eye_spacing_px": 8.77,
+    "bbox": [
+      10,
+      4,
+      51,
+      90
+    ],
+    "box": [
+      384,
+      512,
+      768,
+      1024
+    ]
+  },
+  "yato_idle": {
+    "pins": [
+      225,
+      17,
+      77,
+      17,
+      103,
+      30,
+      122,
+      42,
+      178,
+      258,
+      292
+    ],
+    "scale": 0.25735294117647056,
+    "dx": -26.404411764705877,
+    "dy": 14.625000000000014,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_a.png",
+    "box": [
+      0,
+      0,
+      337,
+      313
+    ]
+  },
+  "yato_headset": {
+    "pins": [
+      225,
+      341,
+      390,
+      17,
+      415,
+      33,
+      437,
+      44,
+      498,
+      568,
+      605
+    ],
+    "scale": 0.26717557251908397,
+    "dx": -28.614503816793892,
+    "dy": -72.10687022900763,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_a.png",
+    "box": [
+      0,
+      313,
+      337,
+      627
+    ]
+  },
+  "yato_bunny": {
+    "pins": [
+      225,
+      655,
+      704,
+      17,
+      729,
+      27,
+      752,
+      42,
+      799,
+      883,
+      922
+    ],
+    "scale": 0.26515151515151514,
+    "dx": -28.159090909090907,
+    "dy": -154.6742424242424,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_a.png",
+    "box": [
+      0,
+      627,
+      337,
+      940
+    ]
+  },
+  "yato_knit": {
+    "pins": [
+      225,
+      969,
+      1018,
+      17,
+      1043,
+      29,
+      1068,
+      42,
+      1122,
+      1202,
+      1238
+    ],
+    "scale": 0.26119402985074625,
+    "dx": -27.268656716417908,
+    "dy": -234.09701492537312,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_a.png",
+    "box": [
+      0,
+      940,
+      337,
+      1254
+    ]
+  },
+  "yato_track": {
+    "pins": [
+      223,
+      22,
+      82,
+      18,
+      108,
+      29,
+      130,
+      51,
+      195,
+      272,
+      306
+    ],
+    "scale": 0.24822695035460993,
+    "dx": -23.854609929078016,
+    "dy": 13.539007092198588,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_b.png",
+    "box": [
+      0,
+      0,
+      337,
+      313
+    ]
+  },
+  "odanming_idle": {
+    "pins": [
+      223,
+      341,
+      395,
+      18,
+      424,
+      31,
+      445,
+      48,
+      508,
+      582,
+      616
+    ],
+    "scale": 0.2564102564102564,
+    "dx": -25.679487179487175,
+    "dy": -68.43589743589743,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_b.png",
+    "box": [
+      0,
+      313,
+      337,
+      627
+    ]
+  },
+  "danming_racing": {
+    "pins": [
+      223,
+      656,
+      706,
+      18,
+      733,
+      29,
+      760,
+      50,
+      821,
+      896,
+      933
+    ],
+    "scale": 0.2545454545454545,
+    "dx": -25.26363636363636,
+    "dy": -147.98181818181817,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_b.png",
+    "box": [
+      0,
+      627,
+      337,
+      940
+    ]
+  },
+  "hamkubby_idle": {
+    "pins": [
+      223,
+      980,
+      1032,
+      18,
+      1062,
+      31,
+      1085,
+      48,
+      1141,
+      1212,
+      1241
+    ],
+    "scale": 0.26717557251908397,
+    "dx": -28.080152671755727,
+    "dy": -242.83206106870227,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_alts_b.png",
+    "box": [
+      0,
+      940,
+      337,
+      1254
+    ]
+  },
+  "aethe": {
+    "pins": [
+      183,
+      1205,
+      1264,
+      19,
+      1295,
+      31,
+      1322,
+      57,
+      1390,
+      1480,
+      1518
+    ],
+    "scale": 0.2229299363057325,
+    "dx": -9.296178343949045,
+    "dy": -249.63057324840764,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/turns_librarian.png",
+    "box": [
+      0,
+      1152,
+      341,
+      1536
+    ]
+  },
+  "yune_unveiled": {
+    "pins": [
+      1304,
+      96,
+      162,
+      24,
+      196,
+      40,
+      222,
+      57,
+      302,
+      424,
+      462
+    ],
+    "scale": 0.1912568306010929,
+    "dx": -217.89890710382514,
+    "dy": 0.6393442622950829,
+    "palette_colors": 48,
+    "source": "assets/characters/source/pet_v3/fronts_approved.png",
+    "face_chin_eye_px": 6.5,
+    "eye_spacing_px": 9.18,
+    "bbox": [
+      9,
+      5,
+      54,
+      90
+    ],
+    "box": [
+      1152,
+      0,
+      1536,
+      512
+    ],
+    "alias_of": "amiha_yune_idle"
+  }
+}

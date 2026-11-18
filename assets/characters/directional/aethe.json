@@ -1,0 +1,227 @@
+{
+  "source": "assets/characters/source/aethe_directional_v1.png",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "idle_column": 0,
+  "walk_columns": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "world_units_per_step_frame": 8.0,
+  "cels": [
+    {
+      "direction": "down",
+      "column": 0,
+      "bounds": [
+        20,
+        16,
+        77,
+        104
+      ]
+    },
+    {
+      "direction": "down",
+      "column": 1,
+      "bounds": [
+        19,
+        16,
+        77,
+        104
+      ]
+    },
+    {
+      "direction": "down",
+      "column": 2,
+      "bounds": [
+        20,
+        16,
+        77,
+        104
+      ]
+    },
+    {
+      "direction": "down",
+      "column": 3,
+      "bounds": [
+        19,
+        16,
+        78,
+        104
+      ]
+    },
+    {
+      "direction": "down",
+      "column": 4,
+      "bounds": [
+        20,
+        16,
+        77,
+        104
+      ]
+    },
+    {
+      "direction": "left",
+      "column": 0,
+      "bounds": [
+        22,
+        16,
+        74,
+        104
+      ]
+    },
+    {
+      "direction": "left",
+      "column": 1,
+      "bounds": [
+        21,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "left",
+      "column": 2,
+      "bounds": [
+        21,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "left",
+      "column": 3,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "left",
+      "column": 4,
+      "bounds": [
+        21,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "right",
+      "column": 0,
+      "bounds": [
+        22,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "right",
+      "column": 1,
+      "bounds": [
+        20,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "right",
+      "column": 2,
+      "bounds": [
+        21,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "right",
+      "column": 3,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "right",
+      "column": 4,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "up",
+      "column": 0,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "up",
+      "column": 1,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    },
+    {
+      "direction": "up",
+      "column": 2,
+      "bounds": [
+        22,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "up",
+      "column": 3,
+      "bounds": [
+        20,
+        16,
+        75,
+        104
+      ]
+    },
+    {
+      "direction": "up",
+      "column": 4,
+      "bounds": [
+        21,
+        16,
+        76,
+        104
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "member": "danming",
+  "name": "오단밍",
+  "costume": "danming_origin",
+  "cell": [
+    96,
+    112
+  ],
+  "foot": [
+    48,
+    103
+  ],
+  "actions": [
+    {
+      "id": "welcome",
+      "label": "장난스러운 인사",
+      "description": "Notice visitor, raise hand near cheek, little playful wave with a single-eye wink and tiny closed smile, lower hand.",
+      "kind": "social",
+      "row": 0,
+      "bounds": [
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          75,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.14,
+        0.16,
+        0.51,
+        0.35,
+        0.32
+      ],
+      "travel_seconds": [
+        0.12,
+        0.14,
+        0.17,
+        0.26,
+        0.28
+      ]
+    },
+    {
+      "id": "heart",
+      "label": "작은 하트",
+      "description": "Prepare hands at chest, bring thumb and index finger together, show a small finger-heart gesture with warm smile, relax hands. No floating heart effects.",
+      "kind": "social",
+      "row": 1,
+      "bounds": [
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.27,
+        0.76,
+        0.42,
+        0.35
+      ],
+      "travel_seconds": [
+        0.14,
+        0.19,
+        0.21,
+        0.33,
+        0.3
+      ]
+    },
+    {
+      "id": "ponder",
+      "label": "골똘히 생각",
+      "description": "Notice question, one hand under chin, tilt head a little and focus eyes thoughtfully, nod then release hand.",
+      "kind": "social",
+      "row": 2,
+      "bounds": [
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.26,
+        0.33,
+        0.89,
+        0.48,
+        0.38
+      ],
+      "travel_seconds": [
+        0.2,
+        0.26,
+        0.29,
+        0.36,
+        0.34
+      ]
+    },
+    {
+      "id": "proud",
+      "label": "뿌듯한 끄덕임",
+      "description": "Relaxed ready stance, place one hand on hip, small confident nod with closed-mouth pleased smile, release hand.",
+      "kind": "social",
+      "row": 3,
+      "bounds": [
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          22,
+          22,
+          72,
+          104
+        ],
+        [
+          22,
+          23,
+          72,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          46.5,
+          45.0,
+          0.0
+        ],
+        [
+          46.5,
+          46.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.18,
+        0.23,
+        0.67,
+        0.38,
+        0.36
+      ],
+      "travel_seconds": [
+        0.15,
+        0.19,
+        0.22,
+        0.3,
+        0.32
+      ]
+    },
+    {
+      "id": "read",
+      "label": "문장을 짚으며 읽기",
+      "description": "Ready holding open book; bend knees into invisible chair; follow a line with fingertip and attentive pleased eyes; close book while rising.",
+      "kind": "furniture",
+      "row": 4,
+      "bounds": [
+        [
+          23,
+          26,
+          73,
+          104
+        ],
+        [
+          23,
+          25,
+          73,
+          104
+        ],
+        [
+          23,
+          26,
+          74,
+          104
+        ],
+        [
+          23,
+          26,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          49.0,
+          0.0
+        ],
+        [
+          47.5,
+          48.5,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "살짝 잔을 들어 인사",
+      "description": "Ready holding cup; sit on invisible chair; lift cup a little in friendly greeting then sip without covering eyes; lower cup while rising.",
+      "kind": "furniture",
+      "row": 5,
+      "bounds": [
+        [
+          23,
+          25,
+          73,
+          104
+        ],
+        [
+          23,
+          25,
+          74,
+          104
+        ],
+        [
+          23,
+          25,
+          74,
+          104
+        ],
+        [
+          23,
+          25,
+          74,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          48.0,
+          0.0
+        ],
+        [
+          48.5,
+          48.352000000000004,
+          0.0
+        ],
+        [
+          48.0,
+          48.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "yoga",
+      "label": "호흡에 맞춰 손 모으기",
+      "description": "Stand ready; bring palms together at chest and bend knees; sit cross-legged with palms together and relaxed closed eyes; uncross legs to stand.",
+      "kind": "furniture",
+      "row": 6,
+      "bounds": [
+        [
+          23,
+          29,
+          73,
+          104
+        ],
+        [
+          23,
+          28,
+          73,
+          104
+        ],
+        [
+          23,
+          30,
+          73,
+          104
+        ],
+        [
+          23,
+          29,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          52.0,
+          0.0
+        ],
+        [
+          47.5,
+          51.0,
+          0.0
+        ],
+        [
+          47.5,
+          52.84375,
+          0.0
+        ],
+        [
+          47.5,
+          51.5,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "stream",
+      "label": "버리에게 하트 인사",
+      "description": "Stand ready; raise hand toward camera; playful small finger-heart with wink while wings remain attached behind shoulders; lower hand.",
+      "kind": "furniture",
+      "row": 7,
+      "bounds": [
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ],
+        [
+          23,
+          22,
+          73,
+          104
+        ]
+      ],
+      "head_anchors": [
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ],
+        [
+          47.5,
+          45.0,
+          0.0
+        ]
+      ],
+      "durations": [
+        0.45,
+        0.55,
+        5.6,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "basis": "사람들과 소통에 재능이 있는 사랑의 요정이라는 데뷔 배경을 참고한다. 현재 서큐버스 의상과 데뷔 당시 요정 외형을 혼합하지 않는다.",
+  "source": "https://listella.tv/stella/odanming",
+  "stages": [
+    "준비",
+    "동작 시작",
+    "반응",
+    "마무리",
+    "대기"
+  ],
+  "field_face": {
+    "skull": 20,
+    "eye_to_chin": 6,
+    "crown_to_eye": 12,
+    "standing_chin": 51
+  },
+  "transition_method": "joint-space; rigid native face; no optical flow"
+}

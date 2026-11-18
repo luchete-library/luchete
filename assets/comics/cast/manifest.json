@@ -1,0 +1,58 @@
+{
+  "aethe": {
+    "size": [
+      47,
+      79
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "yato": {
+    "size": [
+      42,
+      72
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "danming_origin": {
+    "size": [
+      50,
+      82
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "kubby_origin": {
+    "size": [
+      40,
+      76
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "kubby": {
+    "size": [
+      33,
+      79
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "yune": {
+    "size": [
+      45,
+      85
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "dori": {
+    "size": [
+      44,
+      88
+    ],
+    "source": "field artwork at original aspect ratio"
+  },
+  "fuwa": {
+    "size": [
+      41,
+      86
+    ],
+    "source": "field artwork at original aspect ratio"
+  }
+}

@@ -1,0 +1,2026 @@
+{
+  "items": {
+    "supplies": {
+      "asset": "decor_supplies",
+      "size": [
+        52,
+        44
+      ],
+      "anchor": [
+        26,
+        39
+      ],
+      "foot": [
+        -21,
+        -7,
+        44,
+        11
+      ]
+    },
+    "flowers": {
+      "asset": "decor_flowers",
+      "size": [
+        58,
+        38
+      ],
+      "anchor": [
+        29,
+        34
+      ],
+      "foot": [
+        -26,
+        -5,
+        52,
+        8
+      ]
+    },
+    "logs": {
+      "asset": "decor_logs",
+      "size": [
+        56,
+        39
+      ],
+      "anchor": [
+        28,
+        35
+      ],
+      "foot": [
+        -24,
+        -9,
+        48,
+        13
+      ]
+    },
+    "well": {
+      "asset": "decor_well",
+      "size": [
+        50,
+        55
+      ],
+      "anchor": [
+        25,
+        50
+      ],
+      "foot": [
+        -20,
+        -14,
+        40,
+        16
+      ]
+    },
+    "market": {
+      "asset": "decor_market",
+      "size": [
+        68,
+        59
+      ],
+      "anchor": [
+        34,
+        55
+      ],
+      "foot": [
+        -30,
+        -12,
+        60,
+        15
+      ]
+    },
+    "laundry": {
+      "asset": "decor_laundry",
+      "size": [
+        70,
+        42
+      ],
+      "anchor": [
+        35,
+        38
+      ],
+      "foot": [
+        -33,
+        -3,
+        66,
+        5
+      ]
+    },
+    "lantern": {
+      "asset": "decor_lantern",
+      "size": [
+        34,
+        56
+      ],
+      "anchor": [
+        14,
+        52
+      ],
+      "foot": [
+        -5,
+        -4,
+        11,
+        8
+      ]
+    },
+    "rack": {
+      "asset": "decor_rack",
+      "size": [
+        61,
+        56
+      ],
+      "anchor": [
+        30,
+        51
+      ],
+      "foot": [
+        -27,
+        -8,
+        54,
+        11
+      ]
+    },
+    "arrow_bin": {
+      "asset": "decor_arrow_bin",
+      "size": [
+        40,
+        51
+      ],
+      "anchor": [
+        20,
+        47
+      ],
+      "foot": [
+        -15,
+        -9,
+        30,
+        11
+      ]
+    },
+    "spools": {
+      "asset": "decor_spools",
+      "size": [
+        44,
+        48
+      ],
+      "anchor": [
+        22,
+        44
+      ],
+      "foot": [
+        -18,
+        -7,
+        36,
+        10
+      ]
+    },
+    "dream_arch": {
+      "asset": "decor_dream_arch",
+      "size": [
+        70,
+        73
+      ],
+      "anchor": [
+        35,
+        69
+      ],
+      "foot": [
+        -31,
+        -5,
+        62,
+        8
+      ]
+    },
+    "dream_island": {
+      "asset": "decor_dream_island",
+      "size": [
+        57,
+        39
+      ],
+      "anchor": [
+        28,
+        34
+      ],
+      "foot": [
+        -21,
+        -11,
+        42,
+        13
+      ]
+    },
+    "dream_curtain": {
+      "asset": "decor_dream_curtain",
+      "size": [
+        55,
+        51
+      ],
+      "anchor": [
+        27,
+        47
+      ],
+      "foot": [
+        -25,
+        -2,
+        50,
+        4
+      ]
+    },
+    "snowbank": {
+      "asset": "decor_snowbank",
+      "size": [
+        74,
+        41
+      ],
+      "anchor": [
+        37,
+        36
+      ],
+      "foot": [
+        -29,
+        -10,
+        58,
+        12
+      ]
+    },
+    "ice_rock": {
+      "asset": "decor_ice_rock",
+      "size": [
+        52,
+        48
+      ],
+      "anchor": [
+        26,
+        44
+      ],
+      "foot": [
+        -22,
+        -9,
+        44,
+        12
+      ]
+    },
+    "stone_lamp": {
+      "asset": "decor_stone_lamp",
+      "size": [
+        38,
+        44
+      ],
+      "anchor": [
+        19,
+        40
+      ],
+      "foot": [
+        -11,
+        -4,
+        22,
+        8
+      ]
+    },
+    "sign": {
+      "asset": "decor_sign",
+      "size": [
+        39,
+        43
+      ],
+      "anchor": [
+        18,
+        39
+      ],
+      "foot": [
+        -4,
+        -4,
+        8,
+        8
+      ]
+    },
+    "fence": {
+      "asset": "decor_fence",
+      "size": [
+        67,
+        32
+      ],
+      "anchor": [
+        33,
+        28
+      ],
+      "foot": [
+        -31,
+        -3,
+        62,
+        5
+      ]
+    }
+  },
+  "maps": {
+    "yato_0": [
+      {
+        "kind": "supplies",
+        "pos": [
+          155,
+          402
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          310,
+          326
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          680,
+          340
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "fence",
+        "pos": [
+          310,
+          408
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          650,
+          520
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          190,
+          660
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          531,
+          652
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          824,
+          575
+        ],
+        "scale": 1.5
+      }
+    ],
+    "yato_1": [
+      {
+        "kind": "supplies",
+        "pos": [
+          155,
+          402
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          310,
+          326
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          680,
+          340
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "fence",
+        "pos": [
+          310,
+          408
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          650,
+          520
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          190,
+          660
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          531,
+          652
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          824,
+          575
+        ],
+        "scale": 1.5
+      }
+    ],
+    "yato_2": [
+      {
+        "kind": "supplies",
+        "pos": [
+          155,
+          402
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          310,
+          326
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          680,
+          340
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "fence",
+        "pos": [
+          310,
+          408
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          650,
+          520
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          190,
+          660
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          531,
+          652
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          824,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          673,
+          399
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          850,
+          375
+        ],
+        "scale": 1.3
+      }
+    ],
+    "yato_3": [
+      {
+        "kind": "supplies",
+        "pos": [
+          155,
+          402
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          310,
+          326
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          680,
+          340
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "fence",
+        "pos": [
+          310,
+          408
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          650,
+          520
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          190,
+          660
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          531,
+          652
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          824,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          673,
+          399
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          850,
+          375
+        ],
+        "scale": 1.3
+      }
+    ],
+    "danming_0": [
+      {
+        "kind": "rack",
+        "pos": [
+          140,
+          363
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          805,
+          335
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          268,
+          360
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          690,
+          337
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          143,
+          586
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          837,
+          620
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          572,
+          594
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          625,
+          647
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          872,
+          457
+        ],
+        "scale": 1.4
+      }
+    ],
+    "danming_1": [
+      {
+        "kind": "rack",
+        "pos": [
+          140,
+          363
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          805,
+          335
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          268,
+          360
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          690,
+          337
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          143,
+          586
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          837,
+          620
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          572,
+          594
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          625,
+          647
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          872,
+          457
+        ],
+        "scale": 1.4
+      }
+    ],
+    "danming_2": [
+      {
+        "kind": "rack",
+        "pos": [
+          140,
+          363
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          805,
+          335
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          268,
+          360
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          690,
+          337
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          143,
+          586
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          837,
+          620
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          572,
+          594
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          625,
+          647
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          872,
+          457
+        ],
+        "scale": 1.4
+      }
+    ],
+    "danming_3": [
+      {
+        "kind": "rack",
+        "pos": [
+          140,
+          363
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          805,
+          335
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          268,
+          360
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          690,
+          337
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          143,
+          586
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          837,
+          620
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          572,
+          594
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "arrow_bin",
+        "pos": [
+          625,
+          647
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          872,
+          457
+        ],
+        "scale": 1.4
+      }
+    ],
+    "dori_0": [
+      {
+        "kind": "market",
+        "pos": [
+          135,
+          396
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "laundry",
+        "pos": [
+          410,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "well",
+        "pos": [
+          694,
+          356
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          185,
+          570
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          530,
+          635
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          839,
+          516
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          745,
+          640
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          480,
+          425
+        ],
+        "scale": 1.5
+      }
+    ],
+    "dori_1": [
+      {
+        "kind": "market",
+        "pos": [
+          135,
+          396
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "laundry",
+        "pos": [
+          410,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "well",
+        "pos": [
+          694,
+          356
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          185,
+          570
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          530,
+          635
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          839,
+          516
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          745,
+          640
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          480,
+          425
+        ],
+        "scale": 1.5
+      }
+    ],
+    "dori_2": [
+      {
+        "kind": "market",
+        "pos": [
+          135,
+          396
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "laundry",
+        "pos": [
+          410,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "well",
+        "pos": [
+          694,
+          356
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          185,
+          570
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          530,
+          635
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          839,
+          516
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          745,
+          640
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          480,
+          425
+        ],
+        "scale": 1.5
+      }
+    ],
+    "dori_3": [
+      {
+        "kind": "rack",
+        "pos": [
+          140,
+          363
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          805,
+          335
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          268,
+          360
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          690,
+          337
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          143,
+          586
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          837,
+          620
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "spools",
+        "pos": [
+          572,
+          594
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "rack",
+        "pos": [
+          625,
+          647
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          872,
+          457
+        ],
+        "scale": 1.4
+      }
+    ],
+    "kubby_0": [
+      {
+        "kind": "ice_rock",
+        "pos": [
+          125,
+          396
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          360,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          703,
+          335
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          839,
+          440
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          565,
+          641
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          772,
+          612
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          154,
+          504
+        ],
+        "scale": 1.3
+      },
+      {
+        "kind": "market",
+        "pos": [
+          142,
+          341
+        ],
+        "scale": 1.3
+      }
+    ],
+    "kubby_1": [
+      {
+        "kind": "ice_rock",
+        "pos": [
+          125,
+          396
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          360,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          703,
+          335
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          839,
+          440
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          565,
+          641
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          772,
+          612
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          154,
+          504
+        ],
+        "scale": 1.3
+      },
+      {
+        "kind": "market",
+        "pos": [
+          142,
+          341
+        ],
+        "scale": 1.3
+      }
+    ],
+    "kubby_2": [
+      {
+        "kind": "ice_rock",
+        "pos": [
+          125,
+          396
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          360,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          703,
+          335
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          839,
+          440
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          565,
+          641
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          772,
+          612
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          154,
+          504
+        ],
+        "scale": 1.3
+      }
+    ],
+    "kubby_3": [
+      {
+        "kind": "ice_rock",
+        "pos": [
+          125,
+          396
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          360,
+          350
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "lantern",
+        "pos": [
+          703,
+          335
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          839,
+          440
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          565,
+          641
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          772,
+          612
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          154,
+          504
+        ],
+        "scale": 1.3
+      }
+    ],
+    "yune_0": [
+      {
+        "kind": "dream_arch",
+        "pos": [
+          827,
+          367
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          160,
+          390
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          338,
+          339
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          223,
+          644
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          817,
+          631
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          563,
+          646
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          643,
+          562
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          891,
+          496
+        ],
+        "scale": 1.2
+      }
+    ],
+    "yune_1": [
+      {
+        "kind": "dream_arch",
+        "pos": [
+          827,
+          367
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          160,
+          390
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          338,
+          339
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          223,
+          644
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          817,
+          631
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          563,
+          646
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          643,
+          562
+        ],
+        "scale": 1.4
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          891,
+          496
+        ],
+        "scale": 1.2
+      }
+    ],
+    "yune_2": [
+      {
+        "kind": "dream_arch",
+        "pos": [
+          827,
+          367
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          160,
+          390
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          338,
+          339
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          223,
+          644
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          817,
+          631
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          563,
+          646
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          891,
+          496
+        ],
+        "scale": 1.2
+      }
+    ],
+    "yune_3": [
+      {
+        "kind": "dream_arch",
+        "pos": [
+          827,
+          367
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          160,
+          390
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          338,
+          339
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          223,
+          644
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "dream_curtain",
+        "pos": [
+          817,
+          631
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          563,
+          646
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "dream_island",
+        "pos": [
+          891,
+          496
+        ],
+        "scale": 1.2
+      }
+    ],
+    "fuwa_0": [
+      {
+        "kind": "snowbank",
+        "pos": [
+          143,
+          395
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          339,
+          333
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          703,
+          328
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          850,
+          435
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          665,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          543,
+          644
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          834,
+          618
+        ],
+        "scale": 1.5
+      }
+    ],
+    "fuwa_1": [
+      {
+        "kind": "snowbank",
+        "pos": [
+          143,
+          395
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          339,
+          333
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          703,
+          328
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          850,
+          435
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          665,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          543,
+          644
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          834,
+          618
+        ],
+        "scale": 1.5
+      }
+    ],
+    "fuwa_2": [
+      {
+        "kind": "snowbank",
+        "pos": [
+          143,
+          395
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          339,
+          333
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          703,
+          328
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          850,
+          435
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          665,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          543,
+          644
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          834,
+          618
+        ],
+        "scale": 1.5
+      }
+    ],
+    "fuwa_3": [
+      {
+        "kind": "snowbank",
+        "pos": [
+          143,
+          395
+        ],
+        "scale": 1.8
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          339,
+          333
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          703,
+          328
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "ice_rock",
+        "pos": [
+          850,
+          435
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          665,
+          575
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          235,
+          671
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "snowbank",
+        "pos": [
+          543,
+          644
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "stone_lamp",
+        "pos": [
+          834,
+          618
+        ],
+        "scale": 1.5
+      }
+    ],
+    "garden": [
+      {
+        "kind": "flowers",
+        "pos": [
+          358,
+          286
+        ],
+        "scale": 1.7
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          831,
+          329
+        ],
+        "scale": 1.6
+      },
+      {
+        "kind": "well",
+        "pos": [
+          659,
+          371
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "logs",
+        "pos": [
+          128,
+          440
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "supplies",
+        "pos": [
+          368,
+          661
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "sign",
+        "pos": [
+          683,
+          541
+        ],
+        "scale": 1.5
+      },
+      {
+        "kind": "flowers",
+        "pos": [
+          835,
+          679
+        ],
+        "scale": 1.3
+      }
+    ]
+  }
+}
