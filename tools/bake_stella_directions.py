@@ -307,5 +307,18 @@ def bake_story_librarian():
     rig=WalkRig(1,2,0)
     for i in range(16):sheet.paste(rig.walk(i,carrying=True),(i*96,0))
     sheet.crop((0,0,16*96,112)).save(OUT/'aethe_carry_walk.png')
+    bake_carry_profiles()
+
+
+def bake_carry_profiles():
+    # Independent authored profiles, not a left-facing walk played backwards.
+    sheet=Image.new('RGBA',(16*96,2*112))
+    for row in range(2):
+        rig=WalkRig(1,2,row)
+        for col in range(16):
+            cel=rig.walk(col,carrying=True)
+            assert cel.getbbox()[3]==GROUND+1
+            sheet.paste(cel,(col*96,row*112))
+    sheet.save(OUT/'aethe_carry_profiles.png',optimize=True)
 
 if __name__=='__main__': bake()

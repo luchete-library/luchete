@@ -1,5 +1,21 @@
 extends Node2D
 
+const Markers=preload("res://scripts/story_markers.gd")
+const MARKER_LABELS={
+	"disguise":["둔갑 연습하기"],"watch":["돌로 둔갑하기","기척 살피기"],
+	"sleep":["둔갑해 기다리기"],"deduce":["에테에게 이야기하기"],
+	"birth":["드림캐처 살펴보기"],"dreams":["악몽 먹기","악몽 먹기","악몽 먹기"],
+	"fading":["옅어진 꿈빛 건너기"],"follow":["빛 따라가기","빛 따라가기","빛 따라가기"],
+	"door":["문 안으로 들어가기"],"workdoor":["일터로 들어가기"],"arrows":["화살 손질하기"],
+	"weary":["마지막 화살 손질하기","작업대에서 물러나기"],
+	"village":["아랫마을로 가기"],"hamster":["햄스터 살펴보기"],
+	"takehome":["햄스터 데려가기","왔던 길로 돌아가기"],
+	"nightwalk":["밤길 걷기","밤길 걷기","밤길 걷기"],"meeting":["리스텔라 만나기"],
+	"family":["가족에게 인사하기"],"food":["곳간 살펴보기","가족에게 다가가기"],
+	"mountain":["산 아래로 가기","산 아래로 가기","마을로 내려가기"],
+	"cold":["문 앞에서 말 걸기","문 앞에서 말 걸기"],"light":["마음에 집중하기"]
+}
+
 signal arrived
 signal checkpoint_changed
 signal exit_requested
@@ -109,6 +125,26 @@ func nearest() -> int:
 	return index
 func near(index: int,radius: float=58.0) -> bool:
 	return index>=0 and player_pos.distance_to(target(index))<radius
+
+func story_markers() -> Array:
+	if intro or paused or phase!="play" or not action.is_empty(): return []
+	# A completed stakeout still needs an explicit release before Dori can walk.
+	if stone: return [{"index":-1,"point":player_pos,"label":"둔갑 풀기"}]
+	var markers: Array=[]
+	for i in range(points().size()):
+		# Arrow marks are parts of one arrow, not three separate floor targets.
+		if kind()!="arrows" and has_mark(i): continue
+		if kind() in ["follow","nightwalk","mountain","food","takehome","weary"] and i!=nearest(): continue
+		markers.append({"index":i,"point":target(i),"label":MARKER_LABELS[kind()][i]})
+	return markers
+
+func activate_marker(index: int) -> void:
+	if index<0: interact();return
+	if stone: interact()
+	if near(index):
+		interact()
+		if kind() in ["dreams","light"]: working=true
+	else: set_destination(target(index),true)
 
 func walkable(p: Vector2) -> bool:
 	# Authored central floors: scenery is kept outside the actor path. Props use
@@ -293,13 +329,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		if working and kind() in ["arrows","weary"] and Rect2(370,260,160,55).has_point(world_p):
 			dragging=true;last_pointer=world_p;return
 		if stone: interact();return
-		for i in range(points().size()):
-			if has_mark(i): continue
-			if world_p.distance_to(target(i))<65:
-				if near(i):
-					interact()
-					if kind() in ["dreams","light"]: working=true
-				else: set_destination(target(i),true)
+		for marker in story_markers():
+			if Markers.hit(font,screen_world(marker.point),marker.label,p) or world_p.distance_to(marker.point)<65:
+				activate_marker(marker.index)
 				return
 		set_destination(world_p)
 	elif event is InputEventMouseMotion and dragging and not paused:
@@ -347,6 +379,10 @@ func _draw() -> void:
 		if kind()=="mountain": background="yato_mountain"
 		draw_texture_rect(World.texture(background),Rect2(Vector2.ZERO,MAP_SIZE),false)
 	Art.scenery(self)
+	# Markers sit above the background, below whole actors and the HUD.
+	draw_set_transform(Vector2.ZERO)
+	for marker in story_markers(): Markers.draw_marker(self,screen_world(marker.point),marker.label)
+	draw_set_transform(WORLD_OFFSET,0,Vector2.ONE*WORLD_SCALE)
 	if not (kind()=="carry" and age>2.5): draw_actor()
 	Art.foreground(self)
 	in_world=false;draw_set_transform(Vector2.ZERO)
@@ -362,6 +398,8 @@ func _draw() -> void:
 		wrap_text(Vector2(70,630),line,1115,20,Color("513520"))
 		if member=="yato" and kind()=="ending": text_at(Vector2(70,707),"빛이 난 뒤 도서관으로 이어지는 장면은 팬게임의 연결입니다.",16,Color("806047"))
 		button(CONTINUE,"도서관으로   E" if phase=="arrived" else "이야기 이어가기   E")
+	elif kind()=="called":
+		button(CONTINUE,"부름 따라가기   E")
 	elif notice_left>0:
 		draw_rect(Rect2(110,650,1060,70),Color("172c42ed"));wrap_text(Vector2(132,679),notice,1000,19,Color("f5ecd7"))
 	var hint:="WASD / 방향키 · 바닥 클릭: 이동    E: 가까운 대상과 행동    F5: 저장    Esc: 쉬기"

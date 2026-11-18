@@ -20,6 +20,7 @@ const DIRECTIONAL := {"aethe":preload("res://assets/characters/directional/aethe
 const WALK_SHEET := preload("res://assets/characters/directional/aethe_walk.png")
 const STORY_HANDS := preload("res://assets/characters/directional/aethe_story.png")
 const CARRY_WALK := preload("res://assets/characters/directional/aethe_carry_walk.png")
+const CARRY_PROFILES := preload("res://assets/characters/directional/aethe_carry_profiles.png")
 const WALK_FRAME_DISTANCE := 8.0
 const FACE_REGIONS := preload("res://assets/characters/portrait_regions.json")
 static var pixel_texture: CanvasTexture
@@ -104,10 +105,12 @@ static func draw_story_librarian(g, feet: Vector2, pose: Dictionary, carrying: b
 	if pose.walking and not carrying:
 		draw_facing(g,"aethe",feet,pose.direction,true,pose.distance)
 		return
-	var texture: Texture2D=CARRY_WALK if pose.walking else STORY_HANDS
-	var column: int=floori(pose.distance*4.0/WALK_FRAME_DISTANCE)%16 if pose.walking else int(carrying)
+	var profile: bool=carrying and pose.direction in ["left","right"]
+	var texture: Texture2D=CARRY_PROFILES if profile else CARRY_WALK if pose.walking else STORY_HANDS
+	var column: int=floori(maxf(0,pose.distance)*16.0/STRIDE_DISTANCE)%16 if pose.walking else (0 if profile else int(carrying))
+	var row: int=1 if profile and pose.direction=="right" else 0
 	g.draw_ellipse_shadow(feet+Vector2(0,3),Vector2(16,4)*STELLA_ZOOM)
-	Finish.cel(g,texture,Rect2(origin(g,feet,STELLA_SCALE),Vector2(CELL)*STELLA_SCALE),Rect2(column*96,0,96,112))
+	Finish.cel(g,texture,Rect2(origin(g,feet,STELLA_SCALE),Vector2(CELL)*STELLA_SCALE),Rect2(column*96,row*112,96,112))
 
 static func head_hit_rect(key: String, feet: Vector2) -> Rect2:
 	var eyes: Array=FACE_REGIONS.data[key].eyes

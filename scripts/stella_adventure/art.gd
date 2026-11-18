@@ -41,6 +41,18 @@ static func bubble(g,p: Vector2,line: String) -> void:
 	g.draw_rect(box.grow(2),Color("574b58"));g.draw_rect(box,Color("f4e7c8"))
 	g.text_at(box.position+Vector2(9,19),line,14,Color("513e48"))
 
+static func librarian_carry_pose(stone_feet: Vector2,elapsed: float) -> Dictionary:
+	var start:=Vector2(300,410)
+	var pickup:=stone_feet+Vector2(-23,0)
+	var finish:=Vector2(690,260)
+	var incoming:=smoothstep(0,2.4,elapsed)
+	var outgoing:=smoothstep(2.9,6,elapsed)
+	var walking: bool=(elapsed>0 and elapsed<2.4) or (elapsed>2.9 and elapsed<6)
+	var travel:=finish-pickup if elapsed>2.9 else pickup-start
+	return {"position":start.lerp(pickup,incoming).lerp(finish,outgoing),
+		"walking":walking,"direction":Field.direction_for(travel,"right"),
+		"distance":start.distance_to(pickup)*incoming+pickup.distance_to(finish)*outgoing}
+
 static func scenery(g) -> void:
 	var kind: String=g.kind()
 	if kind=="fading":
@@ -97,16 +109,9 @@ static func scenery(g) -> void:
 	if kind in ["workdoor","village","door","meeting"]:
 		var p: Vector2=g.points()[0]
 		for i in range(4): star(g,p+Vector2(-12+i*8,-15-i*9),2)
-	if kind not in ["carry","punishment","ending"]:
+	if kind in ["follow","nightwalk"]:
 		var next: int=g.nearest()
-		for i in range(g.points().size()):
-			if g.has_mark(i): continue
-			if kind in ["follow","nightwalk","mountain","food","takehome","weary"] and i!=next: continue
-			var p: Vector2=g.target(i)
-			if kind in ["follow","nightwalk"]:
-				star(g,p-Vector2(0,25),7,GOLD)
-			g.draw_arc(p+Vector2(0,4),18,0,TAU,16,Color("f5dba47f"),1)
-			g.draw_polyline(PackedVector2Array([p+Vector2(-5,0),p+Vector2(0,-5),p+Vector2(5,0)]),GOLD,2)
+		if next>=0: star(g,g.target(next)-Vector2(0,25),7,GOLD)
 	if kind=="light":
 		var p: Vector2=g.player_pos
 		for i in range(int(g.charge*9)):
@@ -114,10 +119,9 @@ static func scenery(g) -> void:
 			star(g,p+Vector2(cos(angle)*50,-35+sin(angle)*48),2,GOLD)
 	if kind=="deduce": Field.draw_facing(g,"aethe",Vector2(570,335),"left")
 	if kind=="carry":
-		var walk_in:=smoothstep(0,2.4,g.age)
-		var walk_out:=smoothstep(2.9,6,g.age)
-		var p:=Vector2(300,410).lerp(g.player_pos+Vector2(-23,0),walk_in).lerp(Vector2(690,260),walk_out)
-		Field.draw_story_librarian(g,p,{"walking":g.age<2.4 or g.age>2.9,"direction":"right","distance":g.age*64},g.age>2.5)
+		var pose:=librarian_carry_pose(g.player_pos,g.age)
+		var p: Vector2=pose.position
+		Field.draw_story_librarian(g,p,pose,g.age>2.5)
 		if g.age>2.5: stone(g,p+Vector2(2,-32),true)
 
 static func foreground(g) -> void:

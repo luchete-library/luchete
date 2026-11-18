@@ -9,6 +9,7 @@ const Pixels=preload("res://scripts/library_pixels.gd")
 const World=preload("res://scripts/world_pixels.gd")
 const Art=preload("res://scripts/fuwa_adventure/art.gd")
 const ReturnFlow=preload("res://scripts/fuwa_adventure/return_flow.gd")
+const Markers=preload("res://scripts/story_markers.gd")
 const COSTUME:="hakuten_fuwa_idle"
 const MAP_SIZE:=Vector2(904,578)
 const WORLD_SCALE:=1.6
@@ -279,6 +280,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			if RESUME.has_point(p): paused=false
 			return
 		if phase=="return_ready" and ReturnFlow.ACTION.has_point(p): return_flow.interact(self);return
+		if p.y>=95 and p.y<=734:
+			for marker in story_markers():
+				if Markers.hit(font,screen_world(marker.point),marker.label,p):
+					activate_marker(marker.action);return
 		if p.y<95 or p.y>(630 if phase=="arrived" else 734) or phase not in ["search","arrived"]: return
 		var target: Vector2=(p-WORLD_OFFSET)/WORLD_SCALE
 		if zone==0 and target.distance_to(PASS)<46: set_destination(PASS,"pass")
@@ -306,6 +311,21 @@ func text_at(p: Vector2,line: String,size: int=20,color: Color=Color("f5ecd7")) 
 
 func screen_world(p: Vector2) -> Vector2: return (WORLD_OFFSET+p*WORLD_SCALE).round()
 
+func story_markers() -> Array:
+	if paused: return []
+	if phase=="return_ready": return [{"action":"spell","point":return_flow.spell_center(self),"label":"귀환술 쓰기"}]
+	if phase!="search": return []
+	if zone==0: return [{"action":"pass","point":PASS,"label":"고개 너머로"}]
+	# Never expose Tenbi's hidden position before she is actually visible.
+	if zone==1 and tenbi_visible(): return [{"action":"tenbi","point":tenbi,"label":"텐비에게 다가가기"}]
+	return []
+
+func activate_marker(action: String) -> void:
+	match action:
+		"pass": set_destination(PASS,"pass")
+		"tenbi": set_destination(tenbi+Vector2(-45,10),"tenbi")
+		"spell": return_flow.interact(self)
+
 func _draw() -> void:
 	in_world=true;draw_set_transform(WORLD_OFFSET,0,Vector2.ONE*WORLD_SCALE)
 	if zone==2: return_flow.draw_library(self)
@@ -315,9 +335,9 @@ func _draw() -> void:
 	for rock in rocks: Art.rock(self,rock.p,rock.r)
 	if zone!=2: Art.snow(self,wind_strength())
 	return_flow.draw_spell(self);return_flow.draw_rift(self)
-	if zone==0:
-		draw_arc(PASS+Vector2(0,5),20,-PI*.85,-PI*.15,12,Color("eef9deba"),2)
-		draw_polyline(PackedVector2Array([PASS+Vector2(-6,0),PASS+Vector2(0,-6),PASS+Vector2(6,0)]),Color("fcf0c4"),2)
+	draw_set_transform(Vector2.ZERO)
+	for marker in story_markers(): Markers.draw_marker(self,screen_world(marker.point),marker.label)
+	draw_set_transform(WORLD_OFFSET,0,Vector2.ONE*WORLD_SCALE)
 	var actors: Array=[{"id":"fuwa","p":player_pos}]
 	if tenbi_visible(): actors.append({"id":"tenbi","p":tenbi})
 	for i in range(ghosts.size()): actors.append({"id":"ghost","p":ghost_position(i),"index":i})
