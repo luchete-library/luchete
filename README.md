@@ -4,7 +4,7 @@
 
 ## 웹으로 플레이
 
-GitHub Pages 배포 완료 후 주소: https://seungwon-yu.github.io/luchete/
+게임 실행: https://luchete-library.github.io/luchete/
 
 - PC의 최신 Chrome 또는 Edge와 키보드·마우스를 권장합니다.
 - 첫 실행 시 약 101 MB의 게임 자료를 받습니다.
